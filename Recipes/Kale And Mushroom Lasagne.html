@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,55 +104,39 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/1401B309-6440-44C3-9497-0AD89E6E7FE4-5288-000000F17206927F/44CB49A8-DB4C-413B-A12E-635C58BD23AD-5288-000000F3D2452912.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Kale And Mushroom Lasagne</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Servings: </b><span itemprop="recipeYield">6</span>
-            
+            <b>Servings: </b><span itemprop="">6</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
                 
-                
                     <span itemprop="author">River Cottage Veg Every Day</span>
-                
             
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -163,43 +144,34 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Preheat the oven to 180°C/Gas Mark 4. Heat the milk for the béchamel sauce with the bay leaf, onion, celery and peppercorns until just below simmering. Remove from the heat and set aside to infuse.</p><p class="line">Roughly shred the kale or cavolo nero. Put into a large saucepan and just cover with cold water. Add salt. Bring to the boil, reduce the heat and simmer for 2-3 minutes, until just tender. Drain well and set aside.<br/>Heat half the butter in a large, wide frying pan over a medium heat.</p><p class="line">Add half the mushrooms and some salt and pepper. Increase the heat and fry, stirring often, for 5-10 minutes, until the liquid released by the mushrooms has evaporated and they are starting to reduce, concentrate and caramelise. Stir in half the garlic and half the thyme, cook for a minute longer, then remove to a bowl. Repeat to cook the remaining mushrooms and set aside.</p><p class="line">Gently reheat the infused milk, then strain. Heat the butter for the béchamel sauce in a large saucepan. Stir in the flour to form a smooth roux and cook gently for a minute or two. Remove from the heat.<br/>Add about a quarter of the hot milk and beat vigorously until smooth.</p><p class="line">Repeat with the remaining milk, adding it in 2 or 3 lots, until you have a smooth sauce. Return to the heat and cook for a few minutes, stirring often, allowing it to bubble gently until thickened. Stir in the mustard, then add some salt and pepper.</p><p class="line">Stir about half of the béchamel sauce into the kale; put to one side.</p><p class="line">Spread half the remaining béchamel over the bottom of a 28 × 22cm (or thereabouts) ovenproof dish. Laver a third of the lasagne sheets in the dish, then spoon the kale over the top. Add another layer of lasagne, then the mushrooms. Finish with a final layer of pasta and the remaining béchamel.</p><p class="line">Scatter over the cheese and add a trickle of oil. Bake for about 30 minutes until golden.</p><p class="line">Serve straight away.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -242,15 +214,13 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/1401B309-6440-44C3-9497-0AD89E6E7FE4-5288-000000F17206927F/519C4CC8-AE1B-496E-B6F5-E58EC76EA75F-5288-000000F3C9076390.jpg',
                 src: 'Images/1401B309-6440-44C3-9497-0AD89E6E7FE4-5288-000000F17206927F/519C4CC8-AE1B-496E-B6F5-E58EC76EA75F-5288-000000F3C9076390.jpg',
-                w: 617.0,
-                h: 859.0,
+                w: 0,
+                h: 0,
                 title: '1'
             },
-            
         ];
         
         var index = 0;
@@ -284,9 +254,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

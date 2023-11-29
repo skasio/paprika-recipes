@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,61 +104,42 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="https://images.wsj.net/im-747940">
                 <img src="Images/E5EDD07F-DFFD-4AA8-81F6-341D6C65587F/ADC92551-2163-4352-9939-72FB33E11D85.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Pasta E Ceci (Pasta and Chickpea Soup)</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Prep Time: </b><span itemprop="prepTime">1 hr 30 min</span>
-            
-            <b>Cook Time: </b><span itemprop="cookTime">1 hour 30 minutes</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">Serves: 4</span>
-            
+            <b>Prep Time: </b><span itemprop="">1 hr 30 min</span>
+            <b>Cook Time: </b><span itemprop="">1 hour 30 minutes</span>
+            <b>Servings: </b><span itemprop="">Serves: 4</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://www.wsj.com/articles/rachel-roddy-interview-pasta-pro-tips-from-a-roman-kitchen-8264e59d?cx_testId=3&amp;cx_testVariant=cx_176&amp;cx_artPos=4&amp;mod=WTRN%23cxrecs_s">
                         <span itemprop="author">wsj.com</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -169,44 +147,34 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Drain and rinse chickpeas. In a large heavy-bottomed pan over medium-low heat, warm olive oil, add onions and celery, and cook gently until soft and fragrant, about 5 minutes.</p><p class="line">Add potato, if using, rosemary, tomato paste and red pepper flakes, stir, and cook for a minute before adding chickpeas. Add water, salt and Parmesan rind, if using. Increase heat to medium-high, bring to a boil, then reduce to a simmer and cook 25 minutes.</p><p class="line">Remove half the soup from the pan and either blend it or pass it through a food mill. Return blended soup to pan.</p><p class="line">Remove Parmesan rind and discard. Taste and adjust salt as needed. Set pan over medium-high heat and bring soup to a steady but moderate boil. Add pasta and cook, stirring, until pasta is tender, adding a little more water if necessary. Taste to check the seasoning and season with black pepper. Serve with a little more olive oil poured over the top.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
-
 
 
 

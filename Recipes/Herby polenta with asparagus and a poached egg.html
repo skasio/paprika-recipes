@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,63 +104,43 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/DCF8248A-8219-4D2D-83D9-F370DCE00AD5/81EB7245-4EB4-447F-B92D-7C4B66688C2F.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Herby polenta with asparagus and a poached egg</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Prep Time: </b><span itemprop="prepTime">10 min</span>
-            
-            <b>Cook Time: </b><span itemprop="cookTime">15 min</span>
-            
-            <b>Total Time: </b><span itemprop="totalTime">0 min</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">4</span>
-            
+            <b>Prep Time: </b><span itemprop="">10 min</span>
+            <b>Cook Time: </b><span itemprop="">15 min</span>
+            <b>Total Time: </b><span itemprop="">0 min</span>
+            <b>Servings: </b><span itemprop="">4</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://www.theguardian.com/food/2019/apr/26/anna-jones-30-minute-recipes">
                         <span itemprop="author">The Guardian</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -171,50 +148,40 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
     <div class="descriptionbox">
         <h3 class="subhead">Description</h3>
         <div itemprop="description" class="description text">
             <p>You can mix up the herbs you use here; thyme or rosemary would work instead of oregano, but you’ll need a little less – and be sure to chop it finely. Polenta packet instructions vary, so check the cooking time on yours and adjust accordingly.</p>
         </div>
     </div>
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Bring two litres of water to a boil in a large pan. Heat a small frying pan over a medium heat and, once hot, add 50g butter, then fry the sage leaves until crisp. Tip the leaves and butter into a bowl.</p><p class="line">Remove the large pan from the heat and slowly pour in the polenta, whisking all the time, so that no lumps form. Return to the heat and cook gently, stirring, for eight minutes (see note above on timing).</p><p class="line">Add the parmesan (for added flavour, cut off the rind and add this, too), the rest of the butter, plenty of seasoning and more just-boiled water if you think it needs loosening (remember it will thicken a little as it sits). Stir gently until combined, then add the oregano, parsley and basil, stir again, and keep warm over a low heat.</p><p class="line">Meanwhile, bring a medium saucepan of salted water to a boil, add the asparagus and cook for one minute. Remove with tongs, put in a bowl, season with salt and drizzle with olive oil.</p><p class="line">Reduce the heat, crack an egg into a glass, tip the egg in and slowly lower it into the water to cover. Repeat with the rest of the eggs. Cook for three and a half minutes, or until the white is firm but the yolk still soft.</p><p class="line">While the eggs are cooking, spoon the cooked polenta (avoiding the rind) on to warm plates and top with the asparagus. When the eggs are cooked, scoop them out, drain well, then place carefully on top of the polenta. Spoon over the crisp sage and butter, and serve.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -257,15 +224,13 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/DCF8248A-8219-4D2D-83D9-F370DCE00AD5/A0646C22-3771-4192-9681-99FD3F562DA5.jpg',
                 src: 'Images/DCF8248A-8219-4D2D-83D9-F370DCE00AD5/A0646C22-3771-4192-9681-99FD3F562DA5.jpg',
-                w: 1240.0,
-                h: 1240.0,
+                w: 0,
+                h: 0,
                 title: '1'
             },
-            
         ];
         
         var index = 0;
@@ -299,9 +264,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

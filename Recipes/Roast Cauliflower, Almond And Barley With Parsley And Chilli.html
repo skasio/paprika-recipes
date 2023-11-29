@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,49 +104,36 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/8CD31FE9-476A-4F15-988C-7DE3A2878343.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Roast Cauliflower, Almond And Barley With Parsley And Chilli</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Servings: </b><span itemprop="recipeYield">4</span>
-            
+            <b>Servings: </b><span itemprop="">4</span>
 
             <!-- Source -->
-            
+
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -157,50 +141,40 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
     <div class="descriptionbox">
         <h3 class="subhead">Description</h3>
         <div itemprop="description" class="description text">
             <p>Plump barley grains, earthy-sweet cauliflower and toasty almonds are all tied together here with a piquant parsley and chilli dressing to make a deliciously satisfying dish.</p>
         </div>
     </div>
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Start by cooking the barley or spelt. If you have time, soak the grain in cold water first, for 20-30 minutes. </p><p class="line">Either way, rinse it well in a sieve then tip into a saucepan, add a pinch of salt and cover with plenty of cold water (it will absorb a lot). Bring to the boil, lower the heat and simmer until tender: barley should take 35-40 minutes, spelt only about 20 minutes.</p><p class="line">Once cooked, drain in a sieve and set aside.</p><p class="line">In the meantime, preheat the oven to 190°C/Fan 170°C/Gas 5.</p><p class="line">Trim away the coarser leaves and stalk end of the cauliflower then roughly cut up the rest - it should still be in medium-large florets. Include the stalk and tender leaves too.</p><p class="line">Put the cauliflower into a large roasting tin with the garlic, oil and some salt and pepper. Toss together, then roast for 20 minutes.</p><p class="line">Stir the cauliflower, then scatter over the almonds and capers and return to the oven for 15 minutes, until the cauliflower is tender and well browned in places and the almonds are golden brown.</p><p class="line">Scatter over the cooked grain and return to the oven for another 5 minutes.</p><p class="line">While the veg is cooking, make the dressing: combine all the ingredients together in a bowl and season with salt and pepper.</p><p class="line">Transfer the contents of the roasting tin to warmed serving bowls. </p><p class="line">Dot the parsley dressing over the cauliflower and grain, squeeze over some lemon juice, and serve straight away.</p><br/><p class="line"><strong>Swaps</strong><br/>Grains Use cooked wholegrain (or red or black) rice instead of barley or spelt.<br/>Veg Replace some or all of the cauliflower with large broccoli florets.<br/>Or base the dish on root veg - chunks of celeriac, carrot and parsnip - giving them a bit longer in the oven to become tender before you add the almonds.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -243,31 +217,27 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/403F3197-428C-439E-818F-BFCBAF85209C.jpg',
                 src: 'Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/403F3197-428C-439E-818F-BFCBAF85209C.jpg',
-                w: 2048.0,
-                h: 1431.0,
+                w: 2048,
+                h: 1431,
                 title: '1'
             },
-            
             {
                 msrc: 'Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/07F74978-FB14-4ADA-A5E1-ED7DA94F9C48.jpg',
                 src: 'Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/07F74978-FB14-4ADA-A5E1-ED7DA94F9C48.jpg',
-                w: 2048.0,
-                h: 1431.0,
+                w: 2048,
+                h: 1431,
                 title: '2'
             },
-            
             {
                 msrc: 'Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/F0F2EEF3-0AA9-4FD7-9ADE-BA1B28AD71C9.jpg',
                 src: 'Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/F0F2EEF3-0AA9-4FD7-9ADE-BA1B28AD71C9.jpg',
-                w: 2048.0,
-                h: 1431.0,
+                w: 2048,
+                h: 1431,
                 title: '3'
             },
-            
         ];
         
         var index = 0;
@@ -301,9 +271,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

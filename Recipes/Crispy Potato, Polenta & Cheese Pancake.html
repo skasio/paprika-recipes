@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,55 +104,39 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/3B03D378-928C-4DE2-A9E0-FD7DD8A8B492/1F8B32C6-DAFE-49CB-8874-C9CA164C2E49.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Crispy Potato, Polenta &amp; Cheese Pancake</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Servings: </b><span itemprop="recipeYield">2-4</span>
-            
+            <b>Servings: </b><span itemprop="">2-4</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
                 
-                
                     <span itemprop="author">One Pot, Pan, Planet (pg 96)</span>
-                
             
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -163,50 +144,40 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
     <div class="descriptionbox">
         <h3 class="subhead">Description</h3>
         <div itemprop="description" class="description text">
             <p>A crispy potato and sharp Cheddar pancake with the pleasing crunch<br/>of polenta, topped with greens and lemony herbs. I make this using<br/>leftover cooked potatoes, but it&apos;s good enough to cook them for.<br/>These quantities will make enough to serve four as a light meal and<br/>two as a hearty one.</p>
         </div>
     </div>
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">If you need to cook your potatoes, peel then boil them in well salted water for about 20 minutes, or until soft. Drain and leave to steam dry.</p><p class="line">Meanwhile, cook the onion in an approximately 22cm non-stick frying pan with a little olive oil over a medium heat until it is soft and sweet, but not brown. This should take about 8-10 minutes.</p><p class="line">Put the potatoes into a bowl and use a spoon to mash them a little: you want some texture, but no large pieces. Add the cooked onion, cheese and polenta, and season well with salt and pepper.</p><p class="line">Heat some olive oil over a high heat in the pan. Once it&apos;s sizzling, press the potato mixture into the pan to form one big pancake (it should look like a Spanish tortilla). Turn down the heat to medium and cook for 10-15 minutes until the pancake has a deep golden crust underneath.</p><p class="line">To turn, use a tea towel to protect your hand, then cover the pan with a plate, tip the pan upside-down so that the pancake is on the plate cooked side up, then slide it back into the pan to cook the other side for another 10-15 minutes until golden. If it falls apart a bit, don&apos;t worry - as it cooks it will come together.</p><p class="line">Once cooked, flash-fry your greens in a little olive oil, salt and pepper. Dress your herbs in olive oil and lemon juice with a good pinch of salt. Pile the greens and herbs onto slices of pancake.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -249,15 +220,13 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/3B03D378-928C-4DE2-A9E0-FD7DD8A8B492/50FC9354-A065-4050-AC1C-73CBB7F2FE98.jpg',
                 src: 'Images/3B03D378-928C-4DE2-A9E0-FD7DD8A8B492/50FC9354-A065-4050-AC1C-73CBB7F2FE98.jpg',
-                w: 2048.0,
-                h: 1536.0,
+                w: 0,
+                h: 0,
                 title: '1'
             },
-            
         ];
         
         var index = 0;
@@ -291,9 +260,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

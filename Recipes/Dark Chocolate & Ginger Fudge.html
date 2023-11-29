@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,63 +104,43 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/B6A44F19-3968-46FD-9C60-F755ABF29B8D/63C8039C-D433-4253-9D54-A26D7A468C80.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Dark Chocolate &amp; Ginger Fudge</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
             <p itemprop="recipeCategory" class="categories">Sweet</p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Prep Time: </b><span itemprop="prepTime">5 min</span>
-            
-            <b>Cook Time: </b><span itemprop="cookTime">5 min</span>
-            
-            <b>Total Time: </b><span itemprop="totalTime">4 hrs</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">25</span>
-            
+            <b>Prep Time: </b><span itemprop="">5 min</span>
+            <b>Cook Time: </b><span itemprop="">5 min</span>
+            <b>Total Time: </b><span itemprop="">4 hrs</span>
+            <b>Servings: </b><span itemprop="">25</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
                 
-                
                     <span itemprop="author">Australian Table Magazine December 2003 pg 142</span>
-                
             
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -171,29 +148,23 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">1. Line a square (20cm) cake pan with non-stick baking paper.<br/>2. Place sweetened condensed milk and butter in a medium, heavy-based saucepan on low heat. Stir for 3-4 minutes, until butter melts and mixture is hot. Remove from heat, add chocolate and stir until chocolate has melted. Stir in ginger.<br/>3. Quickly pour hot fudge into prepared pan. Use back of a metal spoon to spread fudge evenly and smooth surface. Cover pan with plastic wrap and chill for 4 hours, until set.<br/>4. To serve, use a sharp knife to cut fudge into squares.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
     
     <div class="notesbox">
         <h3 class="subhead">Notes</h3>
@@ -202,21 +173,16 @@
         </div>
     </div>
     
-    
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -259,15 +225,13 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/B6A44F19-3968-46FD-9C60-F755ABF29B8D/73558FA0-D851-4F00-AAE0-1C139639BAAF.jpg',
                 src: 'Images/B6A44F19-3968-46FD-9C60-F755ABF29B8D/73558FA0-D851-4F00-AAE0-1C139639BAAF.jpg',
-                w: 1536.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '1'
             },
-            
         ];
         
         var index = 0;
@@ -301,9 +265,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

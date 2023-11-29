@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,61 +104,42 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/sweet-potato-fries-4908b8b.jpg?quality=90&resize=440,400">
                 <img src="Images/AEF22028-D0F8-4ED8-A764-FC4000F795EC-21470-0000034FEF88ACF5/EAF345DC-2506-42D7-A6C8-6597423CFA77-21470-0000034FF171AAE4.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Sweet Potato Fries</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Prep Time: </b><span itemprop="prepTime">2 mins</span>
-            
-            <b>Cook Time: </b><span itemprop="cookTime">20 mins</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">Serves 1</span>
-            
+            <b>Prep Time: </b><span itemprop="">2 mins</span>
+            <b>Cook Time: </b><span itemprop="">20 mins</span>
+            <b>Servings: </b><span itemprop="">Serves 1</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://www.bbcgoodfood.com/recipes/sweet-potato-fries">
                         <span itemprop="author">bbcgoodfood.com</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -169,35 +147,27 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Heat oven to 200C/180C fan/ gas 6.</p><p class="line">Put 95g sweet potato, cut into fries, on a baking tray and mix with 1 tsp rapeseed oil and ¼ tsp cayenne pepper.</p><p class="line">Bake in the oven for 20 mins.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
-
-
 <div class="nutritionbox textbox">
     <h3 class="subhead">Nutrition</h3>
     <div itemprop="nutrition" class="nutrition text">
@@ -205,17 +175,12 @@
     </div>
 </div>
 
-
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
-
 
 
 

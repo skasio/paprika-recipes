@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,59 +104,41 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="https://www.delishknowledge.com/wp-content/uploads/Peanut-Tofu-Buddha-Bowl1-768x1114.jpg">
                 <img src="Images/021CD34A-B07D-47F8-BA8E-DE501A4E36DC-21470-00000351F45A842F/D6D1DC1A-34F6-4BCC-918E-32EC27878604-21470-00000351F67665DE.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Peanut Tofu Buddha Bowl</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Cook Time: </b><span itemprop="cookTime">20 minutes cook time:</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">4 bowls</span>
-            
+            <b>Cook Time: </b><span itemprop="">20 minutes cook time:</span>
+            <b>Servings: </b><span itemprop="">4 bowls</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://www.delishknowledge.com/peanut-tofu-buddha-bowl/">
                         <span itemprop="author">delishknowledge.com</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -167,44 +146,34 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Preheat the oven to 400 degrees F. Cube tofu and place in a single layer on a non-stick baking sheet and cook for 25 minutes. If you aren’t using a non-stick baking sheet, lightly spray with cooking spray. Remove from oven and place in a shallow bowl.</p><p class="line">Whisk together the ingredients for the sauce (sesame oil, soy sauce, maple syrup, chili garlic sauce, peanut butter) until creamy and smooth. Add 1/2 of the sauce to the tofu bowl and let marinate while you prepare the rest of the ingredients.</p><p class="line">Toss the broccoli with 1 teaspoon sesame or olive oil and a pinch of salt and pepper. Place in the oven and roast for 20 minutes until just tender.</p><p class="line">Heat remaining olive or sesame oil in a large nonstick skillet over medium heat. Add tofu, in batches, along with the marinating sauce until crispy and golden browned, about 3-4 minutes.</p><p class="line">To assemble, divide the brown rice among 4 bowls, top each bowl with 1/4 cup shredded carrots, 1/2 cup spinach leaves, 1/4th broccoli, 1/4 cup garbanzo beans and a few pieces of tofu. Drizzle with remaining peanut sauce.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
-
 
 
 

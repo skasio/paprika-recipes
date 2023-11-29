@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,59 +104,41 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="https://img.jamieoliver.com/jamieoliver/recipe-database/109469637.jpg?tr=w-800,h-1066">
                 <img src="Images/46473E3F-D7D5-49CB-A724-F6A4C396F99E-21109-00000348B3718843/18D1F8D1-BC17-406C-82ED-327DFF52A981-21109-00000348B59379E6.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Mushroom Toad-In-The-Hole</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Total Time: </b><span itemprop="totalTime">1 hr 15 min</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">4 1 hour 15 minutes</span>
-            
+            <b>Total Time: </b><span itemprop="">1 hr 15 min</span>
+            <b>Servings: </b><span itemprop="">4 1 hour 15 minutes</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://www.jamieoliver.com/recipes/mushroom-recipes/mushroom-toad-in-the-hole/">
                         <span itemprop="author">jamieoliver.com</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -167,35 +146,27 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Preheat the oven to 200°C/400°F/gas 6. Whisk the eggs, 150g of flour, a pinch of sea salt, the milk and 2 tablespoons of water into a smooth batter, then put aside. Peel the mushrooms, saving the peelings. Place the mushrooms cap side down in a large non-stick roasting tray, drizzle with 1 tablespoon of olive oil and season with salt and black pepper. Roast for 30 minutes. Meanwhile, for the gravy, peel the onions and finely slice with the mushroom peelings, then place in a pan on a medium-low heat with 2 tablespoons of oil. Strip in half the rosemary and cook for 15 minutes, or until dark and gnarly, stirring occasionally. Add the porter and 2 tablespoons of red wine vinegar and let it reduce by half, then stir in the remaining flour. Gradually add 700ml of water, stirring regularly, then simmer to the consistency of your liking and season to perfection. Peel and finely slice the garlic, pick the remaining rosemary, then drizzle and rub it all with a little oil. Remove the tray from the oven and put the mushrooms on a plate for a moment. Working quickly but carefully, pour the batter into the tray, sit the mushrooms towards the centre, then sprinkle over the oiled garlic and rosemary. Return to the oven for 25 minutes, or until puffed up and golden. Serve with the gravy.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
-
-
 <div class="nutritionbox textbox">
     <h3 class="subhead">Nutrition</h3>
     <div itemprop="nutrition" class="nutrition text">
@@ -203,17 +174,12 @@
     </div>
 </div>
 
-
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
-
 
 
 

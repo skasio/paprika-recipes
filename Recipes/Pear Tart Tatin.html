@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,59 +104,41 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/1127_17_1436871969.jpg?tr=w-325,h-433">
                 <img src="Images/EED2B0B2-9D3B-470E-B50C-4B4AF5043B64/150775E9-0424-49DA-AA1E-89EE58500554.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Pear Tart Tatin</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Total Time: </b><span itemprop="totalTime">1 hr 20 min</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">6 1 hour 20 minutes</span>
-            
+            <b>Total Time: </b><span itemprop="">1 hr 20 min</span>
+            <b>Servings: </b><span itemprop="">6 1 hour 20 minutes</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://www.jamieoliver.com/recipes/fruit-recipes/pear-tart-tatin/">
                         <span itemprop="author">jamieoliver.com</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -167,35 +146,27 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Preheat the oven to 200°C/400°F/gas 6. Put a 21cm-diameter frying pan with an ovenproof handle on a hob over a medium heat. Add the sugar and heat to a lovely caramel colour, stirring constantly. Chop the butter into cubes, then add to the pan with the ginger and cinnamon, and stir to combine. Peel and core the pears, cut into wedges, then place in the caramel and spoon over the mixture. Turn the heat down and cook for 5 to 10 minutes, or until the pears are just tender and cooked but retain their shape. Remove from the heat and cool slightly, then arrange the pears prettily in the pan. Roll out the pastry to about 5mm thick and cut a disc slightly bigger than your pan (about 24cm). Carefully place the pastry disc on top of the pears and caramel, then carefully tuck it snugly around the outside of the pears and down into the sides of the pan. Bake the pie for 30 to 40 minutes, or until the pastry is golden brown and puffed up.Remove from the oven and leave for 10 minutes. Run a knife around the edge, place a large plate over the top and carefully turn the tart onto the plate. Serve with double cream.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
-
-
 <div class="nutritionbox textbox">
     <h3 class="subhead">Nutrition</h3>
     <div itemprop="nutrition" class="nutrition text">
@@ -203,17 +174,12 @@
     </div>
 </div>
 
-
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
-
 
 
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,61 +104,42 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/B9D0EFF7-5F37-4149-A4DC-8A1E05AC6F4C/FD00663F-F58D-47BD-A10A-600895A06A81.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">The Creamiest and Greenest One-Pot Pasta</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Prep Time: </b><span itemprop="prepTime">5 min</span>
-            
-            <b>Cook Time: </b><span itemprop="cookTime">15 min</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">2</span>
-            
+            <b>Prep Time: </b><span itemprop="">5 min</span>
+            <b>Cook Time: </b><span itemprop="">15 min</span>
+            <b>Servings: </b><span itemprop="">2</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://greenkitchenstories.com/the-greenest-pasta/">
                         <span itemprop="author">Green Kitchen Stories</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -169,43 +147,34 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line"><br/>1. Set a big pot of salted water on the stove and bring to a boil.</p><p class="line">2. Add pasta for two people.</p><p class="line">3. Tear the kale off the stem and add it to the pasta water along with a garlic clove.</p><p class="line">4. You only want to soften the kale slightly, so after about a minute you can use a tong to pick it up, along with the garlic and some of the pasta water.</p><p class="line">5. Add the kale, garlic, half of the peas, olive oil, basil, mint, juice from half the lemon, a good grating of parmesan (or nutritional yeast) and a little bit of the pasta water (start with 4 tablespoons) to a blender. Mix smooth, taste and adjust the flavor, adding more salt, lemon juice, parmesan or pasta water if needed. You want it entirely smooth but not too runny, in that case you can add some more peas, herbs or cheese.</p><p class="line">6. Break the florets off the broccoli and toss into the pasta water along with the remaining peas during the last few minutes of the pasta&apos;s cooking time.</p><p class="line">7. Pour it all into a colander and then back into the pot. </p><p class="line">8. Pour half of the green sauce into the pot and give it a stir until it&apos;s all creamy.</p><p class="line">9. Grab two plates and divide the remaining sauce in the middle of the plates. Use the backside of a spoon to create round puddles. Divide the pasta on top.</p><p class="line">10. Chop the toasted hazelnuts and sprinkle over the pasta, along with some fresh mint leaves, a grating of parmesan and lemon zest and freshly ground black pepper.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -248,15 +217,13 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/B9D0EFF7-5F37-4149-A4DC-8A1E05AC6F4C/62A391B6-DB88-49CB-AFF2-A7DA7F0C791C.jpg',
                 src: 'Images/B9D0EFF7-5F37-4149-A4DC-8A1E05AC6F4C/62A391B6-DB88-49CB-AFF2-A7DA7F0C791C.jpg',
-                w: 888.0,
-                h: 1332.0,
+                w: 888,
+                h: 1332,
                 title: '1'
             },
-            
         ];
         
         var index = 0;
@@ -290,9 +257,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

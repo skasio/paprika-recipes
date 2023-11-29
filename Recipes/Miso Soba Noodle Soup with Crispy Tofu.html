@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,61 +104,42 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="https://www.connoisseurusveg.com/wp-content/uploads/2014/02/miso-soba-noodle-soup-10-of-10-200x300.jpg">
                 <img src="Images/AEC60F8C-7C75-4CD3-8D4C-A9646C36A423/71405104-5249-45FC-AB23-4A5A79F79683.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Miso Soba Noodle Soup with Crispy Tofu</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Prep Time: </b><span itemprop="prepTime">10 minutes</span>
-            
-            <b>Cook Time: </b><span itemprop="cookTime">15 minutes</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">Servings 4</span>
-            
+            <b>Prep Time: </b><span itemprop="">10 minutes</span>
+            <b>Cook Time: </b><span itemprop="">15 minutes</span>
+            <b>Servings: </b><span itemprop="">Servings 4</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://www.connoisseurusveg.com/soba-miso-tofu-soup/">
                         <span itemprop="author">connoisseurusveg.com</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -169,35 +147,27 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Bring a medium pot of water to a boil. Add the soba noodles and cook them according to the package directions.</p><p class="line">Drain the noodles in a colander and rinse them well with cool water.</p><p class="line">Return the noodles to the pot and toss them with the sesame oil.</p><p class="line">Coat the bottom of a medium skillet with 1 tablespoon of canola oil and place it over medium heat.</p><p class="line">When the oil is hot, add the tofu in an even layer and cook it for 10 minutes, flipping once or twice to achieve browning on multiple sides.</p><p class="line">Remove the tofu from the skillet and transfer it to a paper towel-lined plate.</p><p class="line">Heat the remaining tablespoon of oil in large pot over medium heat. When the oil is hot, add the garlic, ginger, and white parts of the scallions.</p><p class="line">Sauté the mixture for about 1 minute, or until very fragrant.</p><p class="line">Add the water to the pot. Raise the heat and bring it to a boil.</p><p class="line">Add the carrots and simmer it for about two minutes, until the carrots become bright orange and slightly tender.</p><p class="line">Remove the pot from heat.</p><p class="line">Place the miso into a small bowl and ladle in a bit of the hot liquid from the pot. Whisk until the mixture is smooth.</p><p class="line">Stir the miso mixture into the pot, along with the spinach. Stir until the spinach is wilted. Season the soup with soy sauce to taste.</p><p class="line">Divide the noodles and tofu among four bowls, then ladle the soup overtop. Sprinkle with sesame seeds and the green parts of the scallions. Serve.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
-
-
 <div class="nutritionbox textbox">
     <h3 class="subhead">Nutrition</h3>
     <div itemprop="nutrition" class="nutrition text">
@@ -205,17 +175,12 @@
     </div>
 </div>
 
-
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
-
 
 
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,61 +104,42 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="https://www.spendwithpennies.com/wp-content/uploads/2018/02/How-to-Poach-Chicken-Breasts-24-133x200.jpg">
                 <img src="Images/2CDE29AB-0242-498E-A4BC-2D26F26B2214/894C2989-0E63-48C3-8AE0-6958F845CFF5.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Poached Chicken</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Prep Time: </b><span itemprop="prepTime">2 minutes</span>
-            
-            <b>Cook Time: </b><span itemprop="cookTime">20 minutes</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">Servings 2 servings</span>
-            
+            <b>Prep Time: </b><span itemprop="">2 minutes</span>
+            <b>Cook Time: </b><span itemprop="">20 minutes</span>
+            <b>Servings: </b><span itemprop="">Servings 2 servings</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://www.spendwithpennies.com/how-to-make-poached-chicken/">
                         <span itemprop="author">spendwithpennies.com</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -169,35 +147,27 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Place chicken, herbs, peppercorn, garlic, onion and bay leaf in a shallow pan.</p><p class="line">Pour in enough broth to cover chicken about ½ way.</p><p class="line">Bring to a boil, then reduce heat and simmer uncovered for 5 minutes.</p><p class="line">Turn off heat, cover and allow to rest for 15 minutes.</p><p class="line">Slice or shred chicken and reserve broth for use in recipes or to serve with chicken.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
-
-
 <div class="nutritionbox textbox">
     <h3 class="subhead">Nutrition</h3>
     <div itemprop="nutrition" class="nutrition text">
@@ -205,17 +175,12 @@
     </div>
 </div>
 
-
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
-
 
 
 

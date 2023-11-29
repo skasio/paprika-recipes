@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,47 +104,35 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/60FBBBD1-4C41-4737-82A1-BD163FA082A0-60771-0000077DEEF5D759.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Roast Pumpkin, Baked Lentil &amp; Spiced Nut salad</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
 
             <!-- Source -->
-            
+
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -155,22 +140,17 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
 
     <!-- Notes -->
-    
     
     <div class="notesbox">
         <h3 class="subhead">Notes</h3>
@@ -179,21 +159,16 @@
         </div>
     </div>
     
-    
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -236,63 +211,55 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/AA7C97BF-7F89-4CB9-8436-8CDCC17311B9-60771-0000077B62FF104E.jpg',
                 src: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/AA7C97BF-7F89-4CB9-8436-8CDCC17311B9-60771-0000077B62FF104E.jpg',
-                w: 1536.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '1'
             },
-            
             {
                 msrc: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/145A1BB2-4DE2-40C5-8059-A9304FD7F3FB-60771-0000077D5F166E18.jpg',
                 src: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/145A1BB2-4DE2-40C5-8059-A9304FD7F3FB-60771-0000077D5F166E18.jpg',
-                w: 1536.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '2'
             },
-            
             {
                 msrc: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/0450DF15-F5CE-4FD1-B371-5CA8FD6FF444-60771-0000077D7313DE13.jpg',
                 src: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/0450DF15-F5CE-4FD1-B371-5CA8FD6FF444-60771-0000077D7313DE13.jpg',
-                w: 1536.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '3'
             },
-            
             {
                 msrc: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/B7D5482B-AEDA-439D-BB20-628E4B8A524E-60771-0000077D7FCA130B.jpg',
                 src: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/B7D5482B-AEDA-439D-BB20-628E4B8A524E-60771-0000077D7FCA130B.jpg',
-                w: 1536.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '4'
             },
-            
             {
                 msrc: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/091D3DD1-E26B-4430-AE4C-C3780E53B6F0-60771-0000077D8BF4EE68.jpg',
                 src: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/091D3DD1-E26B-4430-AE4C-C3780E53B6F0-60771-0000077D8BF4EE68.jpg',
-                w: 1536.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '5'
             },
-            
             {
                 msrc: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/952ED788-9419-4896-A7D8-CE9731621A8D-60771-0000077D9880127D.jpg',
                 src: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/952ED788-9419-4896-A7D8-CE9731621A8D-60771-0000077D9880127D.jpg',
-                w: 1536.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '6'
             },
-            
             {
                 msrc: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/54CC90D1-FA66-47DD-AC6B-8B65BA0BC84E-60771-0000077DA704A2B4.jpg',
                 src: 'Images/D59410AF-510A-4CC6-A34C-D693F933CBED-60771-0000077AE10019AC/54CC90D1-FA66-47DD-AC6B-8B65BA0BC84E-60771-0000077DA704A2B4.jpg',
-                w: 1536.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '7'
             },
-            
         ];
         
         var index = 0;
@@ -326,9 +293,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

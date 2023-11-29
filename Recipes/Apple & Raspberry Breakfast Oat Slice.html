@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,63 +104,43 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/CE732395-6AF5-4A80-B88C-59F2EC8CFE33-21470-0000034A73D22ECB/5D1DF25A-DB6F-489B-86B3-2B1BAE865FBD-13068-0000040F04D3CD18.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Apple &amp; Raspberry Breakfast Oat Slice</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
             <p itemprop="recipeCategory" class="categories">Snack</p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Prep Time: </b><span itemprop="prepTime">10 minutes</span>
-            
-            <b>Cook Time: </b><span itemprop="cookTime">15 minutes</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">Yield: 15 slices</span>
-            
+            <b>Prep Time: </b><span itemprop="">10 minutes</span>
+            <b>Cook Time: </b><span itemprop="">15 minutes</span>
+            <b>Servings: </b><span itemprop="">Yield: 15 slices</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://www.goodiegoodielunchbox.com.au/apple-raspberry-breakfast-oat-slice/">
                         <span itemprop="author">goodiegoodielunchbox.com.au</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -171,43 +148,34 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Preheat your oven to 180c and grease and line a 17.5×22.5cm slice pan with baking paper</p><p class="line">Over a medium low heat melt together the honey and butter</p><p class="line">In a large bowl mix together the oats and flour and lemon zest</p><p class="line">Add the grated apple and stir though with the melted butter and honey until combined</p><p class="line">Stir through the raspberries and press the mixture into the slice pan</p><p class="line">Bake at 180c for around 25 minutes or until lightly golden and the top bounces back when pressed lightly</p><p class="line">When the slice is cool, cut into 15 pieces.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -250,7 +218,13 @@
         
         // build items array
         var items = [
-            
+            {
+                msrc: 'Images/CE732395-6AF5-4A80-B88C-59F2EC8CFE33-21470-0000034A73D22ECB/489CAB2C-28D2-4EC2-8929-CE3A04A1DB57-13068-0000040EFD32065C.jpg',
+                src: 'Images/CE732395-6AF5-4A80-B88C-59F2EC8CFE33-21470-0000034A73D22ECB/489CAB2C-28D2-4EC2-8929-CE3A04A1DB57-13068-0000040EFD32065C.jpg',
+                w: 0,
+                h: 0,
+                title: '1'
+            },
         ];
         
         var index = 0;
@@ -284,9 +258,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

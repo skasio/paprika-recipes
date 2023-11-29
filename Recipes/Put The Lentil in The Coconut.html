@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,51 +104,37 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/0898FB70-629A-4EDC-AE98-CEDC90E787BD/A0D5AE5B-A487-45E2-B4DF-891254819A22.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Put The Lentil in The Coconut</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="4">★★★★</p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Prep Time: </b><span itemprop="prepTime">5 min</span>
-            
-            <b>Cook Time: </b><span itemprop="cookTime">20 min</span>
-            
+            <b>Prep Time: </b><span itemprop="">5 min</span>
+            <b>Cook Time: </b><span itemprop="">20 min</span>
 
             <!-- Source -->
-            
+
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -159,36 +142,29 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
     <div class="descriptionbox">
         <h3 class="subhead">Description</h3>
         <div itemprop="description" class="description text">
             <p>Wowzers! This coconut curried lentil purée is good! I made it for my baby, but ate it for my own lunch  instead-right out of the blender. I&apos;m talking seriously yummy here.</p><p>This earthy vegetarian purée is loaded with fiber, iron, and protein, and can be served smooth or chunky.</p><p>I like to introduce it as a smooth purée, then reserve some of the lentils from the pot, adding them back in after I blend the rest of the ingredients for some additional thickness.</p><p>Serve with toasted pita and a sprinkle of cilantro for a more grown-up meal.</p>
         </div>
     </div>
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">In a medium saucepan, heat the olive oil over<br/>medium heat.</p><p class="line">Cook the onion for 5 minutes or until translucent. Add the ginger and stir for 1 minute.</p><p class="line">Add the carrots, sweet potato, lentils, curry powder, and vegetable stock to the saucepan. Bring to a boil and cook, covered, for 15 to 20 minutes or until all the vegetables are tender, stirring occasionally. Let cool slightly.</p><p class="line">Transfer all the ingredients into a blender.<br/>Add the coconut milk and purée until you reach your desired consistency.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
     
     <div class="notesbox">
         <h3 class="subhead">Notes</h3>
@@ -197,21 +173,16 @@
         </div>
     </div>
     
-    
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -254,15 +225,13 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/0898FB70-629A-4EDC-AE98-CEDC90E787BD/FCCEEA00-2C57-4C80-BD31-F5FFB685EA36.jpg',
                 src: 'Images/0898FB70-629A-4EDC-AE98-CEDC90E787BD/FCCEEA00-2C57-4C80-BD31-F5FFB685EA36.jpg',
-                w: 1536.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '1'
             },
-            
         ];
         
         var index = 0;
@@ -296,9 +265,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

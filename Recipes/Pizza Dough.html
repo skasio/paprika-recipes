@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,57 +104,40 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/74F75A54-7D31-432E-8C8F-C49617EFFA79/FD44FC40-D0AC-44CF-9F0D-C7A9ACB6B02D.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Pizza Dough</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="5">★★★★★</p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Prep Time: </b><span itemprop="prepTime">1 hr, 30 min</span>
-            
-            <b>Cook Time: </b><span itemprop="cookTime">15 min</span>
-            
+            <b>Prep Time: </b><span itemprop="">1 hr, 30 min</span>
+            <b>Cook Time: </b><span itemprop="">15 min</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
                 
-                
                     <span itemprop="author">River Cottage everyday</span>
-                
             
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -165,43 +145,34 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">To make the dough, combine the flours and salt in a large bowl.</p><p class="line">If you&apos;re using ordinary dried yeast, dissolve it in 325ml warm water and leave for 10 minutes or so. </p><p class="line">If you&apos;re using fast-action yeast, mix it straight into the flour. </p><p class="line">Add the yeast liquid or 325ml warm water and oil to the flour, mix to form a rough dough, then turn out on to a lightly floured surface and knead for about 10 minutes, until silky and elastic. </p><p class="line">Don&apos;t be tempted to add too much extra flour, even if the dough seems sticky - it will become less so as you knead.</p><p class="line">Put the dough in a lightly oiled bowl, turning it so it gets a coating of oil, cover with cling film and leave to rise in a warm place until doubled in size; this will probably take at least an hour.</p><p class="line">Preheat the oven to 250°C/Gas Mark 10, or as high as it will go, and put 2 baking sheets in it to heat up.</p><p class="line">Punch the risen dough down with your hands to knock it back on a floured surface and cut it into 4 or 5 pieces.</p><p class="line">Use a rolling pin or your hands (or both), to roll and stretch each piece into a thin circle or square, or a strange, amoeba-type shape, whichever you prefer; it should be no more than 5mm thick - thinner if you can get away with it.</p><p class="line">Carefully take one of your hot baking sheets from the oven, scatter it with a little flour or, even better, some cornmeal, polenta or semolina, and lay the pizza base on it.</p><p class="line">Bake for 10-12 minutes, until the base is crisp and golden brown at the edges.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -244,15 +215,13 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/74F75A54-7D31-432E-8C8F-C49617EFFA79/8C49F72F-1243-4643-BD48-3910A1CE4D37.jpg',
                 src: 'Images/74F75A54-7D31-432E-8C8F-C49617EFFA79/8C49F72F-1243-4643-BD48-3910A1CE4D37.jpg',
-                w: 1536.0,
-                h: 2048.0,
+                w: 1536,
+                h: 2048,
                 title: '1'
             },
-            
         ];
         
         var index = 0;
@@ -286,9 +255,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

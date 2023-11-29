@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,49 +104,36 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/AA625171-ABEF-417A-9EB5-82BBB10AF36E/3986FDF0-BBDE-42F8-BF17-688078CB9BAF.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Sweet Potato Gnocchi with Creamed Spinach</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Servings: </b><span itemprop="recipeYield">1</span>
-            
+            <b>Servings: </b><span itemprop="">1</span>
 
             <!-- Source -->
-            
+
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -157,43 +141,34 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Step 1<br/>Stick a medium-sized sweet potato in the microwave for 8-10 minutes until soft then split open, scoop and weigh out the flesh into a large bowl.</p><p class="line">Step 2<br/>Mix in the chickpea (or gram) flour and a good pinch of salt then work together to make a soft dough. Turn out onto a floured work surface, roll into a sausage roughly 1cm thick then cut into small pieces, around 2½cm in length.</p><p class="line">Step 3<br/>Bring a large pan of salted water to the boil, drop the gnocchi in and cook for 2 minutes. Drain then set aside.</p><p class="line">Step 4<br/>Heat a splash of water in the same pan over a high heat, add the spinach and stir until wilted. Drain thoroughly then roll up in a few sheets of kitchen paper and squeeze out as much excess water as possible. Put the spinach into a food processor with the nutmeg, cream cheese and half of the parmesan and pulse until smooth. Pour into the pan, warm gently and stir in the gnocchi.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -236,31 +211,27 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/AA625171-ABEF-417A-9EB5-82BBB10AF36E/8BA2F4F3-7369-4F5B-AF53-B7E5243A959D.jpg',
                 src: 'Images/AA625171-ABEF-417A-9EB5-82BBB10AF36E/8BA2F4F3-7369-4F5B-AF53-B7E5243A959D.jpg',
-                w: 946.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '1'
             },
-            
             {
                 msrc: 'Images/AA625171-ABEF-417A-9EB5-82BBB10AF36E/5E6D24DD-FA10-4224-828C-34A57638E122.jpg',
                 src: 'Images/AA625171-ABEF-417A-9EB5-82BBB10AF36E/5E6D24DD-FA10-4224-828C-34A57638E122.jpg',
-                w: 946.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '2'
             },
-            
             {
                 msrc: 'Images/AA625171-ABEF-417A-9EB5-82BBB10AF36E/314AC4FD-1303-4660-8B31-DDCFA0143CBA.jpg',
                 src: 'Images/AA625171-ABEF-417A-9EB5-82BBB10AF36E/314AC4FD-1303-4660-8B31-DDCFA0143CBA.jpg',
-                w: 946.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '3'
             },
-            
         ];
         
         var index = 0;
@@ -294,9 +265,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

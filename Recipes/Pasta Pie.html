@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,57 +104,40 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/F02DC1FD-3B18-49EA-9F79-9FBDF9E8E8FF-22499-0000035E1D2AE59E/08708EBB-1D30-4736-9D1C-B83FDAC38D76-13068-0000042DD29DB2E5.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Pasta Pie</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Difficulty: </b><span itemprop="difficulty">Easy</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">4</span>
-            
+            <b>Difficulty: </b><span itemprop="">Easy</span>
+            <b>Servings: </b><span itemprop="">4</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
                 
-                
                     <span itemprop="author">Pasta: Every Way for Every Day pg.39</span>
-                
             
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -165,36 +145,34 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line"><strong>Step 1</strong>  <br/>- <strong>Preheat the oven</strong> to <strong>200℃/180℃ (fan)</strong>.</p><p class="line"><strong>Step 2</strong>  <br/>- In a saucepan, combine <strong>canned plum tomatoes, olive oil, minced garlic, and dried oregano</strong>. Cook over medium heat for <strong>15 minutes</strong>.<br/>- After 15 minutes, add the <strong>baby spinach</strong> to the sauce and cook until wilted. <strong>Reserve some of the sauce for layering at the end.</strong></p><p class="line"><strong>Step 3</strong>  <br/>- Cook <strong>wholemeal pasta</strong> in a separate pot until al-dente. Reserve some pasta water.</p><p class="line"><strong>Step 4</strong>  <br/>- Mix the cooked pasta into the sauce.</p><p class="line"><strong>Step 5</strong>  <br/><strong>- Layer the dish in a baking dish:</strong><br/>- Spread one layer of pasta with sauce.<br/>- Sprinkle half of the <strong>mozzarella</strong> and <strong>Parmesan</strong>.<br/>- Add another layer of pasta and sauce.<br/>- Top with the remaining <strong>mozzarella</strong> and <strong>Parmesan</strong>. Drizzle reserved sauce over the top.</p><p class="line"><strong>Step 6</strong>  <br/>- Bake for about <strong>15 minutes</strong> until bubbling at the edges.</p><p class="line"><strong>Step 7</strong>  <br/>- Serve with <strong>green peas</strong> on the side.<br/></p>
+        </div>
+    </div>
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -237,15 +215,13 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/F02DC1FD-3B18-49EA-9F79-9FBDF9E8E8FF-22499-0000035E1D2AE59E/CAD02DE0-1302-48EF-914B-9023061D628B-13068-0000042D3DA55416.jpg',
                 src: 'Images/F02DC1FD-3B18-49EA-9F79-9FBDF9E8E8FF-22499-0000035E1D2AE59E/CAD02DE0-1302-48EF-914B-9023061D628B-13068-0000042D3DA55416.jpg',
-                w: 2048.0,
-                h: 1536.0,
+                w: 2048,
+                h: 1536,
                 title: '1'
             },
-            
         ];
         
         var index = 0;
@@ -279,9 +255,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

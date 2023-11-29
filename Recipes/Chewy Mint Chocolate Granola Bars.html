@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,55 +104,39 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="https://babyfoode.com/wp-content/uploads/2016/05/mint-chocolate-granole-bars-683x1024.jpg">
                 <img src="Images/15D1ECDF-FD1E-4283-8D0F-0AAEFE7B81FB/49C1BF17-AD56-4C7A-A296-3E65EC12FB02.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Chewy Mint Chocolate Granola Bars</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://babyfoode.com/blog/chewy-mint-chocolate-granola-bars/">
                         <span itemprop="author">babyfoode.com</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -163,29 +144,23 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Line a 8×8 pan with parchment paper or tinfoil.</p><p class="line">In a food processor or blender, place the flax seeds and pulse for 10-15 seconds until they are broken down. Add in the oats and pulse for another 5-10 seconds to break down the oats. You want them about half their original size. Set mixture aside.</p><p class="line">In a large stock pot, over medium-low heat melt the nut butter, honey and coconut oil, stirring frequently. Remove from heat, and add in the peppermint extract, stirring to combine. Let cool for 10-15 minutes or until just barley warm to touch.</p><p class="line">Add in the oat mixture and stir until well combined. Add in the chocolate chunks and stir until combined.</p><p class="line">Transfer the oat mixture to the pan and press down until you have an even layer of oats. I find placing my hand inside a plastic sandwich bag then pressing down the mixture helps it from sticking to the oat mixture. Press down hard and evenly until the mixture will not press down any more.</p><p class="line">In a small microwave safe bowl, add the chocolate chips and coconut oil and heat in 30 second intervals until the chocolate is melted, stirring after each interval.</p><p class="line">Drizzle the chocolate on top of the granola bars or if you want a thick layer, simply pour the chocolate over the entire pan and spread into a thin layer with a knife or spatula.</p><p class="line">Place the pan in the fridge and let set for 2 hours. Cut into 18 bars or small bites and serve.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
     
     <div class="notesbox">
         <h3 class="subhead">Notes</h3>
@@ -194,13 +169,9 @@
         </div>
     </div>
     
-    
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
-
-
 <div class="nutritionbox textbox">
     <h3 class="subhead">Nutrition</h3>
     <div itemprop="nutrition" class="nutrition text">
@@ -208,17 +179,12 @@
     </div>
 </div>
 
-
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
-
 
 
 

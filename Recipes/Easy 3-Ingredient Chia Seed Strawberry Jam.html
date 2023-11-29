@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,55 +104,39 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="https://thebusybaker.ca/wp-content/uploads/2015/04/chia-seed-strawberry-jam-title-2-200x300.jpg">
                 <img src="Images/BF9475B2-163F-459E-9655-0DBD322E85F3/2DB53D66-4C66-4697-A6D9-AABD1CAF8482.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Easy 3-Ingredient Chia Seed Strawberry Jam</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://thebusybaker.ca/homemade-chia-seed-jam/">
                         <span itemprop="author">thebusybaker.ca</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -163,35 +144,27 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Heat a medium saucepan over medium heat and add the strawberries. Add the honey and place on the stove over medium heat.</p><p class="line">As the strawberries begin to soften over the heat, stir them around in their juices and the honey.</p><p class="line">Once the berries have softened to the point that they&apos;re starting to fall apart, use a potato masher or fork to break them up even more.</p><p class="line">Let the mixture come to a slow boil, stirring almost continually. Once you see some big bubbles break the surface, add the chia seeds.</p><p class="line">The chia seeds will help the jam achieve a gelatinous texture while also adding fibre, protein and healthy Omega-3 fats.</p><p class="line">Continue stirring the mixture over low heat for about 15 minutes, and then remove the pan from the stove.</p><p class="line">If you enjoy jam with small chunks of fruit in it, then you&apos;re done! Simply pour the mixture into a mason jar and cover it tightly with a lid.</p><p class="line">If you&apos;d prefer jam with a smoother texture, feel free to add the mixture to your blender and pulse it a few times before pouring it into a mason jar. Or, use an immersion blender and pulse only a few times.</p><p class="line">While the jam is still hot it may seem more fluid that you would expect. The chia seeds need a bit of time to do their work, so let the jam cool to room temperature in the jar and then put your jar of jam in the fridge for a few hours and it will achieve the perfect texture.</p><p class="line">Enjoy on toast, gluten-free crackers or scones, over yogurt or even ice cream.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
-
-
 <div class="nutritionbox textbox">
     <h3 class="subhead">Nutrition</h3>
     <div itemprop="nutrition" class="nutrition text">
@@ -199,17 +172,12 @@
     </div>
 </div>
 
-
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
-
 
 
 

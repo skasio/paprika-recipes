@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,59 +104,41 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/A9068C3C-1701-4365-BBCD-B4524FA70DC1/1CFC70C1-47AD-4735-B1BA-76BCCF13B5B8.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Silverbeet And Potato Torte</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Prep Time: </b><span itemprop="prepTime">3 hrs</span>
-            
-            <b>Cook Time: </b><span itemprop="cookTime">45 min</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">6-10</span>
-            
+            <b>Prep Time: </b><span itemprop="">3 hrs</span>
+            <b>Cook Time: </b><span itemprop="">45 min</span>
+            <b>Servings: </b><span itemprop="">6-10</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
                 
-                
                     <span itemprop="author">The Cook’s Companion. Pg. 921</span>
-                
             
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -167,36 +146,29 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
     <div class="descriptionbox">
         <h3 class="subhead">Description</h3>
         <div itemprop="description" class="description text">
             <p>This lovely dish originates in northern Italy. The cheese is supposed to be a fontina from the Italian Alps, but the first time I made the torte I substituted a well-made Australian cheddar. It was still delicious but I must admit that a cheese with a little more &apos;stretch&apos; is a better choice. Having said that, I am sure the torte would also be delicions made with a mild crumbly fetta. I have also used rainbow chard from the garden instead of the silver beet, and the coloured stalks look very dramatic. </p><p>This quantity will serve 6 as a light lunch or 8-10 as a first course.</p>
         </div>
     </div>
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">To make the pastry, whizz flour and salt in a food processor.</p><p class="line">Drizzle in oil and then water.</p><p class="line">Process for about 1 minute until mixture forms a ball. Transfer to a floured work surface and knead for 2-3 minutes until supple and smooth.</p><p class="line">Put into a bowl, cover with a clean tea towel and refrigerate for 2 hours.</p><p class="line">Separate silverbeet stems from leaves. Wash and trim stems, then chop finely. Wash leaves, then roll them up and slice finely. Put stems and leaves into a colander and toss with 1 tablespoon salt. Set aside<br/>for 20 minutes.</p><p class="line">Meanwhile, boil potatoes in lightly salted water for 15-20 minutes until tender, then drain, peel and dice.</p><p class="line">Preheat oven to 200°C and lightly oil a 28 cm pizza tray. Quickly rinse silver beet and squeeze it dry in a clean tea towel. </p><p class="line">Combine silver beet with potato, onion, parsley and cheese, then add pepper to taste. Whisk egg with 1 tablespoon oil and add to silverbeet mixture. Taste for salt.</p><p class="line">On a floured surface, roll out two-thirds of the pastry to a round that will easily cover the pizza tray. Spoon on filling, leaving a 2 cm border around pastry. Dampen border with water. Roll remaining pastry to<br/>a round a little smaller than the pizza tray and drape it over filling. Seal edges, then fold extra pastry from base over sealed edges and press together. Pierce top here and there with a fork and drizzle with 1 tablespoon oil. Scatter with a little salt.</p><p class="line">Bake for 20-30 minutes until golden brown. </p><p class="line">Allow to rest for 10 minutes before cutting.</p><p class="line">Serve with a tomato salad or other salad.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
     
     <div class="notesbox">
         <h3 class="subhead">Notes</h3>
@@ -205,21 +177,16 @@
         </div>
     </div>
     
-    
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -262,23 +229,20 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/A9068C3C-1701-4365-BBCD-B4524FA70DC1/FF13FC0E-9AB2-4053-9FE5-4CD8155047AA.jpg',
                 src: 'Images/A9068C3C-1701-4365-BBCD-B4524FA70DC1/FF13FC0E-9AB2-4053-9FE5-4CD8155047AA.jpg',
-                w: 1536.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '1'
             },
-            
             {
                 msrc: 'Images/A9068C3C-1701-4365-BBCD-B4524FA70DC1/FC0BAAC7-CA65-40B7-B364-2ACBA678EBE6.jpg',
                 src: 'Images/A9068C3C-1701-4365-BBCD-B4524FA70DC1/FC0BAAC7-CA65-40B7-B364-2ACBA678EBE6.jpg',
-                w: 1536.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '2'
             },
-            
         ];
         
         var index = 0;
@@ -312,9 +276,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

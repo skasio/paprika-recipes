@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,57 +104,40 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="https://babyfoode.com/wp-content/uploads/2015/09/Afillingandhealthyversionofyourstandardquesadilla-filledwithakalespinachandapplesandloadedwithbeansandcheeseforacompletemealthatmosttoddlersandkidsandparentscantresist-evenyourpickyeaterPerfec-683x1024.jpeg">
                 <img src="Images/10A068FE-8693-4967-8A48-DC9EDFECE9EC-21109-000003452F06F23D/281744D8-BA0F-4FEF-8063-874F06225955-21109-0000034534642563.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Kale + Spinach with Apple Quesadilla</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Servings: </b><span itemprop="recipeYield">Yield: 2 10-inch quesadillas</span>
-            
+            <b>Servings: </b><span itemprop="">Yield: 2 10-inch quesadillas</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="http://babyfoode.com/blog/kale-spinach-with-apple-quesadilla/">
                         <span itemprop="author">babyfoode.com</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -165,29 +145,23 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">In a food processor or blender, add in spinach, kale, apple, garlic, salt, pepper and 1/4 cup of cheese and pulse until just combined, scrapping down sides as needed.</p><p class="line">Pre-heat large skillet over medium heat. Pour in half of the oil and let it get hot.</p><p class="line">Take 1 tortilla and spread half of the kale mixture onto it, sprinkle half of the beans and half of the remaining cheese. Cover with a tortilla and place into skillet and cook for 3-4 minutes per side until the tortilla is golden brown and the cheese is melted. Repeat the process with the remaining tortillas and ingredients.</p><p class="line">Meanwhile, in a small bowl, add the yogurt, lime juice and Sriracha (to taste) and mix until all ingredients are incorporated.</p><p class="line">Let quesadilla cool slightly, cut into wedges, drizzle with spicy lime sauce and serve. I also recommend serving this with a big bowl of guacamole:)</p><p class="line">Storage: can store in an airtight container in the fridge for up to 3 days.</p><p class="line">Cheese Options: you can use the pre-shredded cheese or shred your own. Some of our favorite varities in this recipe are – mexican blend, white cheddar cheese, or colby jack.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
     
     <div class="notesbox">
         <h3 class="subhead">Notes</h3>
@@ -196,13 +170,9 @@
         </div>
     </div>
     
-    
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
-
-
 <div class="nutritionbox textbox">
     <h3 class="subhead">Nutrition</h3>
     <div itemprop="nutrition" class="nutrition text">
@@ -210,17 +180,12 @@
     </div>
 </div>
 
-
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
-
 
 
 

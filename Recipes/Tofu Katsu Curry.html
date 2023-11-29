@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,53 +104,38 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/0E7CE640-E6EA-4C94-A28D-CDBA423E2DD4/A057F163-B87B-40F4-A9C0-B73E1FD1656B.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Tofu Katsu Curry</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Cook Time: </b><span itemprop="cookTime">0 min</span>
-            
-            <b>Total Time: </b><span itemprop="totalTime">30 min</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">1</span>
-            
+            <b>Cook Time: </b><span itemprop="">0 min</span>
+            <b>Total Time: </b><span itemprop="">30 min</span>
+            <b>Servings: </b><span itemprop="">1</span>
 
             <!-- Source -->
-            
+
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -161,43 +143,34 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line"><strong>Step 1</strong><br/>Heat half of the vegetable oil in a saucepan, add the garlic, ginger, onion and apple and fry gently until soft. Add the spices, fry for a minute then pour in the stock. Simmer gently for 3-4 minutes until thickened, then blend until smooth. Season with a pinch of salt. Meanwhile cook the rice according to the packet instructions.</p><p class="line"><strong>Step 2</strong><br/>Whisk the oat cream and miso paste together in a shallow bowl then coat the tofu in the flour. Dip the floured tofu in the miso mixture then coat in the breadcrumbs, making sure all of the tofu is coated.</p><p class="line"><strong>Step 3</strong><br/>Heat the remaining oil in a frying pan then fry the tofu for 3-4 minutes on each side until golden and crisp. Slice the tofu and plate up with the sauce and rice. Serve with the salad and pickled ginger.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -240,15 +213,13 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/0E7CE640-E6EA-4C94-A28D-CDBA423E2DD4/D5C8C270-B198-4548-9E0B-54B5CB72D9B7.jpg',
                 src: 'Images/0E7CE640-E6EA-4C94-A28D-CDBA423E2DD4/D5C8C270-B198-4548-9E0B-54B5CB72D9B7.jpg',
-                w: 2035.0,
-                h: 812.0,
+                w: 2035,
+                h: 812,
                 title: '1'
             },
-            
         ];
         
         var index = 0;
@@ -282,9 +253,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

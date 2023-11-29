@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="#">
+                <img src="Images/41A6FB96-909D-4190-811D-4126C3FD9EA7/49981C66-6E01-49FF-BB28-509FC924E1A9.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">One-Pot Slow-Braised Mushroom Rogan Josh</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="5">★★★★★</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">10 min</span>
+            <b>Cook Time: </b><span itemprop="">35 min</span>
+            <b>Servings: </b><span itemprop="">2</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                
+                    <span itemprop="author">Gousto</span>
+            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>200</strong>g finely chopped tomatoes</p><p class="line" itemprop="recipeIngredient">plain naan</p><p class="line" itemprop="recipeIngredient"><strong>180</strong>g Fable meaty pulled mushrooms</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> tomatoes</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> brown onion</p><p class="line" itemprop="recipeIngredient"><strong>80</strong>g natural yoghurt</p><p class="line" itemprop="recipeIngredient"><strong>100</strong> ml vegetable stock</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tbsp curry powder</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> garlic cloves</p><p class="line" itemprop="recipeIngredient"><strong>5</strong>g coriander</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tsp ground coriander</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tsp ground turmeric</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> tsp chilli flakes</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> cardamom pods</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> pinch salt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> pinch sugar</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> drizzle vegetable oil</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    <div class="descriptionbox">
+        <h3 class="subhead">Description</h3>
+        <div itemprop="description" class="description text">
+            <p>This one-pot curry will be bubbling away in five. You&apos;ll add chunks of slow-braised mushrooms to a spicy tomato sauce, then leave in the oven to simmer. For the perfect combination of taste and texture, finish with a dollop of yoghurt and naan bread to the side.</p>
+        </div>
+    </div>
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line"><strong>Step 1</strong>  <br/>Preheat the oven to 200℃ / <strong>180℃ (fan)</strong> /gas 6</p><p class="line">Boil half a kettle of water</p><p class="line">Heat a large, <strong>hob-safe oven-proof casserole dish</strong> with a drizzle of <strong>vegetable oil</strong> over a high heat</p><p class="line"><strong>Step 2</strong><br/>Peel and chop your <strong>brown onion[s]</strong> into wedges<br/>Chop you <strong>tomatoes</strong> into wedges<br/>Add the <strong>tomato wedges, onion wedges</strong> and <strong>Fable pulled mushrooms</strong> to the dish with a pinch of <strong>salt</strong></p><p class="line"><strong>Step 3</strong><br/>Crush your <strong>garlic cloves</strong> open by squashing them with the side of a knife and remove the skins<br/>Crush your <strong>cardamom pods</strong> open by squashing them with the side of a knife</p><p class="line"><strong>Step 4</strong><br/>Add the <strong>crushed garlic</strong> and <strong>cardamom pods</strong> to the dish with your <strong>ground turmeric, ground coriander, curry powder</strong> and <strong>chilli flakes</strong> (can&apos;t handle the heat? Go easy!)</p><p class="line"><strong>Step 5</strong><br/>Add <strong>vegetable stock, chopped tomatoes</strong> and a pinch of <strong>sugar</strong><br/>Bring to the boil over a high heat<br/>Once boiling, put the dish in the oven, uncovered, for <strong>30-35 minutes</strong> or until the sauce has thickened and everything&apos;s cooked through - this is your <strong>one-pot slow-braised mushroom rogan josh</strong></p><p class="line"><strong>Step 6</strong><br/>Use this time to clear up, set the table, have a cup of tea or simply chill!</p><p class="line">Once the curry is almost done, add your <strong>plain naan[s]</strong> to a baking tray and put the tray in the oven for 3-4 minutes or until warmed through</p><p class="line"><strong>Step 7</strong><br/>Serve the <strong>one-pot slow-braised mushroom rogan josh</strong> with the <strong>warmed naan[s]</strong> to the side.</p><p class="line"><strong><strong>Tip:</strong></strong> watch out for the cardamom pods and discard them!</p><p class="line">Tear your <strong>coriander leaves</strong> and dollop your <strong>natural yoghurt</strong> over the top of the slow-braised mushroom rogan josh.</p><p class="line">Let everyone dig in!</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+<!-- Photo gallery is only included when exporting. -->
+<!-- PhotoSwipe gallery -->
+
+<link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css">
+<link rel="stylesheet" href="Resources/PhotoSwipe/default-skin/default-skin.css">
+<script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
+<script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close"></button>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var openPhotoSwipe = function(event) {
+        var pswp = document.querySelector('.pswp');
+        
+        var element = event.target;
+        var src = element.getAttribute('src');
+        
+        // build items array
+        var items = [
+            {
+                msrc: 'Images/41A6FB96-909D-4190-811D-4126C3FD9EA7/11585A34-0F48-4151-9305-EDA2B8833C15.jpg',
+                src: 'Images/41A6FB96-909D-4190-811D-4126C3FD9EA7/11585A34-0F48-4151-9305-EDA2B8833C15.jpg',
+                w: 0,
+                h: 0,
+                title: '1'
+            },
+        ];
+        
+        var index = 0;
+        for (var i=0; i<items.length; i++) {
+            var item = items[i];
+            if (item.src == src) {
+                index = i;
+            }
+        }
+                         
+        var options = {
+            index: index,
+            history: false,
+            focus: true,
+            captionEl: true,
+            fullscreenEl: false,
+            zoomEl: false,
+            shareEl: false,
+            preloaderEl: false,
+            bgOpacity: 0.9,
+            showHideOpacity: true
+        };
+                             
+        var gallery = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    var elements = document.querySelectorAll('.photoswipe');
+    for (var i=0; i<elements.length; i++) {
+        var element = elements[i];
+        element.addEventListener('click', openPhotoSwipe);
+    }
+</script>
+
+
+    </body>
+</html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,49 +104,36 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="#">
                 <img src="Images/5D8B4D4E-F238-4E69-9A64-FB4C432E3772/EF7D9688-B0F6-49E0-89E5-11164B20D6E7.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Lentil Cottage Pie</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="5">★★★★★</p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Servings: </b><span itemprop="recipeYield">4</span>
-            
+            <b>Servings: </b><span itemprop="">4</span>
 
             <!-- Source -->
-            
+
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -157,43 +141,34 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
     <div class="descriptionbox">
         <h3 class="subhead">Description</h3>
         <div itemprop="description" class="description text">
             <p>Preheat oven to 220<br/>Boil, steam or microwave potato until tender; drain. Mash in large bowl with half of the butter. <br/>Melt remaining butter in medium deep frying pan; cook onion and garlic, stirring, until onion softens. Add undrained tomatoes, stock, the water, paste, wine, lentils and carrot; bring to a boil. Reduce heat; simmer, uncovered, 15 minutes, stirring occasionally. Add peas and parsley; cook, uncovered, 5 minutes. Spoon lentil mixture into shallow 1-litre (4 cup) ovenproof dish. Spread potato mash on top. Bake, uncovered, in hot oven 20 minutes. Stand pie 10 minutes before serving. </p><p>serves 4 <br/>per serving 9.7g fat (5.6g saturated); 1513kJ (362 cal); 49g carb tip If you&apos;re not concerned with keeping the fat content of this dish low, you can stir ½ cup of finely grated parmesan cheese into the potato mash before baking the cottage pie. </p>
         </div>
     </div>
-    
 
     <!-- Directions -->
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
 
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
 
 <!-- Photo gallery is only included when exporting. -->
 <!-- PhotoSwipe gallery -->
@@ -236,15 +211,13 @@
         
         // build items array
         var items = [
-            
             {
                 msrc: 'Images/5D8B4D4E-F238-4E69-9A64-FB4C432E3772/13DEA93D-3AE9-4EF5-9232-0CFF25DB592A.jpg',
                 src: 'Images/5D8B4D4E-F238-4E69-9A64-FB4C432E3772/13DEA93D-3AE9-4EF5-9232-0CFF25DB592A.jpg',
-                w: 1536.0,
-                h: 2048.0,
+                w: 0,
+                h: 0,
                 title: '1'
             },
-            
         ];
         
         var index = 0;
@@ -278,9 +251,6 @@
         element.addEventListener('click', openPhotoSwipe);
     }
 </script>
-
-
-
 
 
     </body>

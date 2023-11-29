@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,57 +104,40 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="https://thefoodiephysician.com/wp-content/uploads/2012/03/IMG_3232.jpg">
                 <img src="Images/9A64DBE6-AA2D-4D34-93E3-FC00AC5C66CB-21109-00000347E1E3E914/C579A723-603D-49DA-B562-3026201036D2-21109-00000347E838008F.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Portobello Paprikash with Spaetzle</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Servings: </b><span itemprop="recipeYield">Servings: 4</span>
-            
+            <b>Servings: </b><span itemprop="">Servings: 4</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://thefoodiephysician.com/dining-with-doc-portobello-paprikash/">
                         <span itemprop="author">thefoodiephysician.com</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -165,35 +145,27 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">To make the paprikash, heat the oil in a large skillet over medium heat and add the onion. Sauté until tender, 5-6 minutes. Add the garlic and cook another minute until fragrant. Turn the heat up to medium high and add the mushroom slices. Season them with salt and pepper. Cook 2-3 minutes until they start to soften, stirring frequently.</p><p class="line">Add the paprika, cayenne and flour and stir to combine. Add the wine to the skillet and cook until it is reduced by half. Add the tomatoes, tomato paste and stock and simmer 6-8 minutes until the mushrooms are cooked and sauce is thickened. Season the sauce with salt and pepper. Turn the heat down to low and stir in the sour cream and 3 tablespoons parsley. Cook another minute until heated through but do not let the sauce come to a boil. Serve the paprikash on a bed of spaetzle and garnish with the remaining tablespoon of parsley.</p><p class="line">To make the spaetzle, mix the eggs and milk together in a large bowl. Add the salt, nutmeg and flour and stir together to form a thick, smooth batter. Let the batter rest for 10 minutes.</p><p class="line">Meanwhile, bring a large pot of salted water to a boil then reduce to a simmer. Hold a large-holed colander or slotted spoon over the water and pour some of the spaetzle batter into the colander. Push the batter through the holes with a spatula.</p><p class="line">Let the spaetzle cook 3-4 minutes then remove them from the water with a slotted spoon. Repeat with the remaining batter.</p><p class="line">Toss the cooked spaetzle with parsley, if desired.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
-
-
 <div class="nutritionbox textbox">
     <h3 class="subhead">Nutrition</h3>
     <div itemprop="nutrition" class="nutrition text">
@@ -201,17 +173,12 @@
     </div>
 </div>
 
-
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
-
 
 
 

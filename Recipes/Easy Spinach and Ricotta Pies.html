@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -6,28 +6,32 @@
             /* Shared styles */
             body {
                 font-family: Helvetica, sans-serif;
-                font-size: 16.0px;
+                font-size: 16px;
                 color: #34302e;
                 margin: 0.25in;
             }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
             .name {
-                font-size: 18.0px;
+                font-size: 18px;
                 font-family: Helvetica, sans-serif;
                 font-weight: normal;
                 margin: 0 0 10px 0;
             }
             .categories {
                 color: #605D5D;
-                font-size: 14.0px;
+                font-size: 14px;
                 font-family: Helvetica, sans-serif;
                 font-style: italic;
             }
             .rating {
                 color: #d10505;
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .metadata {
-                font-size: 14.0px;
+                font-size: 14px;
             }
             .infobox p {
                 margin: 0;
@@ -36,7 +40,7 @@
             .subhead {
                 color: #d10505;
                 font-weight: bold;
-                font-size: 14.0px;
+                font-size: 14px;
                 text-transform: uppercase;
                 margin: 10px 0;
             }
@@ -61,19 +65,15 @@
                 line-height: 130%;
             }
             .photobox {
-                
                 float: left;
                 margin-right: 14px;
-                
-                
-            }
+                            }
             .photo {
-                max-width: 140.0px;
-                max-height: 140.0px;
+                max-width: 140px;
+                max-height: 140px;
                 width: auto;
                 height: auto;
             }
-            
             .inline-image {
                 max-width: 25%;
                 max-height: 25%;
@@ -88,11 +88,8 @@
                 text-align: center !important;
             }
             .recipe {
-                
                 page-break-after: always;
-                
-                
-            }
+                            }
             .recipe:first-child {
                 border-top: 0 none;
                 margin-top: 0;
@@ -107,61 +104,42 @@
     <div class="infobox">
 
         <!-- Image -->
-        
         <div class="photobox">
-            
             <a href="https://img.taste.com.au/OH1PQFMZ/w643-h428-cfill-q90/taste/2018/04/may-18_easy-spinach-ricotta-pies-3000x2000-136869-1.jpg">
                 <img src="Images/5A5D5B32-FF4D-47ED-B248-714942EC2722-21470-00000353605DC756/4C92D2C5-BD92-4C68-B9DE-0E43D549F9A3-21470-000003536866A0D5.jpg" itemprop="image" class="photo photoswipe"/>
             </a>
-            
-            
-        </div>
-        
+                    </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Easy Spinach and Ricotta Pies</h1>
         
         <!-- Info -->
         
-        
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
         
         <p class="metadata">
         
             <!-- Cook time, prep time, servings, difficulty -->
-            
-            <b>Prep Time: </b><span itemprop="prepTime">15 min</span>
-            
-            <b>Cook Time: </b><span itemprop="cookTime">15 min</span>
-            
-            <b>Servings: </b><span itemprop="recipeYield">4</span>
-            
+            <b>Prep Time: </b><span itemprop="">15 min</span>
+            <b>Cook Time: </b><span itemprop="">15 min</span>
+            <b>Servings: </b><span itemprop="">4</span>
 
             <!-- Source -->
-            
                 <b>Source: </b>
-                
                     <a itemprop="url" href="https://www.taste.com.au/recipes/easy-spinach-ricotta-pies/h3qn7otg?r=recipes/vegetarianrecipes&amp;c=3ecd4763-3b76-4345-b0d6-3e52d13fcfe2/Vegetarian%2520recipes">
                         <span itemprop="author">taste.com.au</span>
                     </a>
-                
-                
-            
+                            
         </p>
         
-        
-        
         <div class="clear"></div>
-        
 
     </div>
     
     <div class="left-column">
 
         <!-- Ingredients -->
-        
         <div class="ingredientsbox">
             <h3 class="subhead">Ingredients</h3>
             <div class="ingredients text">
@@ -169,35 +147,27 @@
             </div>
         </div>
         
-        
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
-        
 
     </div>
     
     <div class="right-column">
     
     <!-- Description -->
-    
 
     <!-- Directions -->
-    
     <div class="directionsbox">
         <h3 class="subhead">Directions</h3>
         <div itemprop="recipeInstructions" class="directions text">
             <p class="line">Preheat oven to 200°C. Line a baking tray with baking paper. Combine spinach, fetta, ricotta, spring onion, dill and 1 egg in a large bowl. Season. Lightly whisk remaining egg in a bowl.</p><p class="line">Place 1 pastry sheet on a clean work surface. Spoon half the spinach mixture over one-half of the pastry sheet, leaving a 1cm border. Use a small sharp knife to cut 5cm-long slashes at 1cm intervals over the other half of the pastry. Fold over to enclose filling. Use a fork to seal the edges. Repeat with the remaining pastry sheet and spinach mixture.</p><p class="line">Place the pies on the lined tray. Brush with whisked egg and season. Bake for 20-25 mins or until golden and puffed.</p><p class="line">Combine olives, tomato and rocket in a bowl. Serve with pies.</p>
         </div>
     </div>
-    
 
     <!-- Notes -->
-    
+
 
     <!-- Nutrition (in regular mode it goes below the notes) -->
-    
         <!-- Used in two different places depending on the recipe layout -->
-
-
 <div class="nutritionbox textbox">
     <h3 class="subhead">Nutrition</h3>
     <div itemprop="nutrition" class="nutrition text">
@@ -205,17 +175,12 @@
     </div>
 </div>
 
-
-
-    
     
     </div>
     
     <div class="clear"></div>
 
 </div>
-
-
 
 
 
