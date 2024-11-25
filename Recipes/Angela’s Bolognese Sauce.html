@@ -1,187 +1,271 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="https://img.jamieoliver.com/jamieoliver/recipe-database/105276798.jpg?tr=w-325,h-433">
-                <img src="Images/907A92B6-25D9-4EE7-A88D-17042A36C75D/20A8FD45-3929-40FB-AE0D-4505850CDCEC.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a
+            href="https://img.jamieoliver.com/jamieoliver/recipe-database/105276798.jpg?tr=w-325,h-433"
+          >
+            <img
+              src="Images/907A92B6-25D9-4EE7-A88D-17042A36C75D/20A8FD45-3929-40FB-AE0D-4505850CDCEC.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Angela’s Bolognese Sauce</h1>
-        
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="5">★★★★★</p>
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            <b>Total Time: </b><span itemprop="">1 hr</span>
-            <b>Servings: </b><span itemprop="">10</span>
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-                <b>Source: </b>
-                    <a itemprop="url" href="https://www.jamieoliver.com/recipes/sauce-recipes/bolognese-sauce/">
-                        <span itemprop="author">jamieoliver.com</span>
-                    </a>
-                            
+          <b>Total Time: </b><span itemprop="totalTime">1 hr</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">10</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.jamieoliver.com/recipes/sauce-recipes/bolognese-sauce/"
+          >
+            <span itemprop="author">jamieoliver.com</span>
+          </a>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>500</strong>g quorn mince</p><p class="line" itemprop="recipeIngredient"><strong>250</strong>g leek</p><p class="line" itemprop="recipeIngredient"><strong>12</strong>g garlic</p><p class="line" itemprop="recipeIngredient"><strong>250</strong>g mushrooms </p><p class="line" itemprop="recipeIngredient"><strong>250</strong>g courgettes </p><p class="line" itemprop="recipeIngredient"><strong>250</strong>g peppers</p><p class="line" itemprop="recipeIngredient"><strong>25</strong>ml olive oil</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tbsp dried mixed herbs</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> litre passata</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> beef or veg stock cube , optional</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>500</strong>g quorn mince
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>250</strong>g leek
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>12</strong>g garlic
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>250</strong>g mushrooms
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>250</strong>g courgettes
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>250</strong>g peppers
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>25</strong>ml olive oil
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tbsp dried mixed herbs
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> litre passata
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> beef or veg stock cube , optional
+            </p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Recipe kindly shared by the Tesco Community Cookery School with Jamie Oliver. The recipe has been written to be flexible and scalable up to 50 portions. Note: all veg weights are for trimmed, prepped vegetables.</p><p class="line">Peel (or trim) the alliums, then roughly chop. Peel and slice the garlic.<br/>Roughly chop the Mediterranean veg.<br/>Place a large pan big enough to hold all the ingredients on a medium heat with the olive oil. Add the mince, alliums and garlic. <br/>Cook for 15 to 20 minutes or until the meat juices have evaporated and the veg is golden and softened, stirring frequently.<br/>Add the chopped Mediterranean veg and the herbs, and cook for 15 minutes more, or until the vegetables are golden and softened, stirring occasionally.<br/>Use a potato masher to gently crush the veg, breaking down any bigger lumps. <br/>Add the tomato base sauce, and bring to the boil – remember to note the liquid level in the pan.Add 200ml of water and stock cube (if using) and give everything a good stir. Bring to the boil, then lower the heat and simmer for 40 minutes, or until reduced – the liquid should return to the same level as in step 8.Season to taste with sea salt and black pepper. Delicious served with pasta, in a jacket potato, or use as the base for a cottage pie or lasagne.</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Recipe kindly shared by the Tesco Community Cookery School with
+              Jamie Oliver. The recipe has been written to be flexible and
+              scalable up to 50 portions. Note: all veg weights are for trimmed,
+              prepped vegetables.
+            </p>
+            <p class="line">
+              <strong>Step 1</strong>:<br />Peel (or trim) the alliums, then
+              roughly chop. Peel and slice the garlic.
+            </p>
+            <p class="line">
+              <strong>Step 2</strong>:<br />Roughly chop the Mediterranean veg.
+            </p>
+            <p class="line">
+              <strong>Step 3</strong>:<br />Place a large pan on a medium heat
+              with the <strong>olive oil</strong>.
+            </p>
+            <p class="line">
+              <strong>Step 4</strong>:<br />Add the mince, alliums, and garlic.
+              Cook for <strong>15 to 20 minutes</strong> or until the meat
+              juices have evaporated and the veg is golden and softened,
+              stirring frequently.
+            </p>
+            <p class="line">
+              <strong>Step 5</strong>:<br />Add the chopped Mediterranean veg
+              and the herbs. Cook for <strong>15 minutes</strong> more, or until
+              the vegetables are golden and softened, stirring occasionally.
+            </p>
+            <p class="line">
+              <strong>Step 6</strong>:<br />Use a potato masher to gently crush
+              the veg, breaking down any bigger lumps.
+            </p>
+            <p class="line">
+              <strong>Step 7</strong>:<br />Add the
+              <strong>tomato base sauce</strong>, and bring to the boil –
+              remember to note the liquid level in the pan.
+            </p>
+            <p class="line">
+              <strong>Step 8</strong>:<br />Add <strong>200ml</strong> of
+              <strong>water</strong> and <strong>stock cube</strong> (if using).
+              Bring to the boil, then simmer for <strong>40 minutes</strong>, or
+              until reduced – the liquid should return to the same level as in
+              step 7.
+            </p>
+            <p class="line">
+              <strong>Step 9</strong>:<br />Season to taste with
+              <strong>sea salt</strong> and <strong>black pepper</strong>.
+            </p>
+            <p class="line">
+              <strong>Step 10</strong>:<br />Serve with pasta, in a jacket
+              potato, or use as the base for a cottage pie or lasagne.
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
+        <!-- Notes -->
 
+        <!-- Nutrition (in regular mode it goes below the notes) -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
         <!-- Used in two different places depending on the recipe layout -->
-<div class="nutritionbox textbox">
-    <h3 class="subhead">Nutrition</h3>
-    <div itemprop="nutrition" class="nutrition text">
-        <p>Calories 131 7%<br/>Fat 5.3g 8%<br/>Saturates 1.3g 7%<br/>Sugars 5.9g 7%<br/>Salt 0.1g 2%<br/>Protein 13.7g 27%<br/>Carbs 7.6g 3%<br/>Fibre 1.7g -</p>
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Calories 131 7%<br />Fat 5.3g 8%<br />Saturates 1.3g 7%<br />Sugars
+              5.9g 7%<br />Salt 0.1g 2%<br />Protein 13.7g 27%<br />Carbs 7.6g
+              3%<br />Fibre 1.7g -
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
     </div>
-</div>
-
-    
-    </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-    </body>
+  </body>
 </html>

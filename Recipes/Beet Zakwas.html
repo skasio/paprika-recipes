@@ -1,194 +1,237 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="https://www.polonist.com/wp-content/uploads/2020/09/Fermented-Beet-Kvass-Borscht-1200sq-720x720.jpg">
-                <img src="Images/A6C51B55-2188-4725-85DD-F1786BED1EA8/48850F04-1E92-4168-B93F-4766C68BCCAE.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a
+            href="https://www.polonist.com/wp-content/uploads/2020/09/Fermented-Beet-Kvass-Borscht-1200sq-720x720.jpg"
+          >
+            <img
+              src="Images/A6C51B55-2188-4725-85DD-F1786BED1EA8/48850F04-1E92-4168-B93F-4766C68BCCAE.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Beet Zakwas</h1>
-        
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            <b>Prep Time: </b><span itemprop="">5 minutes</span>
-            <b>Servings: </b><span itemprop="">Yield: 4</span>
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-                <b>Source: </b>
-                    <a itemprop="url" href="https://www.polonist.com/beet-kvass-zakwas/">
-                        <span itemprop="author">polonist.com</span>
-                    </a>
-                            
+          <b>Prep Time: </b><span itemprop="prepTime">5 minutes</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">Yield: 4</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a itemprop="url" href="https://www.polonist.com/beet-kvass-zakwas/">
+            <span itemprop="author">polonist.com</span>
+          </a>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>1-1.1</strong> lb (500 g) beetroots, red</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> garlic cloves</p><p class="line" itemprop="recipeIngredient"><strong>2-3</strong> bay leaves</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> black peppercorns</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> all-spice berries</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cups (500 ml) water, spring water or boiled, then cooled</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tsp common salt (non-iodized!), optional</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1-1.1</strong> lb (500 g) beetroots, red
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3</strong> garlic cloves
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2-3</strong> bay leaves
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3</strong> black peppercorns
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3</strong> all-spice berries
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> cups (500 ml) water, spring water or boiled,
+              then cooled
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tsp common salt (non-iodized!), optional
+            </p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Sterilise both the jar and the lid. Use a dishwasher (on the highest setting), or alternatively - wash them in warm, soapy water, then rinse thoroughly with boiling water.</p><p class="line">Give the beets a scrub. If you’re using conventionally grown beetroots, it’s best to peel them.</p><p class="line">Slice the beets into chunks or rounds - the exact size and shape doesn’t matter. Place the pieces tightly in a jar, squeezing garlic cloves and all the spices between the beets.</p><p class="line">Finally, pour the water in, enough to cover the beets fully. If you’re using salt, add a teaspoon of it, close the jar and shake it a few times.</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Sterilise both the jar and the lid. Use a dishwasher (on the
+              highest setting), or alternatively - wash them in warm, soapy
+              water, then rinse thoroughly with boiling water.
+            </p>
+            <p class="line">
+              Give the beets a scrub. If you’re using conventionally grown
+              beetroots, it’s best to peel them.
+            </p>
+            <p class="line">
+              Slice the beets into chunks or rounds - the exact size and shape
+              doesn’t matter. Place the pieces tightly in a jar, squeezing
+              garlic cloves and all the spices between the beets.
+            </p>
+            <p class="line">
+              Finally, pour the water in, enough to cover the beets fully. If
+              you’re using salt, add a teaspoon of it, close the jar and shake
+              it a few times.
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
-    
-    <div class="notesbox">
-        <h3 class="subhead">Notes</h3>
-        <div itemprop="comment" class="notes text">
-            <p>You&apos;ll need a 1.2 qt / 1.2 litre glass jar (or larger) for this recipe.</p>
+        <!-- Notes -->
+
+        <div class="notesbox">
+          <h3 class="subhead">Notes</h3>
+          <div itemprop="comment" class="notes text">
+            <p>
+              You&apos;ll need a 1.2 qt / 1.2 litre glass jar (or larger) for
+              this recipe.
+            </p>
+          </div>
         </div>
-    </div>
-    
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
         <!-- Used in two different places depending on the recipe layout -->
-<div class="nutritionbox textbox">
-    <h3 class="subhead">Nutrition</h3>
-    <div itemprop="nutrition" class="nutrition text">
-        <p>TOTAL FAT: 1g SATURATED FAT: 0g<br/>TRANS FAT: 0g UNSATURATED FAT: 0g<br/>CHOLESTEROL: 0mg SODIUM: 586mg<br/>CARBOHYDRATES: 14g FIBER: 5g<br/>SUGAR: 7g PROTEIN: 1g</p>
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              TOTAL FAT: 1g SATURATED FAT: 0g<br />TRANS FAT: 0g UNSATURATED
+              FAT: 0g<br />CHOLESTEROL: 0mg SODIUM: 586mg<br />CARBOHYDRATES:
+              14g FIBER: 5g<br />SUGAR: 7g PROTEIN: 1g
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
     </div>
-</div>
-
-    
-    </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-    </body>
+  </body>
 </html>

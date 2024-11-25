@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://production-media.gousto.co.uk/cms/mood-image/2467---Red-Onion--Beetroot-Tarte-Tatin-4527-1574079978092-x200.jpg"
+          >
+            <img
+              src="Images/902F8D14-C966-4968-A1EC-6BD11689BACF/65232D2C-FA55-4EB4-8F3D-D3A3B6DA73B0.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">
+          Red Onion &amp; Beetroot Tarte Tatin
+        </h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p itemprop="recipeCategory" class="categories">Gousto</p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Total Time: </b><span itemprop="totalTime">50 min</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">2 or 4 servings</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.gousto.co.uk/cookbook/vegetarian-recipes/red-onion-beetroot-tarte-tatin"
+          >
+            <span itemprop="author">gousto.co.uk</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> balsamic vinegar sachets (30ml) †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> carrot
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> honey pot (25g)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>120</strong>g traditional puff pastry †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> bag of walnuts (25g) †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>50</strong>g rocket
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>5</strong>g thyme
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>250</strong>g cooked beetroot
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> red onions
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Instructions for 2 [for 3] [for 4] portion recipe
+            </p>
+            <p class="line">
+              1. Preheat the oven to 220°C/ 200°C (fan)/ 425°F/ Gas 7
+            </p>
+            <p class="line">
+              Peel and slice the red onions into discs (approx 1/2 cm thick)
+            </p>
+            <p class="line">Drain the beetroot in a colander over the sink</p>
+            <p class="line">
+              Slice the drained beetroot into discs (approx 1/2cm thick)
+            </p>
+            <p class="line">
+              2. Add the sliced onion and beetroot to a baking tray with a
+              drizzle of olive oil and a pinch of salt and pepper
+            </p>
+            <p class="line">
+              Give everything a good mix up put the tray in the oven for 10-15
+              min or until everything is beginning to brown and soften
+            </p>
+            <p class="line">
+              3. Meanwhile, add the balsamic vinegar, honey and 1 tbsp [2 tbsp]
+              sugar to a large, wide-based pan (preferably non-stick) and bring
+              to the boil over a high heat
+            </p>
+            <p class="line">
+              Once boiling, reduce the heat to low and add 30g [60g] butter
+            </p>
+            <p class="line">
+              Stir it all together until the butter has melted and everything is
+              fully combined, then remove the pan from the heat – this is your
+              caramel
+            </p>
+            <p class="line">
+              4. Bash the walnuts in their bag with a rolling pin until roughly
+              crushed
+            </p>
+            <p class="line">Top, tail, peel and grate the carrot[s]</p>
+            <p class="line">
+              Add the crushed walnuts and grated carrot to a bowl with the
+              rocket and gently mix together – this is your walnut salad
+            </p>
+            <p class="line">
+              Strip the thyme leaves from their stems and chop them roughly,
+              discard the stems
+            </p>
+            <p class="line">
+              5. Once the onions and beetrootare done, add them to the
+              caramelwith the chopped thyme leaves and mix until evenly coated –
+              this is your tart mix
+            </p>
+            <p class="line">
+              6. Line 1 [2] rectangular oven-proof dish[es] with baking paper
+              (make sure the paper pokes out the top of the dish)
+            </p>
+            <p class="line">Add the tart mix to the dish[es]</p>
+            <p class="line">Unroll the puff pastry and place it over the top</p>
+            <p class="line">
+              Crimp the edges of the pastry (slightly turn over the edges) and
+              put the dish[es] in the oven for 20 min or until the pastry is
+              golden and crisp – this is your tarte tatin
+            </p>
+            <p class="line">
+              7. Once cooked, remove the tarte tatin from the oven and leave to
+              cool for 3 min
+            </p>
+            <p class="line">
+              Using the baking paper, carefully remove the tarte tatin[s] from
+              the oven proof dish[es] and transfer to a chopping board
+            </p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Typical values per 100g per serving<br />Energy 529 kJ 2020 kJ 126
+              kcal 482 kcal<br />Fat 6.2 g 23.6 g<br />of which saturates 2.7 g
+              10.3 g<br />Carbohydrate 11.4 g 43.6 g<br />of which sugars 7.3 g
+              27.8 g<br />Fibre 1.0 g 3.9 g<br />Protein 2.9 g 10.9 g<br />Salt
+              0.18 g 0.69 g
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

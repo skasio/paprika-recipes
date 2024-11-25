@@ -1,195 +1,290 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="https://celebratingsweets.com/wp-content/uploads/2020/01/Chocolate-Pudding-Cake-2-198x300.jpg">
-                <img src="Images/396E2809-556C-4A97-8E75-C1B5A982DEC6/7E06D4C5-39D3-40DD-B79E-56E4ACBA9F22.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a
+            href="https://celebratingsweets.com/wp-content/uploads/2020/01/Chocolate-Pudding-Cake-2-198x300.jpg"
+          >
+            <img
+              src="Images/396E2809-556C-4A97-8E75-C1B5A982DEC6/7E06D4C5-39D3-40DD-B79E-56E4ACBA9F22.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Fudgy Chocolate Pudding Cake</h1>
-        
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            <b>Prep Time: </b><span itemprop="">20 min</span>
-            <b>Cook Time: </b><span itemprop="">25 min</span>
-            <b>Servings: </b><span itemprop="">8</span>
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-                <b>Source: </b>
-                    <a itemprop="url" href="https://celebratingsweets.com/chocolate-pudding-cake/">
-                        <span itemprop="author">celebratingsweets.com</span>
-                    </a>
-                            
+          <b>Prep Time: </b><span itemprop="prepTime">20 min</span>
+
+          <b>Cook Time: </b><span itemprop="cookTime">25 min</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">8</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://celebratingsweets.com/chocolate-pudding-cake/"
+          >
+            <span itemprop="author">celebratingsweets.com</span>
+          </a>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>Cake:</strong></p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup all purpose flour</p><p class="line" itemprop="recipeIngredient"><strong>¾</strong> cup light brown sugar*, packed</p><p class="line" itemprop="recipeIngredient"><strong>⅓</strong> cup unsweetened cocoa powder</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> teaspoon espresso powder</p><p class="line" itemprop="recipeIngredient"><strong>1 ½</strong> teaspoons baking powder</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> teaspoon salt</p><p class="line" itemprop="recipeIngredient"><strong>¾</strong> cup milk, preferably whole or 2%</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup vegetable oil</p><p class="line" itemprop="recipeIngredient"><strong>1 ½</strong> teaspoons pure vanilla extract</p><p class="line" itemprop="recipeIngredient">generous ½ cup semisweet or bittersweet chocolate chips</p><p class="line" itemprop="recipeIngredient"><strong>Topping:</strong></p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup unsweetened cocoa powder</p><p class="line" itemprop="recipeIngredient"><strong>⅔</strong> cup light brown sugar*</p><p class="line" itemprop="recipeIngredient"><strong>1 ½</strong> cups boiling water</p><p class="line" itemprop="recipeIngredient">Recommended: vanilla ice cream or whipped cream, for serving</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>Cake:</strong>
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> cup all purpose flour
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¾</strong> cup light brown sugar*, packed
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>⅓</strong> cup unsweetened cocoa powder
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>½</strong> teaspoon espresso powder
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1 ½</strong> teaspoons baking powder
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>½</strong> teaspoon salt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¾</strong> cup milk, preferably whole or 2%
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¼</strong> cup vegetable oil
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1 ½</strong> teaspoons pure vanilla extract
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              generous ½ cup semisweet or bittersweet chocolate chips
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>Topping:</strong>
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¼</strong> cup unsweetened cocoa powder
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>⅔</strong> cup light brown sugar*
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1 ½</strong> cups boiling water
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Recommended: vanilla ice cream or whipped cream, for serving
+            </p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line"><strong>Cake:</strong></p><p class="line">Preheat oven to 350°F. Lightly grease a 9-inch** square baking pan and set aside.</p><p class="line">In a large bowl, whisk flour, brown sugar, cocoa, espresso powder, baking powder, and salt. Add milk, oil and vanilla and whisk until well combined and smooth. Using a rubber spatula, stir in chocolate chips.</p><p class="line">Transfer the batter to the prepared pan and spread into an even layer. Proceed with the topping.</p><p class="line"><strong>Topping:</strong></p><p class="line">In a bowl, combine cocoa powder and brown sugar, mixing until well combined (I use a fork). Sprinkle this mixture in an even layer over the top of the cake batter.</p><p class="line">Slowly and carefully pour the boiling water evenly over the top. TIP: I pour the water over the back of a large spoon and slowly move it around the pan while pouring. Do not stir or disturb the cake batter underneath.</p><p class="line">Transfer to the oven and bake for 25-30 minutes, until the cake layer (on top) is cooked through. The pudding sauce should be bubbling gently around the sides of the pan. Place on a wire rack to cool for about 10 minutes. Serve warm, scooping the cake into bowls and spooning the sauce over the top. Recommended garnishes: vanilla ice cream or whipped cream.</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line"><strong>Cake:</strong></p>
+            <p class="line">
+              Preheat oven to 350°F. Lightly grease a 9-inch** square baking pan
+              and set aside.
+            </p>
+            <p class="line">
+              In a large bowl, whisk flour, brown sugar, cocoa, espresso powder,
+              baking powder, and salt. Add milk, oil and vanilla and whisk until
+              well combined and smooth. Using a rubber spatula, stir in
+              chocolate chips.
+            </p>
+            <p class="line">
+              Transfer the batter to the prepared pan and spread into an even
+              layer. Proceed with the topping.
+            </p>
+            <p class="line"><strong>Topping:</strong></p>
+            <p class="line">
+              In a bowl, combine cocoa powder and brown sugar, mixing until well
+              combined (I use a fork). Sprinkle this mixture in an even layer
+              over the top of the cake batter.
+            </p>
+            <p class="line">
+              Slowly and carefully pour the boiling water evenly over the top.
+              TIP: I pour the water over the back of a large spoon and slowly
+              move it around the pan while pouring. Do not stir or disturb the
+              cake batter underneath.
+            </p>
+            <p class="line">
+              Transfer to the oven and bake for 25-30 minutes, until the cake
+              layer (on top) is cooked through. The pudding sauce should be
+              bubbling gently around the sides of the pan. Place on a wire rack
+              to cool for about 10 minutes. Serve warm, scooping the cake into
+              bowls and spooning the sauce over the top. Recommended garnishes:
+              vanilla ice cream or whipped cream.
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
-    
-    <div class="notesbox">
-        <h3 class="subhead">Notes</h3>
-        <div itemprop="comment" class="notes text">
-            <p>*Your brown sugar should be moist and soft. If it is dry or lumpy, swap the brown sugar for granulated sugar.</p><p>**Pan size: You need at least 2-inch high sides on your 9-inch square pan. I do not recommend baking in an 8-inch square pan, but a 7×11 should work.</p>
+        <!-- Notes -->
+
+        <div class="notesbox">
+          <h3 class="subhead">Notes</h3>
+          <div itemprop="comment" class="notes text">
+            <p>
+              *Your brown sugar should be moist and soft. If it is dry or lumpy,
+              swap the brown sugar for granulated sugar.
+            </p>
+            <p>
+              **Pan size: You need at least 2-inch high sides on your 9-inch
+              square pan. I do not recommend baking in an 8-inch square pan, but
+              a 7×11 should work.
+            </p>
+          </div>
         </div>
-    </div>
-    
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
         <!-- Used in two different places depending on the recipe layout -->
-<div class="nutritionbox textbox">
-    <h3 class="subhead">Nutrition</h3>
-    <div itemprop="nutrition" class="nutrition text">
-        <p>Calories: 341kcal | Carbohydrates: 62g | Protein: 4g | Fat: 11g | Saturated Fat: 8g | Cholesterol: 2mg | Sodium: 197mg | Potassium: 240mg | Fiber: 3g | Sugar: 45g | Vitamin A: 25IU | Calcium: 116mg | Iron: 2mg</p>
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Calories: 341kcal | Carbohydrates: 62g | Protein: 4g | Fat: 11g |
+              Saturated Fat: 8g | Cholesterol: 2mg | Sodium: 197mg | Potassium:
+              240mg | Fiber: 3g | Sugar: 45g | Vitamin A: 25IU | Calcium: 116mg
+              | Iron: 2mg
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
     </div>
-</div>
-
-    
-    </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-    </body>
+  </body>
 </html>

@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://images.notquitenigella.com/images/vegemite-scroll/cheese-vegemite-scroll-5.jpg"
+          >
+            <img
+              src="Images/229F2CB3-DCF6-4107-8BE8-AA13869BAEE9/E7658DDB-BA28-4130-970E-23B521692501.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">
+          Giant Cheese &amp; Vegemite Scroll!
+        </h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Prep Time: </b><span itemprop="prepTime">2 hrs</span>
+
+          <b>Cook Time: </b><span itemprop="cookTime">30 min.</span>
+
+          <b>Total Time: </b><span itemprop="totalTime">2 hrs, 30 min.</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.notquitenigella.com/2014/01/21/cheese-vegemite-scroll/"
+          >
+            <span itemprop="author">notquitenigella.com</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2.5</strong> cups strong bread flour
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> teaspoons active dry yeast
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> teaspoon sugar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¾</strong> cup lukewarm water
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> egg, beaten
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>50</strong>g butter, melted
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>½</strong> teaspoon salt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>200</strong>g shredded cheese
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> tablespoons Vegemite
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>60</strong>g butter, softened
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> egg yolk for egg wash
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              <strong>Mix Dough</strong><br />- Place the flour, yeast, sugar,
+              warm water, egg, and 2 tablespoons of butter in the bowl of an
+              electric mixer fitted with a dough hook.<br />- Knead for 4
+              minutes until the dough is elastic.<br />- (Alternatively, you can
+              mix and knead by hand for 8 minutes until elastic).
+            </p>
+            <p class="line">
+              <strong>Shape and Rise Dough</strong><br />- Shape the dough into
+              a ball and place it back into the bowl.<br />- Cover with cling
+              film and leave in a warm, draught-free area of the kitchen.<br />-
+              Allow to rise for 30 minutes.
+            </p>
+            <p class="line">
+              <strong>Prepare Filling</strong><br />- While the dough is rising,
+              mix the Vegemite and additional butter together.<br />- Weigh the
+              cheese and set it aside.<br />- Spray a 24cm (9.6 inch) pie tin
+              with oil spray.
+            </p>
+            <p class="line">
+              <strong>Punch and Knead Dough</strong><br />- Punch down the dough
+              and knead in the salt for about 1 minute.
+            </p>
+            <p class="line">
+              <strong>Roll and Fill Dough</strong><br />- Roll out the dough to
+              a long rectangle as thin as possible (approximately 50cm x
+              30cm).<br />- Spread with the Vegemite and butter mixture.<br />-
+              Top with grated cheese.
+            </p>
+            <p class="line">
+              <strong>Shape Scroll</strong><br />- Using a knife, slice the
+              dough into 1-inch wide strips.<br />- Roll the first strip into a
+              scroll and join it to the next strip, continuing to roll it up
+              against the other strips.<br />- Continue until all dough strips
+              are used.<br />- For the last quarter of dough, press the cheese
+              against the dough and pat the strips against the large coil of
+              dough.
+            </p>
+            <p class="line">
+              <strong>Second Rise</strong><br />- Place the shaped dough in the
+              greased tin.<br />- Allow to rise in a warm place for 60 minutes.
+            </p>
+            <p class="line">
+              <strong>Preheat Oven</strong><br />- Preheat oven to 180°C
+              (350°F).
+            </p>
+            <p class="line">
+              <strong>Prepare Egg Wash</strong><br />- Whisk the egg yolk and
+              add a teaspoon of water if it is too thick.<br />- Brush the top
+              of the risen scroll with the egg wash.
+            </p>
+            <p class="line">
+              <strong>Bake</strong><br />- Bake in the oven for 20 minutes.<br />-
+              If the scroll is getting too brown, cover with foil sprayed with
+              oil to prevent sticking.<br />- Continue to bake for another 10
+              minutes.<br />- Remove from oven and serve warm.
+            </p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <div class="notesbox">
+          <h3 class="subhead">Notes</h3>
+          <div itemprop="comment" class="notes text">
+            <p>
+              <strong>Tip</strong>: I keep my yeast in the freezer as I can
+              never get through the canister before the best before date.
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

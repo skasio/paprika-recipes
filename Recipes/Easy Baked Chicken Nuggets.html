@@ -1,182 +1,269 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="https://live-production.wcms.abc-cdn.net.au/ddb62d1114cfe0e7cd574699e24c9201?impolicy=wcms_crop_resize&cropH=1934&cropW=3438&xPos=679&yPos=350&width=862&height=485">
-                <img src="Images/C5DAAA2C-4B79-49B4-8F6A-0FF40AA253FE/BD2B98B3-E395-4839-8DC4-9BD45C2EB2F6.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a
+            href="https://live-production.wcms.abc-cdn.net.au/ddb62d1114cfe0e7cd574699e24c9201?impolicy=wcms_crop_resize&cropH=1934&cropW=3438&xPos=679&yPos=350&width=862&height=485"
+          >
+            <img
+              src="Images/C5DAAA2C-4B79-49B4-8F6A-0FF40AA253FE/BD2B98B3-E395-4839-8DC4-9BD45C2EB2F6.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Easy Baked Chicken Nuggets</h1>
-        
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            <b>Prep Time: </b><span itemprop="">0:40</span>
-            <b>Cook Time: </b><span itemprop="">0:30</span>
-            <b>Servings: </b><span itemprop="">4</span>
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-                <b>Source: </b>
-                    <a itemprop="url" href="https://www.abc.net.au/everyday/baked-chicken-nuggets-recipe/101230050">
-                        <span itemprop="author">abc.net.au</span>
-                    </a>
-                            
+          <b>Prep Time: </b><span itemprop="prepTime">0:40</span>
+
+          <b>Cook Time: </b><span itemprop="cookTime">0:30</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">4</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.abc.net.au/everyday/baked-chicken-nuggets-recipe/101230050"
+          >
+            <span itemprop="author">abc.net.au</span>
+          </a>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong><strong>For the chicken nuggets:</strong></strong></p><p class="line" itemprop="recipeIngredient"><strong>600</strong>g chicken breast</p><p class="line" itemprop="recipeIngredient"><strong>200</strong>g breadcrumbs (see below for homemade version)</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> eggs</p><p class="line" itemprop="recipeIngredient"><strong>⅓</strong> cup flour (buckwheat, white spelt or plain)</p><p class="line" itemprop="recipeIngredient"><strong>1½–2 ½</strong> teaspoons fine sea salt</p><p class="line" itemprop="recipeIngredient"><strong>⅔</strong> tablespoon garlic powder</p><p class="line" itemprop="recipeIngredient">Extra virgin olive oil for drizzling</p><p class="line" itemprop="recipeIngredient"><strong><strong>For the bread crumbs:</strong></strong></p><p class="line" itemprop="recipeIngredient"><strong>250</strong>g spelt or sourdough bread, sliced</p><p class="line" itemprop="recipeIngredient"><strong>1½</strong> teaspoons fine sea salt</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong><strong>For the chicken nuggets:</strong></strong>
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>600</strong>g chicken breast
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>200</strong>g breadcrumbs (see below for homemade version)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> eggs
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>⅓</strong> cup flour (buckwheat, white spelt or plain)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1½–2 ½</strong> teaspoons fine sea salt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>⅔</strong> tablespoon garlic powder
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Extra virgin olive oil for drizzling
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong><strong>For the bread crumbs:</strong></strong>
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>250</strong>g spelt or sourdough bread, sliced
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1½</strong> teaspoons fine sea salt
+            </p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">1. Start by preparing the breadcrumbs (this step can be done ahead of time, simply store the breadcrumbs in an airtight container). Preheat the oven to 180°C (fan).</p><p class="line">2. Place the bread slices on 1–2 baking trays in an even layer. Bake in the oven until lightly golden on both sides (this should take 3–5 minutes per side, depending on your oven). Place the toasted bread slices on a wire rack to cool.</p><p class="line">3. Use your hands to break the pieces of bread into chunks and place in the food processor (depending on the size of your processor you may need to do this in batches). Whiz the bread until it turns into breadcrumbs — you want the texture to be somewhere between coarse and fine.</p><p class="line">4. Pour the breadcrumbs into a flat dish ready for coating the chicken. Add the salt and stir well to combine.</p><p class="line">5. To prepare the chicken nuggets, preheat the oven to 180°C (fan).</p><p class="line">6. Slice the chicken into nugget portions (around 3–4cm sized pieces).</p><p class="line">7. Place the breadcrumbs in a shallow dish. If using store-bought breadcrumbs add ½–1 teaspoon fine sea salt, depending on how salted they already are.</p><p class="line">8. Crack the eggs into another shallow dish and whisk briefly.</p><p class="line">9. Place the flour, 1½ teaspoons salt and the garlic powder into a third shallow dish and stir to combine.</p><p class="line">10. Using your hands, pick up a piece of the chicken and dip it into the flour mixture, shaking off any excess flour before dipping it into the egg mixture, then transferring it to the breadcrumbs. Toss the chicken in the breadcrumbs until well-coated, then place it on the baking tray. Repeat with the remaining pieces of chicken, ensuring to not crowd the nuggets on the baking tray.</p><p class="line">11. Drizzle the oil over the chicken then bake in the oven for 15–20 minutes, turning them over halfway through if you wish, until golden on the outside and cooked in the middle.</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              1. Start by preparing the breadcrumbs (this step can be done ahead
+              of time, simply store the breadcrumbs in an airtight container).
+              Preheat the oven to 180°C (fan).
+            </p>
+            <p class="line">
+              2. Place the bread slices on 1–2 baking trays in an even layer.
+              Bake in the oven until lightly golden on both sides (this should
+              take 3–5 minutes per side, depending on your oven). Place the
+              toasted bread slices on a wire rack to cool.
+            </p>
+            <p class="line">
+              3. Use your hands to break the pieces of bread into chunks and
+              place in the food processor (depending on the size of your
+              processor you may need to do this in batches). Whiz the bread
+              until it turns into breadcrumbs — you want the texture to be
+              somewhere between coarse and fine.
+            </p>
+            <p class="line">
+              4. Pour the breadcrumbs into a flat dish ready for coating the
+              chicken. Add the salt and stir well to combine.
+            </p>
+            <p class="line">
+              5. To prepare the chicken nuggets, preheat the oven to 180°C
+              (fan).
+            </p>
+            <p class="line">
+              6. Slice the chicken into nugget portions (around 3–4cm sized
+              pieces).
+            </p>
+            <p class="line">
+              7. Place the breadcrumbs in a shallow dish. If using store-bought
+              breadcrumbs add ½–1 teaspoon fine sea salt, depending on how
+              salted they already are.
+            </p>
+            <p class="line">
+              8. Crack the eggs into another shallow dish and whisk briefly.
+            </p>
+            <p class="line">
+              9. Place the flour, 1½ teaspoons salt and the garlic powder into a
+              third shallow dish and stir to combine.
+            </p>
+            <p class="line">
+              10. Using your hands, pick up a piece of the chicken and dip it
+              into the flour mixture, shaking off any excess flour before
+              dipping it into the egg mixture, then transferring it to the
+              breadcrumbs. Toss the chicken in the breadcrumbs until
+              well-coated, then place it on the baking tray. Repeat with the
+              remaining pieces of chicken, ensuring to not crowd the nuggets on
+              the baking tray.
+            </p>
+            <p class="line">
+              11. Drizzle the oil over the chicken then bake in the oven for
+              15–20 minutes, turning them over halfway through if you wish,
+              until golden on the outside and cooked in the middle.
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
+        <!-- Notes -->
 
+        <!-- Nutrition (in regular mode it goes below the notes) -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
         <!-- Used in two different places depending on the recipe layout -->
+      </div>
 
-    
+      <div class="clear"></div>
     </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-    </body>
+  </body>
 </html>

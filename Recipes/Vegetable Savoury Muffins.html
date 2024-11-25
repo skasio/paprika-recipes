@@ -1,195 +1,275 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="https://www.healthylittlefoodies.com/wp-content/uploads/2018/01/savoury-muffins-in-lunch-tray-200x300.jpg">
-                <img src="Images/E6F7057F-6080-4E59-BD86-036DEF2FEB90/5FD13C3E-7942-4CF8-8CC6-362850705C25.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a
+            href="https://www.healthylittlefoodies.com/wp-content/uploads/2018/01/savoury-muffins-in-lunch-tray-200x300.jpg"
+          >
+            <img
+              src="Images/E6F7057F-6080-4E59-BD86-036DEF2FEB90/5FD13C3E-7942-4CF8-8CC6-362850705C25.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Vegetable Savoury Muffins</h1>
-        
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            <b>Prep Time: </b><span itemprop="">15 minutes</span>
-            <b>Cook Time: </b><span itemprop="">20 minutes</span>
-            <b>Servings: </b><span itemprop="">Serves: 12 muffins</span>
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-                <b>Source: </b>
-                    <a itemprop="url" href="https://www.healthylittlefoodies.com/vegetable-savoury-muffins/">
-                        <span itemprop="author">healthylittlefoodies.com</span>
-                    </a>
-                            
+          <b>Prep Time: </b><span itemprop="prepTime">15 minutes</span>
+
+          <b>Cook Time: </b><span itemprop="cookTime">20 minutes</span>
+
+          <b>Servings: </b
+          ><span itemprop="recipeYield">Serves: 12 muffins</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.healthylittlefoodies.com/vegetable-savoury-muffins/"
+          >
+            <span itemprop="author">healthylittlefoodies.com</span>
+          </a>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>250</strong>g Zucchini, grated</p><p class="line" itemprop="recipeIngredient"><strong>120</strong>g Carrot, grated</p><p class="line" itemprop="recipeIngredient"><strong>30</strong>g Frozen Peas</p><p class="line" itemprop="recipeIngredient"><strong>30</strong>g Frozen Corn</p><p class="line" itemprop="recipeIngredient"><strong>125</strong>g Cheddar Cheese, grated</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> cup Milk</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup Plain Greek Yoghurt</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup Olive Oil</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> Eggs</p><p class="line" itemprop="recipeIngredient"><strong>250</strong>g Plain Wholemeal Flour</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> tsp Baking Powder</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>250</strong>g Zucchini, grated
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>120</strong>g Carrot, grated
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>30</strong>g Frozen Peas
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>30</strong>g Frozen Corn
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>125</strong>g Cheddar Cheese, grated
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>½</strong> cup Milk
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¼</strong> cup Plain Greek Yoghurt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¼</strong> cup Olive Oil
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> Eggs
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>250</strong>g Plain Wholemeal Flour
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3</strong> tsp Baking Powder
+            </p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Preheat oven to 180C / 350F</p><p class="line">Place the zucchini and carrot onto a clean dish towel and wrap it around the vegetables. (see image above) Squeeze all the juice out. *SEE NOTE 2</p><p class="line">Place the zucchini and carrots into a large mixing bowl along with the peas and sweetcorn. Add the cheese, milk, yogurt, olive oil and egg and stir until combined.</p><p class="line">Mix the flour and baking powder together and then slowly add to the wet ingredients. Fold in gently, until just combined. *SEE NOTE 3</p><p class="line">Spray a 12 hole muffin tray with oil or grease with butter. Spoon the mixture, equally, between the 12 muffin sections. Bake for 20-25 mins. *SEE NOTE 4</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Preheat oven to 180C / 350F</p>
+            <p class="line">
+              Place the zucchini and carrot onto a clean dish towel and wrap it
+              around the vegetables. (see image above) Squeeze all the juice
+              out. *SEE NOTE 2
+            </p>
+            <p class="line">
+              Place the zucchini and carrots into a large mixing bowl along with
+              the peas and sweetcorn. Add the cheese, milk, yogurt, olive oil
+              and egg and stir until combined.
+            </p>
+            <p class="line">
+              Mix the flour and baking powder together and then slowly add to
+              the wet ingredients. Fold in gently, until just combined. *SEE
+              NOTE 3
+            </p>
+            <p class="line">
+              Spray a 12 hole muffin tray with oil or grease with butter. Spoon
+              the mixture, equally, between the 12 muffin sections. Bake for
+              20-25 mins. *SEE NOTE 4
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
-    
-    <div class="notesbox">
-        <h3 class="subhead">Notes</h3>
-        <div itemprop="comment" class="notes text">
-            <p>I used a plain wholemeal flour, I am currently living in Australia and find their wholemeal flour whiter in colour and it appears more processed than the wholemeal flour I was used to in the UK. I can not guarantee what the results will be like with less processed wholemeal flour as I haven&apos;t tested although some people have commented that it produced a denser muffin. The recipe will also work well with plain / all purpose flour.</p><p>Don&apos;t throw away the juice. Save it and add it to smoothies or pasta sauces etc.</p><p>Don&apos;t be tempted to over stir the mixture. The mixture should be lumpy, thick and looking very messy. It should only take around 10 strokes with your wooden spoon.</p><p>Every oven is different, so while you should still follow the bake time in this recipe, use a skewer to test your muffins a couple minutes before the end of the bake time. Your skewer will come out clean if they are ready.</p>
+        <!-- Notes -->
+
+        <div class="notesbox">
+          <h3 class="subhead">Notes</h3>
+          <div itemprop="comment" class="notes text">
+            <p>
+              I used a plain wholemeal flour, I am currently living in Australia
+              and find their wholemeal flour whiter in colour and it appears
+              more processed than the wholemeal flour I was used to in the UK. I
+              can not guarantee what the results will be like with less
+              processed wholemeal flour as I haven&apos;t tested although some
+              people have commented that it produced a denser muffin. The recipe
+              will also work well with plain / all purpose flour.
+            </p>
+            <p>
+              Don&apos;t throw away the juice. Save it and add it to smoothies
+              or pasta sauces etc.
+            </p>
+            <p>
+              Don&apos;t be tempted to over stir the mixture. The mixture should
+              be lumpy, thick and looking very messy. It should only take around
+              10 strokes with your wooden spoon.
+            </p>
+            <p>
+              Every oven is different, so while you should still follow the bake
+              time in this recipe, use a skewer to test your muffins a couple
+              minutes before the end of the bake time. Your skewer will come out
+              clean if they are ready.
+            </p>
+          </div>
         </div>
-    </div>
-    
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
         <!-- Used in two different places depending on the recipe layout -->
-<div class="nutritionbox textbox">
-    <h3 class="subhead">Nutrition</h3>
-    <div itemprop="nutrition" class="nutrition text">
-        <p>Cholesterol 42.3mg<br/>Sodium 98.4mg<br/>Carbohydrates 19.1g<br/>Protein 7.9g</p>
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Cholesterol 42.3mg<br />Sodium 98.4mg<br />Carbohydrates 19.1g<br />Protein
+              7.9g
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
     </div>
-</div>
-
-    
-    </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-    </body>
+  </body>
 </html>

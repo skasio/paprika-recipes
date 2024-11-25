@@ -1,180 +1,244 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="https://greenkitchenstories.com/wp-content/uploads/2016/04/gks_pea_fritters_04-800x1200.jpg">
-                <img src="Images/F4180E46-228E-40F3-8F5A-28AEB5B69491/7D27E684-318C-43BF-A9A3-FED60C493189.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a
+            href="https://greenkitchenstories.com/wp-content/uploads/2016/04/gks_pea_fritters_04-800x1200.jpg"
+          >
+            <img
+              src="Images/F4180E46-228E-40F3-8F5A-28AEB5B69491/7D27E684-318C-43BF-A9A3-FED60C493189.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
-        <h1 itemprop="name" class="name">Green Pea, Millet &amp; Mint Fritters</h1>
-        
+        <h1 itemprop="name" class="name">
+          Green Pea, Millet &amp; Mint Fritters
+        </h1>
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            <b>Servings: </b><span itemprop="">Serves 4</span>
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-                <b>Source: </b>
-                    <a itemprop="url" href="https://greenkitchenstories.com/pea-millet-mint-fritters/">
-                        <span itemprop="author">greenkitchenstories.com</span>
-                    </a>
-                            
+          <b>Servings: </b><span itemprop="recipeYield">Serves 4</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://greenkitchenstories.com/pea-millet-mint-fritters/"
+          >
+            <span itemprop="author">greenkitchenstories.com</span>
+          </a>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>1 1/2</strong> cup / 225 g fresh green peas (or frozen and thawed)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> packed cup / 160 g cooked millet (1/3 cup / 70 g uncooked) (cooked quinoa or rice should work too)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> spring onion, chopped</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> eggs</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> handful fresh mint and parsley leaves (6 sprigs, picked)</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> tbsp ricotta cheese (or cottage cheese)</p><p class="line" itemprop="recipeIngredient">salt and pepper</p><p class="line" itemprop="recipeIngredient">coconut oil, for frying</p><br/><p class="line" itemprop="recipeIngredient">coconut oil</p><p class="line" itemprop="recipeIngredient">a few handfuls wild spinach</p><p class="line" itemprop="recipeIngredient"><strong>1-2</strong> tsp chili flakes</p><p class="line" itemprop="recipeIngredient">salt and pepper</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1 1/2</strong> cup / 225 g fresh green peas (or frozen and
+              thawed)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> packed cup / 160 g cooked millet (1/3 cup / 70
+              g uncooked) (cooked quinoa or rice should work too)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> spring onion, chopped
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> eggs
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> handful fresh mint and parsley leaves (6
+              sprigs, picked)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>4</strong> tbsp ricotta cheese (or cottage cheese)
+            </p>
+            <p class="line" itemprop="recipeIngredient">salt and pepper</p>
+            <p class="line" itemprop="recipeIngredient">
+              coconut oil, for frying
+            </p>
+            <br />
+            <p class="line" itemprop="recipeIngredient">coconut oil</p>
+            <p class="line" itemprop="recipeIngredient">
+              a few handfuls wild spinach
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1-2</strong> tsp chili flakes
+            </p>
+            <p class="line" itemprop="recipeIngredient">salt and pepper</p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Serve with</p><p class="line">Add 1 cup / 150 g of the peas to a food processor along with millet, spring onion, eggs, herbs, ricotta cheese, salt and pepper. Pulse a few times on high speed until mixed but still slightly chunky. Mash the remaining peas roughly with a fork and stir into the batter. Let sit for 20 minutes to let the ingredients come together (which will make them easier to fry). Add a teaspoon of coconut oil to a non-stick frying pan on medium heat, wait until it’s hot and then use a large spoon to dollop the fritters into the pan and flat them out into rounds (depending on the size of the pan, you should be able to fit between three and five of them each time). Cook until they begin to set, roughly about 3 minutes and then carefully flip them with a spatula. If the batter feels too soft and runny, you can add some extra millet to it. Fry all the fritters and place on a tray to cool off just slightly while wilting the spinach.</p><p class="line">Using the same frying pan, simply add the spinach to a little oil and chili flakes on a medium heat and let sauté for a few minutes until it has wilted down.</p><p class="line">Place the spinach on plates, top with a few sweet pea fritters, yogurt, sprouts, radishes and a generous amount of lemon zest and soft boiled eggs on the side. Enjoy!</p><p class="line"><strong></strong><strong></strong><strong></strong><strong></strong>**</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Serve with</p>
+            <p class="line">
+              Add 1 cup / 150 g of the peas to a food processor along with
+              millet, spring onion, eggs, herbs, ricotta cheese, salt and
+              pepper. Pulse a few times on high speed until mixed but still
+              slightly chunky. Mash the remaining peas roughly with a fork and
+              stir into the batter. Let sit for 20 minutes to let the
+              ingredients come together (which will make them easier to fry).
+              Add a teaspoon of coconut oil to a non-stick frying pan on medium
+              heat, wait until it’s hot and then use a large spoon to dollop the
+              fritters into the pan and flat them out into rounds (depending on
+              the size of the pan, you should be able to fit between three and
+              five of them each time). Cook until they begin to set, roughly
+              about 3 minutes and then carefully flip them with a spatula. If
+              the batter feels too soft and runny, you can add some extra millet
+              to it. Fry all the fritters and place on a tray to cool off just
+              slightly while wilting the spinach.
+            </p>
+            <p class="line">
+              Using the same frying pan, simply add the spinach to a little oil
+              and chili flakes on a medium heat and let sauté for a few minutes
+              until it has wilted down.
+            </p>
+            <p class="line">
+              Place the spinach on plates, top with a few sweet pea fritters,
+              yogurt, sprouts, radishes and a generous amount of lemon zest and
+              soft boiled eggs on the side. Enjoy!
+            </p>
+            <p class="line">
+              <strong></strong><strong></strong><strong></strong
+              ><strong></strong>**
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
+        <!-- Notes -->
 
+        <!-- Nutrition (in regular mode it goes below the notes) -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
         <!-- Used in two different places depending on the recipe layout -->
+      </div>
 
-    
+      <div class="clear"></div>
     </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-    </body>
+  </body>
 </html>

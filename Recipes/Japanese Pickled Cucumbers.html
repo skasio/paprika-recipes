@@ -1,181 +1,238 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="https://onolicioushawaii.com/wp-content/uploads/2020/12/Pickled-Japanese-Cucumbers-7-150x225.jpg.webp">
-                <img src="Images/9AC4751F-9B1F-49C0-90C2-0E606721AEFA/1B847FEB-FA5C-430C-A94B-64D9AF0E7B77.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a
+            href="https://onolicioushawaii.com/wp-content/uploads/2020/12/Pickled-Japanese-Cucumbers-7-150x225.jpg.webp"
+          >
+            <img
+              src="Images/9AC4751F-9B1F-49C0-90C2-0E606721AEFA/1B847FEB-FA5C-430C-A94B-64D9AF0E7B77.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Japanese Pickled Cucumbers</h1>
-        
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            <b>Prep Time: </b><span itemprop="">15 minutes</span>
-            <b>Servings: </b><span itemprop="">Yield: side dish for 3 people</span>
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-                <b>Source: </b>
-                    <a itemprop="url" href="https://onolicioushawaii.com/japanese-pickled-cucumbers/">
-                        <span itemprop="author">onolicioushawaii.com</span>
-                    </a>
-                            
+          <b>Prep Time: </b><span itemprop="prepTime">15 minutes</span>
+
+          <b>Servings: </b
+          ><span itemprop="recipeYield">Yield: side dish for 3 people</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://onolicioushawaii.com/japanese-pickled-cucumbers/"
+          >
+            <span itemprop="author">onolicioushawaii.com</span>
+          </a>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>1</strong> large Japanese cucumber</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons salt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon sugar</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup rice vinegar</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> large Japanese cucumber
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> teaspoons salt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tablespoon sugar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>¼</strong> cup rice vinegar
+            </p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">This recipe is super simple.</p><p class="line">Wash and cut the cucumber. Cut it thin. How thin? That’s up to you. Use a mandolin and go super thin. Or use a knife and go as thin as you can. I usually end up slicing the cucumber into ⅛-inch thick slices.</p><p class="line">Some people prefer the cucumber slices thicker, others like it thinner. There’s no real right or wrong. Also: do the best you can but don’t stress about trying to make perfect or even slices.</p><p class="line">Second step is to salt the cucumbers. Just place the sliced cucumbers in a bowl and sprinkle salt on top. Mix it gently and then let sit for 10 minutes.</p><p class="line">The salt will help draw water out from the cucumber (so you can get a crunchier pickled cucumber). Drain out the water after 10 minutes.</p><p class="line">Then in another, smaller bowl, dissolve the sugar into the rice vinegar. Pour that mixture over the salted cucumbers. Mix gently with a spoon. Cover and place it the refrigerator for an hour to let it “pickle.”</p><p class="line">Take it out after an hour. Eat and enjoy! If you want it more pickle-y, just marinate for longer. So easy, so ono ^_^</p><p class="line">Sliced cucumbers, with salt sprinkled on top.</p><p class="line">Thinly slice the cucumber and place in a mixing bowl.</p><p class="line">Sprinkle salt on the cucumbers, toss. Let sit for 10 minutes. Drain the water.</p><p class="line">In a small bowl, dissolve the sugar in the rice vinegar. Pour over the salted cucumbers.</p><p class="line">Cover and let sit in the fridge for at least 1 hour. Ready to eat!</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">This recipe is super simple.</p>
+            <p class="line">
+              Wash and cut the cucumber. Cut it thin. How thin? That’s up to
+              you. Use a mandolin and go super thin. Or use a knife and go as
+              thin as you can. I usually end up slicing the cucumber into ⅛-inch
+              thick slices.
+            </p>
+            <p class="line">
+              Some people prefer the cucumber slices thicker, others like it
+              thinner. There’s no real right or wrong. Also: do the best you can
+              but don’t stress about trying to make perfect or even slices.
+            </p>
+            <p class="line">
+              Second step is to salt the cucumbers. Just place the sliced
+              cucumbers in a bowl and sprinkle salt on top. Mix it gently and
+              then let sit for 10 minutes.
+            </p>
+            <p class="line">
+              The salt will help draw water out from the cucumber (so you can
+              get a crunchier pickled cucumber). Drain out the water after 10
+              minutes.
+            </p>
+            <p class="line">
+              Then in another, smaller bowl, dissolve the sugar into the rice
+              vinegar. Pour that mixture over the salted cucumbers. Mix gently
+              with a spoon. Cover and place it the refrigerator for an hour to
+              let it “pickle.”
+            </p>
+            <p class="line">
+              Take it out after an hour. Eat and enjoy! If you want it more
+              pickle-y, just marinate for longer. So easy, so ono ^_^
+            </p>
+            <p class="line">Sliced cucumbers, with salt sprinkled on top.</p>
+            <p class="line">
+              Thinly slice the cucumber and place in a mixing bowl.
+            </p>
+            <p class="line">
+              Sprinkle salt on the cucumbers, toss. Let sit for 10 minutes.
+              Drain the water.
+            </p>
+            <p class="line">
+              In a small bowl, dissolve the sugar in the rice vinegar. Pour over
+              the salted cucumbers.
+            </p>
+            <p class="line">
+              Cover and let sit in the fridge for at least 1 hour. Ready to eat!
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
+        <!-- Notes -->
 
+        <!-- Nutrition (in regular mode it goes below the notes) -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
         <!-- Used in two different places depending on the recipe layout -->
+      </div>
 
-    
+      <div class="clear"></div>
     </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-    </body>
+  </body>
 </html>

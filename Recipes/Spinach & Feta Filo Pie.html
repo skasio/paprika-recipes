@@ -1,187 +1,246 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="https://img.jamieoliver.com/jamieoliver/recipe-database/76718257.jpg?tr=w-800,h-1066">
-                <img src="Images/538C4338-95E9-4BF2-8576-48736CB7A228-21470-0000034FC3B9DF84/B528FA76-AD78-413F-8A36-26A9C50A75AD-21470-0000034FC94A832D.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a
+            href="https://img.jamieoliver.com/jamieoliver/recipe-database/76718257.jpg?tr=w-800,h-1066"
+          >
+            <img
+              src="Images/538C4338-95E9-4BF2-8576-48736CB7A228-21470-0000034FC3B9DF84/B528FA76-AD78-413F-8A36-26A9C50A75AD-21470-0000034FC94A832D.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Spinach &amp; Feta Filo Pie</h1>
-        
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            <b>Total Time: </b><span itemprop="">30 min</span>
-            <b>Servings: </b><span itemprop="">4 to 6 30 minutes</span>
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-                <b>Source: </b>
-                    <a itemprop="url" href="https://www.jamieoliver.com/recipes/cheese-recipes/spinach-feta-filo-pie/">
-                        <span itemprop="author">jamieoliver.com</span>
-                    </a>
-                            
+          <b>Total Time: </b><span itemprop="totalTime">30 min</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">4 to 6 30 minutes</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.jamieoliver.com/recipes/cheese-recipes/spinach-feta-filo-pie/"
+          >
+            <span itemprop="author">jamieoliver.com</span>
+          </a>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>100</strong> g pine nuts</p><p class="line" itemprop="recipeIngredient"><strong>5</strong> large free-range eggs</p><p class="line" itemprop="recipeIngredient"><strong>300</strong> g feta cheese</p><p class="line" itemprop="recipeIngredient"><strong>50</strong> g Cheddar cheese</p><p class="line" itemprop="recipeIngredient">dried oregano</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> lemon</p><p class="line" itemprop="recipeIngredient">olive oil</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> knob of unsalted butter</p><p class="line" itemprop="recipeIngredient"><strong>400</strong> g baby spinach</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> x 270 g pack of filo pastry</p><p class="line" itemprop="recipeIngredient">cayenne pepper</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> whole nutmeg , for grating</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>100</strong> g pine nuts
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>5</strong> large free-range eggs
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>300</strong> g feta cheese
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>50</strong> g Cheddar cheese
+            </p>
+            <p class="line" itemprop="recipeIngredient">dried oregano</p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> lemon
+            </p>
+            <p class="line" itemprop="recipeIngredient">olive oil</p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> knob of unsalted butter
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>400</strong> g baby spinach
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> x 270 g pack of filo pastry
+            </p>
+            <p class="line" itemprop="recipeIngredient">cayenne pepper</p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> whole nutmeg , for grating
+            </p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Preheat the oven to 200°C/400°F/gas 6.Toast the pine nuts in a large ovenproof frying pan over a medium heat for 1 to 2 minutes, or until golden and smelling fantastic, tossing occasionally.Crack the eggs into a large mixing bowl, crumble in the feta, then grate in the Cheddar. Season with a pinch of black pepper and a couple of pinches of dried oregano. Finely grate in the lemon zest, drizzle in a little oil, then toss in the toasted pine nuts. Mix well.Melt the butter in the frying pan over a medium heat with a drizzle of oil, add half the spinach, stirring until wilted, then when there’s space, add the remaining spinach, stirring regularly until wilted.Lay a 50cm strip of greaseproof paper out on a clean work surface, rub lightly with oil and scrunch up, then flatten out again. Arrange 4 sheets of filo in a large rectangle on the greaseproof paper, overlapping at the edges, so that it’s almost covering the greaseproof. Rub the filo with a little oil, sprinkle with sea salt, pepper and a pinch of cayenne pepper. Repeat until you have 3 layers. Stir the wilted spinach into the egg mixture, then grate in half the nutmeg and mix well.Slide the greaseproof and filo into the empty frying pan, so that the edges spill over, then push down into the sides of the pan.Pour in the spinach mixture and spread out evenly, then fold the filo up over the filling to cover.Place the pan over a medium heat for 2 minutes, just to get the bottom cooking, then transfer to the top shelf of the oven for 18 to 20 minutes, or until golden and crisp. Delicious served with a fresh seasonal salad.</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Preheat the oven to 200°C/400°F/gas 6.Toast the pine nuts in a
+              large ovenproof frying pan over a medium heat for 1 to 2 minutes,
+              or until golden and smelling fantastic, tossing occasionally.Crack
+              the eggs into a large mixing bowl, crumble in the feta, then grate
+              in the Cheddar. Season with a pinch of black pepper and a couple
+              of pinches of dried oregano. Finely grate in the lemon zest,
+              drizzle in a little oil, then toss in the toasted pine nuts. Mix
+              well.Melt the butter in the frying pan over a medium heat with a
+              drizzle of oil, add half the spinach, stirring until wilted, then
+              when there’s space, add the remaining spinach, stirring regularly
+              until wilted.Lay a 50cm strip of greaseproof paper out on a clean
+              work surface, rub lightly with oil and scrunch up, then flatten
+              out again. Arrange 4 sheets of filo in a large rectangle on the
+              greaseproof paper, overlapping at the edges, so that it’s almost
+              covering the greaseproof. Rub the filo with a little oil, sprinkle
+              with sea salt, pepper and a pinch of cayenne pepper. Repeat until
+              you have 3 layers. Stir the wilted spinach into the egg mixture,
+              then grate in half the nutmeg and mix well.Slide the greaseproof
+              and filo into the empty frying pan, so that the edges spill over,
+              then push down into the sides of the pan.Pour in the spinach
+              mixture and spread out evenly, then fold the filo up over the
+              filling to cover.Place the pan over a medium heat for 2 minutes,
+              just to get the bottom cooking, then transfer to the top shelf of
+              the oven for 18 to 20 minutes, or until golden and crisp.
+              Delicious served with a fresh seasonal salad.
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
+        <!-- Notes -->
 
+        <!-- Nutrition (in regular mode it goes below the notes) -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
         <!-- Used in two different places depending on the recipe layout -->
-<div class="nutritionbox textbox">
-    <h3 class="subhead">Nutrition</h3>
-    <div itemprop="nutrition" class="nutrition text">
-        <p>Calories 830 42%<br/>Fat 57g 81%<br/>Saturates 19.9g 100%<br/>Sugars 5.4g 6%<br/>Salt 4.7g 78%<br/>Protein 36.6g 73%<br/>Carbs 42.8g 16%<br/>Fibre 3.5g -</p>
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Calories 830 42%<br />Fat 57g 81%<br />Saturates 19.9g 100%<br />Sugars
+              5.4g 6%<br />Salt 4.7g 78%<br />Protein 36.6g 73%<br />Carbs 42.8g
+              16%<br />Fibre 3.5g -
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
     </div>
-</div>
-
-    
-    </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-    </body>
+  </body>
 </html>

@@ -1,275 +1,385 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="#">
-                <img src="Images/27420DD4-459E-4C42-85C6-3F13899BE097-21109-00000346BD24D01D/6E2A4212-0789-4D39-BC5B-26C4AE6ECAF6-22499-0000036577B22031.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a href="#">
+            <img
+              src="Images/27420DD4-459E-4C42-85C6-3F13899BE097-21109-00000346BD24D01D/6E2A4212-0789-4D39-BC5B-26C4AE6ECAF6-22499-0000036577B22031.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Pasta E Fagioli</h1>
-        
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            <b>Cook Time: </b><span itemprop="">1:00</span>
-            <b>Servings: </b><span itemprop="">6</span>
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-                <b>Source: </b>
-                    <a itemprop="url" href="https://www.abc.net.au/everyday/pasta-e-fagioli-with-beans-and-rosemary-recipe/11124472">
-                        <span itemprop="author">abc.net.au</span>
-                    </a>
-                            
+          <b>Cook Time: </b><span itemprop="cookTime">1:00</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">6</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.abc.net.au/everyday/pasta-e-fagioli-with-beans-and-rosemary-recipe/11124472"
+          >
+            <span itemprop="author">abc.net.au</span>
+          </a>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>100</strong>ml extra virgin olive oil, plus extra to serve</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> golden shallots (or 1 brown onion), finely diced</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> stick celery, finely diced</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> small carrot, finely diced</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> cloves garlic, roughly chopped</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> Tbsp rosemary, roughly chopped</p><p class="line" itemprop="recipeIngredient">Pinch dried chilli flakes (optional), plus extra to serve</p><p class="line" itemprop="recipeIngredient"><strong>480</strong>g cooked borlotti beans (from 2 x 400g tins), drained and rinsed</p><p class="line" itemprop="recipeIngredient"><strong>150</strong>ml passata (tomato puree)</p><p class="line" itemprop="recipeIngredient"><strong>500</strong>ml (2 cups) vegetable stock, chicken stock or water</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> parmesan rind (optional)</p><p class="line" itemprop="recipeIngredient"><strong>250</strong>g short pasta such as tubettoni, ditalini or mezzi rigatoni</p><p class="line" itemprop="recipeIngredient">Sea salt</p><p class="line" itemprop="recipeIngredient">Parmesan cheese, to serve</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>100</strong>ml extra virgin olive oil, plus extra to serve
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3</strong> golden shallots (or 1 brown onion), finely
+              diced
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> stick celery, finely diced
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> small carrot, finely diced
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>4</strong> cloves garlic, roughly chopped
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> Tbsp rosemary, roughly chopped
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Pinch dried chilli flakes (optional), plus extra to serve
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> cans borlotti beans
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>150</strong>ml passata
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1.5</strong>l vegetable stock
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> parmesan rind (optional)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>325</strong>g Conchiglie Rigate pasta
+            </p>
+            <p class="line" itemprop="recipeIngredient">Sea salt</p>
+            <p class="line" itemprop="recipeIngredient">
+              Parmesan cheese, to serve
+            </p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">1. Warm the olive oil in a large pot over a low-medium heat. Add in the shallots, celery and carrot with a pinch of salt and gently sweat them until very soft and just beginning to colour, about 10 minutes. Stir occasionally to avoid the vegetables burning. Now add the garlic, rosemary and chilli flakes if using and cook for another few minutes until fragrant. Add in the beans and passata and stir to combine everything together. Increase the heat to high and pour in the stock. If you&apos;re adding in a parmesan rind, drop this into the soup now too. Bring to the boil then reduce to a simmer and cook for 10 minutes, stirring occasionally.</p><p class="line">2. Take out half of the soup (avoiding the parmesan rind) and blitz in a food processor until smooth. This will add creaminess to your soup and give your pasta something to hang onto. Return the pureed soup to the pot and stir to reincorporate it back in. Alternatively use a stick blender and blitz some of the soup directly in the pot. The soup should still be quite loose as we&apos;re going to add in the pasta next, so if it seems too thick, add some extra stock or water.</p><p class="line">3. Add the pasta to the soup, increase the heat to medium so that the soup is simmering gently and cook until the soup is thick and the pasta is al dente (around 10 minutes), stirring occasionally. The soup should be thick but not dry, so add in some more stock or water if you need to, remembering that the pasta will continue to soak up liquid even once off the heat. The exact timing of this final step will depend on how large or small your pasta is. Small shapes like ditalini should only take around 8 minutes but larger or more robust shapes can take up to 15 minutes. Begin testing for doneness at around 7-10 minutes. Discard the parmesan rind and season to taste. Ladle the soup into bowls, drizzle with olive oil and top with a scattering of grated parmesan and a sprinkle of chilli flakes, if desired.</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              1. Warm the olive oil in a large pot over a low-medium heat. Add
+              in the shallots, celery and carrot with a pinch of salt and gently
+              sweat them until very soft and just beginning to colour, about 10
+              minutes. Stir occasionally to avoid the vegetables burning. Now
+              add the garlic, rosemary and chilli flakes if using and cook for
+              another few minutes until fragrant. Add in the beans and passata
+              and stir to combine everything together. Increase the heat to high
+              and pour in the stock. If you&apos;re adding in a parmesan rind,
+              drop this into the soup now too. Bring to the boil then reduce to
+              a simmer and cook for 10 minutes, stirring occasionally.
+            </p>
+            <p class="line">
+              2. Take out half of the soup (avoiding the parmesan rind) and
+              blitz in a food processor until smooth. This will add creaminess
+              to your soup and give your pasta something to hang onto. Return
+              the pureed soup to the pot and stir to reincorporate it back in.
+              Alternatively use a stick blender and blitz some of the soup
+              directly in the pot. The soup should still be quite loose as
+              we&apos;re going to add in the pasta next, so if it seems too
+              thick, add some extra stock or water.
+            </p>
+            <p class="line">
+              3. Add the pasta to the soup, increase the heat to medium so that
+              the soup is simmering gently and cook until the soup is thick and
+              the pasta is al dente (around 10 minutes), stirring occasionally.
+              The soup should be thick but not dry, so add in some more stock or
+              water if you need to, remembering that the pasta will continue to
+              soak up liquid even once off the heat. The exact timing of this
+              final step will depend on how large or small your pasta is. Small
+              shapes like ditalini should only take around 8 minutes but larger
+              or more robust shapes can take up to 15 minutes. Begin testing for
+              doneness at around 7-10 minutes. Discard the parmesan rind and
+              season to taste. Ladle the soup into bowls, drizzle with olive oil
+              and top with a scattering of grated parmesan and a sprinkle of
+              chilli flakes, if desired.
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
+        <!-- Notes -->
 
+        <!-- Nutrition (in regular mode it goes below the notes) -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
         <!-- Used in two different places depending on the recipe layout -->
-<div class="nutritionbox textbox">
-    <h3 class="subhead">Nutrition</h3>
-    <div itemprop="nutrition" class="nutrition text">
-        <p><span uid="CC4A2F75-CDC0-48FA-9183-F69613F0F039" class="image-border image-box"><img src="Images/27420DD4-459E-4C42-85C6-3F13899BE097-21109-00000346BD24D01D/CC4A2F75-CDC0-48FA-9183-F69613F0F039.jpg" alt="2" class="inline-image photoswipe" /></span></p><p>Nutrition Facts<br/>Servings: 6<br/>Amount per serving	 <br/>Calories	556<br/>% Daily Value*<br/>Total Fat 18g	23%<br/>Saturated Fat 2.7g	13%<br/>Cholesterol 30mg	10%<br/>Sodium 34mg	1%<br/>Total Carbohydrate 77.2g	28%<br/>Dietary Fiber 21.5g	77%<br/>Total Sugars 2.4g	 <br/>Protein 24.4g	 <br/>Vitamin D 0mcg	0%<br/>Calcium 131mg	10%<br/>Iron 6mg	32%<br/>Potassium 1242mg	26%</p><br/><p></p>
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              <span
+                uid="CC4A2F75-CDC0-48FA-9183-F69613F0F039"
+                class="image-border image-box"
+                ><img
+                  src="Images/27420DD4-459E-4C42-85C6-3F13899BE097-21109-00000346BD24D01D/CC4A2F75-CDC0-48FA-9183-F69613F0F039.jpg"
+                  alt="2"
+                  class="inline-image photoswipe"
+              /></span>
+            </p>
+            <p>
+              Nutrition Facts<br />Servings: 6<br />Amount per serving
+              <br />Calories 556<br />% Daily Value*<br />Total Fat 18g 23%<br />Saturated
+              Fat 2.7g 13%<br />Cholesterol 30mg 10%<br />Sodium 34mg 1%<br />Total
+              Carbohydrate 77.2g 28%<br />Dietary Fiber 21.5g 77%<br />Total
+              Sugars 2.4g <br />Protein 24.4g <br />Vitamin D 0mcg 0%<br />Calcium
+              131mg 10%<br />Iron 6mg 32%<br />Potassium 1242mg 26%
+            </p>
+            <br />
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
     </div>
-</div>
 
-    
-    </div>
-    
-    <div class="clear"></div>
+    <!-- Photo gallery is only included when exporting. -->
+    <!-- PhotoSwipe gallery -->
 
-</div>
+    <link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css" />
+    <link
+      rel="stylesheet"
+      href="Resources/PhotoSwipe/default-skin/default-skin.css"
+    />
+    <script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
+    <script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
 
-<!-- Photo gallery is only included when exporting. -->
-<!-- PhotoSwipe gallery -->
-
-<link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css">
-<link rel="stylesheet" href="Resources/PhotoSwipe/default-skin/default-skin.css">
-<script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
-<script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="pswp__bg"></div>
-    <div class="pswp__scroll-wrap">
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
         <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
         </div>
         <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close"></button>
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button
+              class="pswp__button pswp__button--close"
+              title="Close"
+            ></button>
+          </div>
+          <button
+            class="pswp__button pswp__button--arrow--left"
+            title="Previous"
+          ></button>
+          <button
+            class="pswp__button pswp__button--arrow--right"
+            title="Next"
+          ></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<script type="text/javascript">
-    var openPhotoSwipe = function(event) {
-        var pswp = document.querySelector('.pswp');
-        
+    <script type="text/javascript">
+      var openPhotoSwipe = function (event) {
+        var pswp = document.querySelector(".pswp");
+
         var element = event.target;
-        var src = element.getAttribute('src');
-        
+        var src = element.getAttribute("src");
+
         // build items array
         var items = [
-            {
-                msrc: 'Images/27420DD4-459E-4C42-85C6-3F13899BE097-21109-00000346BD24D01D/D4091CAD-4277-4D7B-9F18-0DA6918F4680-22499-000003656DE47B28.jpg',
-                src: 'Images/27420DD4-459E-4C42-85C6-3F13899BE097-21109-00000346BD24D01D/D4091CAD-4277-4D7B-9F18-0DA6918F4680-22499-000003656DE47B28.jpg',
-                w: 862,
-                h: 485,
-                title: '1'
-            },
-            {
-                msrc: 'Images/27420DD4-459E-4C42-85C6-3F13899BE097-21109-00000346BD24D01D/CC4A2F75-CDC0-48FA-9183-F69613F0F039.jpg',
-                src: 'Images/27420DD4-459E-4C42-85C6-3F13899BE097-21109-00000346BD24D01D/CC4A2F75-CDC0-48FA-9183-F69613F0F039.jpg',
-                w: 946,
-                h: 2048,
-                title: '2'
-            },
+          {
+            msrc: "Images/27420DD4-459E-4C42-85C6-3F13899BE097-21109-00000346BD24D01D/D4091CAD-4277-4D7B-9F18-0DA6918F4680-22499-000003656DE47B28.jpg",
+            src: "Images/27420DD4-459E-4C42-85C6-3F13899BE097-21109-00000346BD24D01D/D4091CAD-4277-4D7B-9F18-0DA6918F4680-22499-000003656DE47B28.jpg",
+            w: 862.0,
+            h: 485.0,
+            title: "1",
+          },
+
+          {
+            msrc: "Images/27420DD4-459E-4C42-85C6-3F13899BE097-21109-00000346BD24D01D/CC4A2F75-CDC0-48FA-9183-F69613F0F039.jpg",
+            src: "Images/27420DD4-459E-4C42-85C6-3F13899BE097-21109-00000346BD24D01D/CC4A2F75-CDC0-48FA-9183-F69613F0F039.jpg",
+            w: 946.0,
+            h: 2048.0,
+            title: "2",
+          },
         ];
-        
+
         var index = 0;
-        for (var i=0; i<items.length; i++) {
-            var item = items[i];
-            if (item.src == src) {
-                index = i;
-            }
+        for (var i = 0; i < items.length; i++) {
+          var item = items[i];
+          if (item.src == src) {
+            index = i;
+          }
         }
-                         
+
         var options = {
-            index: index,
-            history: false,
-            focus: true,
-            captionEl: true,
-            fullscreenEl: false,
-            zoomEl: false,
-            shareEl: false,
-            preloaderEl: false,
-            bgOpacity: 0.9,
-            showHideOpacity: true
+          index: index,
+          history: false,
+          focus: true,
+          captionEl: true,
+          fullscreenEl: false,
+          zoomEl: false,
+          shareEl: false,
+          preloaderEl: false,
+          bgOpacity: 0.9,
+          showHideOpacity: true,
         };
-                             
-        var gallery = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+
+        var gallery = new PhotoSwipe(
+          pswp,
+          PhotoSwipeUI_Default,
+          items,
+          options,
+        );
         gallery.init();
-    };
+      };
 
-    var elements = document.querySelectorAll('.photoswipe');
-    for (var i=0; i<elements.length; i++) {
+      var elements = document.querySelectorAll(".photoswipe");
+      for (var i = 0; i < elements.length; i++) {
         var element = elements[i];
-        element.addEventListener('click', openPhotoSwipe);
-    }
-</script>
-
-
-    </body>
+        element.addEventListener("click", openPhotoSwipe);
+      }
+    </script>
+  </body>
 </html>

@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://production-media.gousto.co.uk/cms/mood-image/513---Summer-Greens-Pasta-Primavera-x200.jpg"
+          >
+            <img
+              src="Images/7FF80963-D1A7-47C5-A8CF-F4B87AC7B54F/90001FD3-2461-450E-ACB0-543ECA4B8CAF.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Triple Green Pasta Primavera</h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p itemprop="recipeCategory" class="categories">Gousto</p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Total Time: </b><span itemprop="totalTime">20 min</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">2 or 4 servings</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.gousto.co.uk/cookbook/vegetarian-recipes/triple-green-pasta-primavera"
+          >
+            <span itemprop="author">gousto.co.uk</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>120</strong>g baby spinach
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>80</strong>g runner beans
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>10</strong>g fresh chives
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>200</strong>g linguine †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> leek
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>40</strong>g Cornish clotted cream †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>40</strong>g Italian hard cheese †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> garlic clove
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tsp dried dillweed
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Instructions for 2 [for 3] [for 4] portion recipe
+            </p>
+            <p class="line">1. Boil a kettle</p>
+            <p class="line">
+              Slice the leek[s] finely, discarding the root end[s]
+            </p>
+            <p class="line">
+              Heat a large, wide-based pan (preferably non-stick) over a
+              medium-high heat with a knob of butter and 1 tbsp [2 tbsp] olive
+              oil
+            </p>
+            <p class="line">
+              2. Once the butter has melted, reduce the heat to medium-low and
+              add the leek and dried dill with a pinch of salt
+            </p>
+            <p class="line">Cook for 2-3 min or until slightly browned</p>
+            <p class="line">
+              3. Meanwhile, add the linguine to a large pot of boiling water
+              over a high heat with a big pinch of salt
+            </p>
+            <p class="line">
+              Cook for 7-8 min or until partially cooked (the linguine will
+              finish cooking later on)
+            </p>
+            <p class="line">
+              Meanwhile, peel and finely chop (or grate) the garlic
+            </p>
+            <p class="line">
+              4. Add the garlic to the leek and cook for 1 min, then remove the
+              pan from the heat
+            </p>
+            <p class="line">
+              5. Top and tail the runner beans and cut into bite-size pieces
+            </p>
+            <p class="line">Chop the chives finely</p>
+            <p class="line">Grate the cheese</p>
+            <p class="line">
+              6. Add the runner beans to the linguine and cook for a further 1
+              min or until the beans are just cooked but retaining colour and a
+              slight crunch
+            </p>
+            <p class="line">
+              Reserve a ladle of starchy pasta water, then drain the pasta and
+              beans
+            </p>
+            <p class="line">Meanwhile, return the leek pan to a medium heat</p>
+            <p class="line">
+              7. Add the spinach and half the chives to the leek and cook for
+              2-3 min or until the spinach has wilted slightly, mixing through
+              to combine
+            </p>
+            <p class="line">
+              Remove the pan from the heat, add the drained linguine, clotted
+              cream and half the cheese
+            </p>
+            <p class="line">
+              Stir everything together, adding 2-3 tbsp starchy pasta water to
+              loosen it
+            </p>
+            <p class="line">
+              Season the linguine generously with salt and pepper, scatter over
+              the remaining chives and cheese and drizzle with olive oil
+            </p>
+            <p class="line">Enjoy!</p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Typical values per 100g per serving<br />Energy 597 kJ 2412 kJ 141
+              kcal 572 kcal<br />Fat 5.0 g 20.0 g<br />of which saturates 2.9 g
+              11.5 g<br />Carbohydrate 20.1 g 80.9 g<br />of which sugars 2.4 g
+              9.6 g<br />Fibre 2.4 g 9.6 g<br />Protein 5.2 g 21.1 g<br />Salt
+              0.08 g 0.34 g
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

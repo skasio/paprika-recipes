@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://theplantbasedschool.com/wp-content/uploads/2021/09/vegan-tuna-12-150x199.jpg"
+          >
+            <img
+              src="Images/3FE2CFC1-6453-482E-9C66-8D2ED2502E3D/E1874263-2E93-4BAA-A289-C861D6AF88A0.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Vegan Tuna</h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Prep Time: </b><span itemprop="prepTime">15 mins</span>
+
+          <b>Cook Time: </b><span itemprop="cookTime">0 mins</span>
+
+          <b>Servings: </b
+          ><span itemprop="recipeYield">Servings: 4 servings</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a itemprop="url" href="https://theplantbasedschool.com/vegan-tuna/">
+            <span itemprop="author">theplantbasedschool.com</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> cans chickpeas drained and rinsed
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>80</strong>ml mayonnaise
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tbsp soy sauce
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tbsp mustard
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1-2</strong> nori sheets. blended
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>½</strong> medium red onion chopped
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> stalk celery chopped
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> handful fresh parsley or dill, chopped
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>½</strong> lemon the juice
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tbsp pickles or capers, chopped
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> pinches salt or more to taste
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> twists black pepper
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Drain and rinse 2 cans (15 ounces each) chickpeas and transfer
+              them into a container with shallow edges such as an oven dish.
+            </p>
+            <p class="line">Mash them with a sturdy fork or potato masher.</p>
+            <p class="line">
+              Tip: It&apos;s easier to mash the chickpeas in a container with
+              low edges like an oven dish rather than in a bowl.
+            </p>
+            <p class="line">
+              Add vegan mayo, 1 tablespoon soy sauce, 1 tablespoon mustard, and
+              1 tablespoon nori sheet (blended or finely chopped).
+            </p>
+            <p class="line">
+              Then add ½ medium red onion, 1 stalk celery, 1 handful fresh
+              parsley, 1 tablespoon pickles (all chopped) and the juice of ½
+              lemon.
+            </p>
+            <p class="line">
+              Season with 2 pinches salt and 2 twists black pepper.
+            </p>
+            <p class="line">
+              Mix with a fork until all ingredients are well combined. Taste and
+              adjust for salt.
+            </p>
+            <p class="line">
+              Serve in a sandwich, on toasted bread, on a baked potato, or eat
+              as is as with a side of lettuce leaves as a salad.
+            </p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

@@ -1,194 +1,304 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="https://production-media.gousto.co.uk/cms/mood-image/4240---Goats-Cheese-Leek--Spinach-Pasta-Bake-1647512076931-x200.jpg">
-                <img src="Images/4B461C20-A82C-40CA-813E-DC57F13E16CB/BB98E7CD-3C64-4AE3-9356-68B50BBA67BF.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a
+            href="https://production-media.gousto.co.uk/cms/mood-image/4240---Goats-Cheese-Leek--Spinach-Pasta-Bake-1647512076931-x200.jpg"
+          >
+            <img
+              src="Images/4B461C20-A82C-40CA-813E-DC57F13E16CB/BB98E7CD-3C64-4AE3-9356-68B50BBA67BF.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
-        <h1 itemprop="name" class="name">Goats&#39; Cheese, Leek &amp; Spinach Pasta Bake</h1>
-        
+        <h1 itemprop="name" class="name">
+          Goats&apos; Cheese, Leek &amp; Spinach Pasta Bake
+        </h1>
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
-        <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
+        <p itemprop="aggregateRating" class="rating" value="5">★★★★★</p>
+
+        <p itemprop="recipeCategory" class="categories">Gousto</p>
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            <b>Total Time: </b><span itemprop="">30 min</span>
-            <b>Servings: </b><span itemprop="">2</span>
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-                <b>Source: </b>
-                    <a itemprop="url" href="https://www.gousto.co.uk/cookbook/recipes/goats-cheese-leek-spinach-pasta-bake">
-                        <span itemprop="author">gousto.co.uk</span>
-                    </a>
-                            
+          <b>Total Time: </b><span itemprop="totalTime">30 min</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">2</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.gousto.co.uk/cookbook/recipes/goats-cheese-leek-spinach-pasta-bake"
+          >
+            <span itemprop="author">gousto.co.uk</span>
+          </a>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>1</strong> leek</p><p class="line" itemprop="recipeIngredient"><strong>30</strong>g pine nut &amp; seed mix †</p><p class="line" itemprop="recipeIngredient"><strong>75</strong>g soft goats&apos; cheese †</p><p class="line" itemprop="recipeIngredient"><strong>125</strong>g cherry tomatoes</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tsp dried oregano</p><p class="line" itemprop="recipeIngredient"><strong>10</strong>g basil</p><p class="line" itemprop="recipeIngredient"><strong>11</strong>g vegetable stock mix</p><p class="line" itemprop="recipeIngredient"><strong>80</strong>g spinach</p><p class="line" itemprop="recipeIngredient"><strong>150</strong>g tortiglioni †</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> garlic cloves</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> leek
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>30</strong>g pine nut &amp; seed mix †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>75</strong>g soft goats&apos; cheese †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>125</strong>g cherry tomatoes
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tsp dried oregano
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>10</strong>g basil
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>11</strong>g vegetable stock mix
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>80</strong>g spinach
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>150</strong>g tortiglioni †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> garlic cloves
+            </p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Preheat the oven to 240ºC/ 220ºC (fan)/ gas 9</p><p class="line">Boil a kettle</p><p class="line">Chop the leek[s] in half lengthways and wash thoroughly to remove any grit from between the leaves, then top, tail and slice finely</p><p class="line">Peel and finely chop (or grate) the garlic</p><p class="line">Add the tortiglioni to a pot of boiled water with a pinch of salt, bring to the boil over a high heat and cook for 8-10 min or until cooked with a slight bite</p><p class="line">While the pasta is cooking, heat a large, wide-based pan (preferably non-stick) with a drizzle of olive oil and a knob of butter over a medium-high heat</p><p class="line">Once hot, add the sliced leek and chopped garlic with a pinch of salt and cook for 4-5 min or until beginning to soften</p><p class="line">Meanwhile, dissolve the vegetable stock mix and most of the goats&apos; cheese (you&apos;ll use the rest later!)in 250ml [450ml] boiled water – this is your cheesy stock</p><p class="line">Chop the baby plum tomatoes in half</p><p class="line">Once the leeks have slightly softened, add the dried oregano and halved baby plum tomatoes to the pan and cook for 1-2 min</p><p class="line">Meanwhile, chop the basil finely, including the stalks</p><p class="line">Wash the spinach, then pat it dry with kitchen paper</p><p class="line">Add 1 tbsp [2 tbsp] flour to the panand give everything a good mix up</p><p class="line">Add the cheesy stock with the spinach and season with a generous grind of black pepper</p><p class="line">Cook for 1-2 min, stirring frequently, or until the sauce has thickened slightly</p><p class="line">Add the drained tortiglioni to the sauce with most of the chopped basil (save some for garnish!) and mix everything together – this is your saucy leek &amp; spinach pasta</p><p class="line">Add the saucy leek &amp; spinach pasta to an oven-proof dish, then crumble over the remaining goats&apos; cheese</p><p class="line">Top with the pine nut &amp; seed mix and put the dish in the oven for 10-15 min or until golden and crispy – this is your goats’ cheese, leek &amp; spinach pasta bake</p><p class="line">Serve the goats’ cheese, leek &amp; spinach pasta bake topped with the reserved chopped basil and a generous grind of black pepper</p><p class="line">Enjoy!</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Preheat the oven to 240ºC/ 220ºC (fan)/ gas 9</p>
+            <p class="line">Boil a kettle</p>
+            <p class="line">
+              Chop the leek[s] in half lengthways and wash thoroughly to remove
+              any grit from between the leaves, then top, tail and slice finely
+            </p>
+            <p class="line">Peel and finely chop (or grate) the garlic</p>
+            <p class="line">
+              Add the tortiglioni to a pot of boiled water with a pinch of salt,
+              bring to the boil over a high heat and cook for 8-10 min or until
+              cooked with a slight bite
+            </p>
+            <p class="line">
+              While the pasta is cooking, heat a large, wide-based pan
+              (preferably non-stick) with a drizzle of olive oil and a knob of
+              butter over a medium-high heat
+            </p>
+            <p class="line">
+              Once hot, add the sliced leek and chopped garlic with a pinch of
+              salt and cook for 4-5 min or until beginning to soften
+            </p>
+            <p class="line">
+              Meanwhile, dissolve the vegetable stock mix and most of the
+              goats&apos; cheese (you&apos;ll use the rest later!)in 250ml
+              [450ml] boiled water – this is your cheesy stock
+            </p>
+            <p class="line">Chop the baby plum tomatoes in half</p>
+            <p class="line">
+              Once the leeks have slightly softened, add the dried oregano and
+              halved baby plum tomatoes to the pan and cook for 1-2 min
+            </p>
+            <p class="line">
+              Meanwhile, chop the basil finely, including the stalks
+            </p>
+            <p class="line">
+              Wash the spinach, then pat it dry with kitchen paper
+            </p>
+            <p class="line">
+              Add 1 tbsp [2 tbsp] flour to the panand give everything a good mix
+              up
+            </p>
+            <p class="line">
+              Add the cheesy stock with the spinach and season with a generous
+              grind of black pepper
+            </p>
+            <p class="line">
+              Cook for 1-2 min, stirring frequently, or until the sauce has
+              thickened slightly
+            </p>
+            <p class="line">
+              Add the drained tortiglioni to the sauce with most of the chopped
+              basil (save some for garnish!) and mix everything together – this
+              is your saucy leek &amp; spinach pasta
+            </p>
+            <p class="line">
+              Add the saucy leek &amp; spinach pasta to an oven-proof dish, then
+              crumble over the remaining goats&apos; cheese
+            </p>
+            <p class="line">
+              Top with the pine nut &amp; seed mix and put the dish in the oven
+              for 10-15 min or until golden and crispy – this is your goats’
+              cheese, leek &amp; spinach pasta bake
+            </p>
+            <p class="line">
+              Serve the goats’ cheese, leek &amp; spinach pasta bake topped with
+              the reserved chopped basil and a generous grind of black pepper
+            </p>
+            <p class="line">Enjoy!</p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
-    
-    <div class="notesbox">
-        <h3 class="subhead">Notes</h3>
-        <div itemprop="comment" class="notes text">
-            <p>Tip: It doesn&apos;t need to be fully cooked, as it will go in the oven later!</p><p>Once done, drain the tortiglioni and set it aside for later</p>
+        <!-- Notes -->
+
+        <div class="notesbox">
+          <h3 class="subhead">Notes</h3>
+          <div itemprop="comment" class="notes text">
+            <p>
+              Tip: It doesn&apos;t need to be fully cooked, as it will go in the
+              oven later!
+            </p>
+            <p>Once done, drain the tortiglioni and set it aside for later</p>
+          </div>
         </div>
-    </div>
-    
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
         <!-- Used in two different places depending on the recipe layout -->
-<div class="nutritionbox textbox">
-    <h3 class="subhead">Nutrition</h3>
-    <div itemprop="nutrition" class="nutrition text">
-        <p>Typical values per 100g per serving<br/>Energy 562 kJ 2235 kJ 133 kcal 530 kcal<br/>Fat 4.6 g 18.1 g<br/>of which saturates 1.7 g 6.9 g<br/>Carbohydrate 18.5 g 73.4 g<br/>of which sugars 2.8 g 11.1 g<br/>Fibre 2.6 g 10.5 g<br/>Protein 5.7 g 22.5 g<br/>Salt 0.45 g 1.78 g</p>
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Typical values per 100g per serving<br />Energy 562 kJ 2235 kJ 133
+              kcal 530 kcal<br />Fat 4.6 g 18.1 g<br />of which saturates 1.7 g
+              6.9 g<br />Carbohydrate 18.5 g 73.4 g<br />of which sugars 2.8 g
+              11.1 g<br />Fibre 2.6 g 10.5 g<br />Protein 5.7 g 22.5 g<br />Salt
+              0.45 g 1.78 g
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
     </div>
-</div>
-
-    
-    </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-    </body>
+  </body>
 </html>

@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://live-production.wcms.abc-cdn.net.au/28a2ad65588b99328502edb878f23767?impolicy=wcms_crop_resize&cropH=2667&cropW=4000&xPos=0&yPos=0&width=862&height=575"
+          >
+            <img
+              src="Images/BDB637B6-A2D1-40FB-A5A9-C41A2E6CFB66/5C29B51A-3543-437F-BD78-DDF0D7DC7E01.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Greek Salad with Gnocchi</h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Prep Time: </b><span itemprop="prepTime">0:15</span>
+
+          <b>Cook Time: </b><span itemprop="cookTime">0:05</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">4</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.abc.net.au/everyday/greek-salad-with-gnocchi-hetty-lui-mckinnon/103412584"
+          >
+            <span itemprop="author">abc.net.au</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1/2</strong> small red onion, thinly sliced
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> Tablespoon red wine vinegar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Extra virgin olive oil
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>500</strong>g dry, vacuum-sealed or frozen gnocchi
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Sea salt and black pepper
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>500</strong>g cherry or grape tomatoes, halved
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3</strong> Lebanese cucumbers (about 275g,) halved
+              lengthwise and cut into 1cm pieces
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> small green capsicum, core, membrane and seeds
+              removed and cut crosswise into thinly sliced
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>20-25</strong> Kalamata olives, seeds removed and torn
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>200</strong>g feta, broken into large chunks
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Handful of mint leaves
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> teaspoon dried oregano
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> teaspoon dried mint
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              1. In a large bowl, add the red onions and red wine vinegar and
+              leave to marinate for 5-10 minutes while you prepare the rest of
+              the salad. This softens the flavour of raw onion.
+            </p>
+            <p class="line">
+              2. Heat a large frying pan on medium high heat for 2 minutes until
+              very hot. Add 1 Tablespoon of olive oil, along with the gnocchi.
+              Drizzle the top of the gnocchi with a little more oil so it&apos;s
+              covered. Season with sea salt and lots of black pepper. Leave to
+              cook undisturbed for 1 to 2 minutes until golden on the bottom and
+              then toss constantly until the gnocchi is golden all over, another
+              2-3 minutes. If it ever looks dry, drizzle with a little more
+              olive oil. Turn off the heat.
+            </p>
+            <p class="line">
+              3. To the red onion, add the tomatoes, cucumber, capsicum, black
+              olives, feta, mint, and dried herbs. Add 2 to 3 tablespoons of
+              olive oil, and season well with sea salt and black pepper. When
+              ready to eat, add the gnocchi, toss well to combine. Serve
+              immediately.
+            </p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

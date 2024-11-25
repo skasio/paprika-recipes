@@ -1,0 +1,297 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://production-media.gousto.co.uk/cms/mood-image/1686---10-Min-Ham-Hock-Ploughman_s-_-Chutney-Dressing-5885.2-x200.jpg"
+          >
+            <img
+              src="Images/57DE4DED-2A96-48C5-8B3C-35521891D316/EE5B64FB-4885-499C-A14B-8AC762C00399.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">
+          10-Min Ham Hock Ploughman&apos;s &amp; Chutney Dressing
+        </h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Total Time: </b>
+          <span itemprop="totalTime">10 min</span>
+
+          <b>Servings: </b>
+          <span itemprop="recipeYield">2 or 4 servings</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.gousto.co.uk/cookbook/pork-recipes/10-min-ham-hock-ploughmans-chutney-dressing"
+          >
+            <span itemprop="author">gousto.co.uk</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>125</strong>g cherry tomatoes
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> ciabatta roll †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>40</strong>g cheddar cheese †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> cider vinegar sachet (15ml)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>20</strong>g green tomato chutney †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>100</strong>g British shredded ham hock
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>21</strong>g wholegrain mustard †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> seasonal apple
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> bag of walnuts (25g) †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>50</strong>g lamb&apos;s lettuce
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Instructions for 2 [for 3] [for 4] portion recipe
+            </p>
+            <p class="line">1. Before you begin...</p>
+            <p class="line">Get all your ingredients and equipment ready</p>
+            <p class="line">Skim through these steps</p>
+            <p class="line">Wash your fruit and veg</p>
+            <p class="line">
+              Note: Equipment and pan sizes vary. Make sure you cook food
+              thoroughly (even if it takes you a little longer than 10 mins)
+            </p>
+            <p class="line">2. Now let&apos;s get started!</p>
+            <p class="line">
+              Preheat the oven to 220°C/ 200°C (fan)/ 395°F/ Gas 6
+            </p>
+            <p class="line">
+              Tear up the ciabatta[s] into bite-sized pieces, then add to a
+              baking tray with the walnuts and a generous drizzle of olive oil
+              and a pinch of salt and black pepper
+            </p>
+            <p class="line">
+              Put the tray into the oven for 6-8 min or until crisp – these are
+              your croutons and toasted walnuts
+            </p>
+            <p class="line">
+              3. Heat a large, wide-based pan (preferably non-stick) with a
+              drizzle of olive oil over a medium-low heat
+            </p>
+            <p class="line">
+              Once hot, add the shredded ham hock and cook for 3-4 min or until
+              warmed through
+            </p>
+            <p class="line">
+              4. While the shredded ham hock is in the pan, halve the cherry
+              tomatoes
+            </p>
+            <p class="line">
+              5. Cut the apple[s] into quarters, then carefully remove the cores
+            </p>
+            <p class="line">
+              Chop the apple quarters (skin on) into bite-sized pieces
+            </p>
+            <p class="line">
+              6. Using a peeler, create shavings of the cheddar cheese
+            </p>
+            <p class="line">
+              Tip: Grate any leftover cheese and sprinkle this onto the salad at
+              the end!
+            </p>
+            <p class="line">
+              7. Add the green tomato chutney, cider vinegar and wholegrain
+              mustard to a small bowl
+            </p>
+            <p class="line">
+              Add 2 tbsp [4 tbsp] olive oil and season with a pinch of salt and
+              pepper
+            </p>
+            <p class="line">
+              Give everything a good mix up – this is your chutney dressing
+            </p>
+            <p class="line">
+              Assemble your salad by dividing the lamb&apos;s lettuce, halved
+              tomatoes and chopped apples between your bowls
+            </p>
+            <p class="line">
+              Sprinkle over the shredded ham hock, croutons and toasted walnuts
+              and drizzle over the chutney dressing
+            </p>
+            <p class="line">
+              Top with the cheddar shavings and any remaining grated cheese and
+              enjoy!
+            </p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Typical values per 100g per serving<br />Energy 608 kJ 1858 kJ 145
+              kcal 444 kcal<br />Fat 7.0 g 21.3 g<br />of which saturates 2.2 g
+              6.6 g<br />Carbohydrate 11.4 g 34.9 g<br />of which sugars 5.3 g
+              16.3 g<br />Fibre 1.5 g 4.7 g<br />Protein 8.8 g 26.9 g<br />Salt
+              0.61 g 1.87 g
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

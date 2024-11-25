@@ -1,187 +1,242 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/1065_2_1393856705.jpg?tr=w-800,h-1066">
-                <img src="Images/DC39FDFE-FBA4-477E-B7B8-9B005C6EB09D-21470-00000351C024B9F4/667FE145-C84B-4C95-9494-60CA1449BA43-21470-00000351C914A0A9.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a
+            href="https://img.jamieoliver.com/jamieoliver/recipe-database/oldImages/large/1065_2_1393856705.jpg?tr=w-800,h-1066"
+          >
+            <img
+              src="Images/DC39FDFE-FBA4-477E-B7B8-9B005C6EB09D-21470-00000351C024B9F4/667FE145-C84B-4C95-9494-60CA1449BA43-21470-00000351C914A0A9.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Classic Tomato Spaghetti</h1>
-        
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            <b>Total Time: </b><span itemprop="">1 hr 15 min</span>
-            <b>Servings: </b><span itemprop="">8 1 hour 15 minutes</span>
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-                <b>Source: </b>
-                    <a itemprop="url" href="https://www.jamieoliver.com/recipes/pasta-recipes/classic-tomato-spaghetti/">
-                        <span itemprop="author">jamieoliver.com</span>
-                    </a>
-                            
+          <b>Total Time: </b><span itemprop="totalTime">1 hr 15 min</span>
+
+          <b>Servings: </b
+          ><span itemprop="recipeYield">8 1 hour 15 minutes</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.jamieoliver.com/recipes/pasta-recipes/classic-tomato-spaghetti/"
+          >
+            <span itemprop="author">jamieoliver.com</span>
+          </a>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>1</strong> bunch of fresh basil</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> medium onion</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cloves of garlic</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> kg ripe tomatoes , or 2 x 400g tins of quality chopped tomatoes</p><p class="line" itemprop="recipeIngredient">olive oil</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon red wine or balsamic vinegar</p><p class="line" itemprop="recipeIngredient"><strong>480</strong> g dried wholewheat spaghetti</p><p class="line" itemprop="recipeIngredient"><strong>15</strong> g Parmesan cheese</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> bunch of fresh basil
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> medium onion
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> cloves of garlic
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> kg ripe tomatoes , or 2 x 400g tins of quality
+              chopped tomatoes
+            </p>
+            <p class="line" itemprop="recipeIngredient">olive oil</p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tablespoon red wine or balsamic vinegar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>480</strong> g dried wholewheat spaghetti
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>15</strong> g Parmesan cheese
+            </p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Pick the basil leaves onto a chopping board (reserving a few baby leaves to garnish), then roughly chop the remaining leaves and finely chop the stalks.Peel and finely slice the onion and garlic. If using fresh, cut the tomatoes in half, then roughly chop them or carefully open the tins of tomatoes.Put a saucepan on a medium heat and add 1 tablespoon of olive oil and the onion, then cook for around 7 minutes, or until soft and lightly golden.Stir in the garlic and basil stalks for a few minutes, then add the fresh or tinned tomatoes and the vinegar.Season with a tiny pinch of salt and pepper, then continue cooking for around 15 minutes, stirring occasionally.Stir in the chopped basil leaves, then reduce to low and leave to tick away. Meanwhile…Carefully fill a large pot three-quarters of the way up with boiling water, add a tiny pinch of salt and bring back to the boil.Add the spaghetti and cook according to packet instructions – you want to cook your pasta until it is al dente. This translates as ‘to the tooth’ and means that it should be soft enough to eat, but still have a bit of a bite and firmness to it. Use the timings on the packet instructions as a guide, but try some just before the time is up to make sure it’s perfectly cooked.Once the pasta is done, ladle out and reserve a cup of the cooking water and keep it to one side, then drain in a colander over the sink and tip the spaghetti back into the pot.Stir the spaghetti into the sauce, adding a splash of the pasta water to loosen, if needed.Serve with the reserved basil leaves sprinkled over the top and use a microplane to finely grate the Parmesan cheese, then sprinkle over.PRINT THIS RECIPE (UK)PRINT THIS RECIPE (USA)</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Pick the basil leaves onto a chopping board (reserving a few baby
+              leaves to garnish), then roughly chop the remaining leaves and
+              finely chop the stalks.Peel and finely slice the onion and garlic.
+              If using fresh, cut the tomatoes in half, then roughly chop them
+              or carefully open the tins of tomatoes.Put a saucepan on a medium
+              heat and add 1 tablespoon of olive oil and the onion, then cook
+              for around 7 minutes, or until soft and lightly golden.Stir in the
+              garlic and basil stalks for a few minutes, then add the fresh or
+              tinned tomatoes and the vinegar.Season with a tiny pinch of salt
+              and pepper, then continue cooking for around 15 minutes, stirring
+              occasionally.Stir in the chopped basil leaves, then reduce to low
+              and leave to tick away. Meanwhile…Carefully fill a large pot
+              three-quarters of the way up with boiling water, add a tiny pinch
+              of salt and bring back to the boil.Add the spaghetti and cook
+              according to packet instructions – you want to cook your pasta
+              until it is al dente. This translates as ‘to the tooth’ and means
+              that it should be soft enough to eat, but still have a bit of a
+              bite and firmness to it. Use the timings on the packet
+              instructions as a guide, but try some just before the time is up
+              to make sure it’s perfectly cooked.Once the pasta is done, ladle
+              out and reserve a cup of the cooking water and keep it to one
+              side, then drain in a colander over the sink and tip the spaghetti
+              back into the pot.Stir the spaghetti into the sauce, adding a
+              splash of the pasta water to loosen, if needed.Serve with the
+              reserved basil leaves sprinkled over the top and use a microplane
+              to finely grate the Parmesan cheese, then sprinkle over.PRINT THIS
+              RECIPE (UK)PRINT THIS RECIPE (USA)
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
+        <!-- Notes -->
 
+        <!-- Nutrition (in regular mode it goes below the notes) -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
         <!-- Used in two different places depending on the recipe layout -->
-<div class="nutritionbox textbox">
-    <h3 class="subhead">Nutrition</h3>
-    <div itemprop="nutrition" class="nutrition text">
-        <p>Calories 316 16%<br/>Fat 3.3g 5%<br/>Saturates 0.9g 5%<br/>Sugars 10.1g 11%<br/>Salt 0.2g 3%<br/>Protein 13.1g 26%<br/>Carbs 62.7g 24%<br/>Fibre 11.1g -</p>
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Calories 316 16%<br />Fat 3.3g 5%<br />Saturates 0.9g 5%<br />Sugars
+              10.1g 11%<br />Salt 0.2g 3%<br />Protein 13.1g 26%<br />Carbs
+              62.7g 24%<br />Fibre 11.1g -
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
     </div>
-</div>
-
-    
-    </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-    </body>
+  </body>
 </html>

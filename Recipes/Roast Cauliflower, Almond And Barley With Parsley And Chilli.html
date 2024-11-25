@@ -1,277 +1,391 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="#">
-                <img src="Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/8CD31FE9-476A-4F15-988C-7DE3A2878343.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a href="#">
+            <img
+              src="Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/8CD31FE9-476A-4F15-988C-7DE3A2878343.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
-        <h1 itemprop="name" class="name">Roast Cauliflower, Almond And Barley With Parsley And Chilli</h1>
-        
+        <h1 itemprop="name" class="name">
+          Roast Cauliflower, Almond And Barley With Parsley And Chilli
+        </h1>
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
-        <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
+        <p itemprop="aggregateRating" class="rating" value="5">★★★★★</p>
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            <b>Servings: </b><span itemprop="">4</span>
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
+          <b>Servings: </b><span itemprop="recipeYield">4</span>
 
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <span itemprop="author">River Cottage Much More Veg</span>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>Roast Cauliflower:</strong></p><p class="line" itemprop="recipeIngredient"><strong>100</strong>g pearl barley or pearled spelt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> medium-large cauliflower (800g-1kg untrimmed)</p><p class="line" itemprop="recipeIngredient"><strong>6</strong> garlic cloves, peeled and roughly bashed</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tbsp olive or rapeseed oil</p><p class="line" itemprop="recipeIngredient"><strong>75</strong>g blanched almonds</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tbsp capers, rinsed and drained </p><p class="line" itemprop="recipeIngredient"><strong>½</strong> lemon, to spritz</p><p class="line" itemprop="recipeIngredient">Sea salt and black pepper</p><br/><p class="line" itemprop="recipeIngredient"><strong>PARSLEY AND CHILLI DRESSING:</strong></p><p class="line" itemprop="recipeIngredient"><strong>1</strong> medium-hot red chilli, deseeded and finely chopped</p><p class="line" itemprop="recipeIngredient">A small bunch of flat-leaf parsley (about 25g), leaves picked from the stems and finely chopped 1 small garlic clove, finely chopped</p><p class="line" itemprop="recipeIngredient"><strong>2-3</strong> tbsp extra virgin olive oil</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>Roast Cauliflower:</strong>
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>100</strong>g pearl barley or pearled spelt
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong>kg cauliflower
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>6</strong> garlic cloves, peeled and roughly bashed
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> tbsp olive or rapeseed oil
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>75</strong>g blanched almonds
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> tbsp capers, rinsed and drained
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>½</strong> lemon, to spritz
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              Sea salt and black pepper
+            </p>
+            <br />
+            <p class="line" itemprop="recipeIngredient">
+              <strong>PARSLEY AND CHILLI DRESSING:</strong>
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> medium-hot red chilli, deseeded and finely
+              chopped
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              A small bunch of flat-leaf parsley (about 25g), leaves picked from
+              the stems and finely chopped 1 small garlic clove, finely chopped
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2-3</strong> tbsp extra virgin olive oil
+            </p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
-    <div class="descriptionbox">
-        <h3 class="subhead">Description</h3>
-        <div itemprop="description" class="description text">
-            <p>Plump barley grains, earthy-sweet cauliflower and toasty almonds are all tied together here with a piquant parsley and chilli dressing to make a deliciously satisfying dish.</p>
+      <div class="right-column">
+        <!-- Description -->
+
+        <div class="descriptionbox">
+          <h3 class="subhead">Description</h3>
+          <div itemprop="description" class="description text">
+            <p>
+              Plump barley grains, earthy-sweet cauliflower and toasty almonds
+              are all tied together here with a piquant parsley and chilli
+              dressing to make a deliciously satisfying dish.
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Start by cooking the barley or spelt. If you have time, soak the grain in cold water first, for 20-30 minutes. </p><p class="line">Either way, rinse it well in a sieve then tip into a saucepan, add a pinch of salt and cover with plenty of cold water (it will absorb a lot). Bring to the boil, lower the heat and simmer until tender: barley should take 35-40 minutes, spelt only about 20 minutes.</p><p class="line">Once cooked, drain in a sieve and set aside.</p><p class="line">In the meantime, preheat the oven to 190°C/Fan 170°C/Gas 5.</p><p class="line">Trim away the coarser leaves and stalk end of the cauliflower then roughly cut up the rest - it should still be in medium-large florets. Include the stalk and tender leaves too.</p><p class="line">Put the cauliflower into a large roasting tin with the garlic, oil and some salt and pepper. Toss together, then roast for 20 minutes.</p><p class="line">Stir the cauliflower, then scatter over the almonds and capers and return to the oven for 15 minutes, until the cauliflower is tender and well browned in places and the almonds are golden brown.</p><p class="line">Scatter over the cooked grain and return to the oven for another 5 minutes.</p><p class="line">While the veg is cooking, make the dressing: combine all the ingredients together in a bowl and season with salt and pepper.</p><p class="line">Transfer the contents of the roasting tin to warmed serving bowls. </p><p class="line">Dot the parsley dressing over the cauliflower and grain, squeeze over some lemon juice, and serve straight away.</p><br/><p class="line"><strong>Swaps</strong><br/>Grains Use cooked wholegrain (or red or black) rice instead of barley or spelt.<br/>Veg Replace some or all of the cauliflower with large broccoli florets.<br/>Or base the dish on root veg - chunks of celeriac, carrot and parsnip - giving them a bit longer in the oven to become tender before you add the almonds.</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Start by cooking the barley or spelt. If you have time, soak the
+              grain in cold water first, for 20-30 minutes.
+            </p>
+            <p class="line">
+              Either way, rinse it well in a sieve then tip into a saucepan, add
+              a pinch of salt and cover with plenty of cold water (it will
+              absorb a lot). Bring to the boil, lower the heat and simmer until
+              tender: barley should take 35-40 minutes, spelt only about 20
+              minutes.
+            </p>
+            <p class="line">Once cooked, drain in a sieve and set aside.</p>
+            <p class="line">
+              In the meantime, preheat the oven to 190°C/Fan 170°C/Gas 5.
+            </p>
+            <p class="line">
+              Trim away the coarser leaves and stalk end of the cauliflower then
+              roughly cut up the rest - it should still be in medium-large
+              florets. Include the stalk and tender leaves too.
+            </p>
+            <p class="line">
+              Put the cauliflower into a large roasting tin with the garlic, oil
+              and some salt and pepper. Toss together, then roast for 20
+              minutes.
+            </p>
+            <p class="line">
+              Stir the cauliflower, then scatter over the almonds and capers and
+              return to the oven for 15 minutes, until the cauliflower is tender
+              and well browned in places and the almonds are golden brown.
+            </p>
+            <p class="line">
+              Scatter over the cooked grain and return to the oven for another 5
+              minutes.
+            </p>
+            <p class="line">
+              While the veg is cooking, make the dressing: combine all the
+              ingredients together in a bowl and season with salt and pepper.
+            </p>
+            <p class="line">
+              Transfer the contents of the roasting tin to warmed serving bowls.
+            </p>
+            <p class="line">
+              Dot the parsley dressing over the cauliflower and grain, squeeze
+              over some lemon juice, and serve straight away.
+            </p>
+            <br />
+            <p class="line">
+              <strong>Swaps</strong><br />Grains Use cooked wholegrain (or red
+              or black) rice instead of barley or spelt.<br />Veg Replace some
+              or all of the cauliflower with large broccoli florets.<br />Or
+              base the dish on root veg - chunks of celeriac, carrot and parsnip
+              - giving them a bit longer in the oven to become tender before you
+              add the almonds.
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
+        <!-- Notes -->
 
+        <!-- Nutrition (in regular mode it goes below the notes) -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
         <!-- Used in two different places depending on the recipe layout -->
+      </div>
 
-    
+      <div class="clear"></div>
     </div>
-    
-    <div class="clear"></div>
 
-</div>
+    <!-- Photo gallery is only included when exporting. -->
+    <!-- PhotoSwipe gallery -->
 
-<!-- Photo gallery is only included when exporting. -->
-<!-- PhotoSwipe gallery -->
+    <link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css" />
+    <link
+      rel="stylesheet"
+      href="Resources/PhotoSwipe/default-skin/default-skin.css"
+    />
+    <script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
+    <script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
 
-<link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css">
-<link rel="stylesheet" href="Resources/PhotoSwipe/default-skin/default-skin.css">
-<script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
-<script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="pswp__bg"></div>
-    <div class="pswp__scroll-wrap">
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
         <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
         </div>
         <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close"></button>
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button
+              class="pswp__button pswp__button--close"
+              title="Close"
+            ></button>
+          </div>
+          <button
+            class="pswp__button pswp__button--arrow--left"
+            title="Previous"
+          ></button>
+          <button
+            class="pswp__button pswp__button--arrow--right"
+            title="Next"
+          ></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<script type="text/javascript">
-    var openPhotoSwipe = function(event) {
-        var pswp = document.querySelector('.pswp');
-        
+    <script type="text/javascript">
+      var openPhotoSwipe = function (event) {
+        var pswp = document.querySelector(".pswp");
+
         var element = event.target;
-        var src = element.getAttribute('src');
-        
+        var src = element.getAttribute("src");
+
         // build items array
         var items = [
-            {
-                msrc: 'Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/403F3197-428C-439E-818F-BFCBAF85209C.jpg',
-                src: 'Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/403F3197-428C-439E-818F-BFCBAF85209C.jpg',
-                w: 2048,
-                h: 1431,
-                title: '1'
-            },
-            {
-                msrc: 'Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/07F74978-FB14-4ADA-A5E1-ED7DA94F9C48.jpg',
-                src: 'Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/07F74978-FB14-4ADA-A5E1-ED7DA94F9C48.jpg',
-                w: 2048,
-                h: 1431,
-                title: '2'
-            },
-            {
-                msrc: 'Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/F0F2EEF3-0AA9-4FD7-9ADE-BA1B28AD71C9.jpg',
-                src: 'Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/F0F2EEF3-0AA9-4FD7-9ADE-BA1B28AD71C9.jpg',
-                w: 2048,
-                h: 1431,
-                title: '3'
-            },
+          {
+            msrc: "Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/403F3197-428C-439E-818F-BFCBAF85209C.jpg",
+            src: "Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/403F3197-428C-439E-818F-BFCBAF85209C.jpg",
+            w: 2048.0,
+            h: 1431.0,
+            title: "1",
+          },
+
+          {
+            msrc: "Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/07F74978-FB14-4ADA-A5E1-ED7DA94F9C48.jpg",
+            src: "Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/07F74978-FB14-4ADA-A5E1-ED7DA94F9C48.jpg",
+            w: 2048.0,
+            h: 1431.0,
+            title: "2",
+          },
+
+          {
+            msrc: "Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/F0F2EEF3-0AA9-4FD7-9ADE-BA1B28AD71C9.jpg",
+            src: "Images/462CA999-5A1C-4628-A841-B5EF1F5225EC/F0F2EEF3-0AA9-4FD7-9ADE-BA1B28AD71C9.jpg",
+            w: 2048.0,
+            h: 1431.0,
+            title: "3",
+          },
         ];
-        
+
         var index = 0;
-        for (var i=0; i<items.length; i++) {
-            var item = items[i];
-            if (item.src == src) {
-                index = i;
-            }
+        for (var i = 0; i < items.length; i++) {
+          var item = items[i];
+          if (item.src == src) {
+            index = i;
+          }
         }
-                         
+
         var options = {
-            index: index,
-            history: false,
-            focus: true,
-            captionEl: true,
-            fullscreenEl: false,
-            zoomEl: false,
-            shareEl: false,
-            preloaderEl: false,
-            bgOpacity: 0.9,
-            showHideOpacity: true
+          index: index,
+          history: false,
+          focus: true,
+          captionEl: true,
+          fullscreenEl: false,
+          zoomEl: false,
+          shareEl: false,
+          preloaderEl: false,
+          bgOpacity: 0.9,
+          showHideOpacity: true,
         };
-                             
-        var gallery = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+
+        var gallery = new PhotoSwipe(
+          pswp,
+          PhotoSwipeUI_Default,
+          items,
+          options,
+        );
         gallery.init();
-    };
+      };
 
-    var elements = document.querySelectorAll('.photoswipe');
-    for (var i=0; i<elements.length; i++) {
+      var elements = document.querySelectorAll(".photoswipe");
+      for (var i = 0; i < elements.length; i++) {
         var element = elements[i];
-        element.addEventListener('click', openPhotoSwipe);
-    }
-</script>
-
-
-    </body>
+        element.addEventListener("click", openPhotoSwipe);
+      }
+    </script>
+  </body>
 </html>

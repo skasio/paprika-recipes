@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://img.taste.com.au/4FlNiOO6/w643-h428-cfill-q90/taste/2010/01/choc-chip-and-oat-slice-recipe-200236-1.jpg"
+          >
+            <img
+              src="Images/34DA24C8-3568-44D4-B15C-D521B39970CF/0264C7D6-FCB1-482A-BD92-0B98B5440639.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Choc Chip and Oat Slice</h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Prep Time: </b><span itemprop="prepTime">10m</span>
+
+          <b>Cook Time: </b><span itemprop="cookTime">20m</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">15</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.taste.com.au/recipes/choc-chip-oat-slice/017856d2-fc17-4aae-b771-8ac2e6d2f8cd"
+          >
+            <span itemprop="author">taste.com.au</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              Coles organic butter, unsalted, melted, to grease
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>75</strong>g (1/2 cup) self-raising flour
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>75</strong>g (1/2 cup) plain flour
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>90</strong>g (1 cup) rolled oats
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>70</strong>g (2/3 cup) desiccated coconut
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>140</strong>g (2/3 cup, firmly packed) brown sugar
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>130</strong>g (2/3 cup) sultanas
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>95</strong>g (1/2 cup) milk chocolate bits
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>125</strong>g Coles organic butter, unsalted, melted,
+              cooled
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> egg, lightly whisked
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Show ingredient quantity</p>
+            <p class="line">
+              Preheat oven to 180°C. Brush a 17 x 27cm (base measurement) slab
+              pan with melted butter to grease. Line the base and 2 opposite
+              long sides with non-stick baking paper, allowing it to overhang.
+            </p>
+            <p class="line">
+              Sift the combined flours and into a bowl. Add the oats, coconut,
+              sugar, sultanas and milk chocolate bits, and stir to combine. Make
+              a well in the centre and add the melted butter and egg. Use a
+              wooden spoon to stir until well combined. Spoon mixture into
+              prepared pan and use the back of a spoon to smooth the surface.
+            </p>
+            <p class="line">
+              Bake in preheated oven for 20 minutes or until golden brown and
+              firm to the touch. Remove from oven and set aside to cool
+              completely. Cut into squares to serve.
+            </p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Energy 1070 kj (256cal)<br />Protein 3.4g 13.2g<br />Saturated
+              8.7g<br />Carbohydrate Total 31.7g 76.9mg
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

@@ -1,273 +1,348 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="#">
-                <img src="Images/A5B2CAAA-B00A-4EA0-B055-450FF08A51C8/989BF497-9F52-4A75-AD10-7F05D68D08A2.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a href="#">
+            <img
+              src="Images/A5B2CAAA-B00A-4EA0-B055-450FF08A51C8/989BF497-9F52-4A75-AD10-7F05D68D08A2.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
-        <h1 itemprop="name" class="name">Green beans, new potatoes and olives with Eggs</h1>
-        
+        <h1 itemprop="name" class="name">
+          Green beans, new potatoes and olives with Eggs
+        </h1>
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
-            <b>Servings: </b><span itemprop="">3</span>
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-                <b>Source: </b>
-                
-                    <span itemprop="author">River Cottage Veg Everyday pg. 222</span>
-            
+          <b>Servings: </b><span itemprop="recipeYield">3</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <span itemprop="author">River Cottage Veg Everyday pg. 222</span>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>500</strong>g small new potatoes</p><p class="line" itemprop="recipeIngredient"><strong>200</strong>g green beans</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tbsp olive oil</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> garlic cloves</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> large eggs</p><p class="line" itemprop="recipeIngredient"><strong>75</strong>g stoned black olives</p><p class="line" itemprop="recipeIngredient">basil</p><p class="line" itemprop="recipeIngredient">lemon</p><p class="line" itemprop="recipeIngredient">Sea salt and freshly ground</p><p class="line" itemprop="recipeIngredient">black pepper</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>500</strong>g small new potatoes
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>200</strong>g green beans
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> tbsp olive oil
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>2</strong> garlic cloves
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3</strong> large eggs
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>75</strong>g stoned black olives
+            </p>
+            <p class="line" itemprop="recipeIngredient">basil</p>
+            <p class="line" itemprop="recipeIngredient">lemon</p>
+            <p class="line" itemprop="recipeIngredient">
+              Sea salt and freshly ground
+            </p>
+            <p class="line" itemprop="recipeIngredient">black pepper</p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
-    <div class="descriptionbox">
-        <h3 class="subhead">Description</h3>
-        <div itemprop="description" class="description text">
-            <p>Straightforward it may be, but this is one of my favourite recipes in this<br/>chapter.</p><p>It&apos;s such a simple combination: just two vegetables mixed with a few aromatic ingredients, which form a sort of deconstructed tapenade. </p><p>It&apos;s very easy to throw together, looks glossy and gorgeous, and always seems to hit the spot: a perfect summer supper.</p>
+      <div class="right-column">
+        <!-- Description -->
+
+        <div class="descriptionbox">
+          <h3 class="subhead">Description</h3>
+          <div itemprop="description" class="description text">
+            <p>
+              Straightforward it may be, but this is one of my favourite recipes
+              in this<br />chapter.
+            </p>
+            <p>
+              It&apos;s such a simple combination: just two vegetables mixed
+              with a few aromatic ingredients, which form a sort of
+              deconstructed tapenade.
+            </p>
+            <p>
+              It&apos;s very easy to throw together, looks glossy and gorgeous,
+              and always seems to hit the spot: a perfect summer supper.
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line"><strong>Step 1</strong>  <br/>- Cut the <strong>potatoes</strong> into 2 or 3 pieces each. Place them in a saucepan, cover with water, add <strong>salt</strong>, and bring to a boil. <br/>- Reduce the heat and simmer for approximately <strong>8 minutes</strong>, until tender. <br/>- Add the <strong>beans</strong> for the last <strong>2 or 3 minutes</strong> of simmering. <br/>- Drain well and return to the hot pan.</p><p class="line"><strong>Step 2</strong>  <br/>- Meanwhile, heat <strong>olive oil</strong> in a small pan over low heat. <br/>- Add the <strong>garlic</strong> and cook gently for a couple of minutes, ensuring it doesn&apos;t color. <br/>- Add the chopped <strong>olives</strong> and cook for an additional minute. <br/>- Remove from heat.</p><p class="line"><strong>Step 3</strong>  <br/>- Pour the <strong>oil, garlic, and olives</strong> into the pan with the <strong>potatoes and beans</strong>.</p><p class="line"><strong>Step 4</strong>  <br/>- Add the <strong>basil</strong>, a generous squeeze or two of <strong>lemon juice</strong>, and season with <strong>salt</strong> and <strong>pepper</strong>. <br/>- Toss everything together and serve warm.<br/></p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              <strong>Step 1</strong> <br />- Cut the
+              <strong>potatoes</strong> into 2 or 3 pieces each. Place them in a
+              saucepan, cover with water, add <strong>salt</strong>, and bring
+              to a boil. <br />- Reduce the heat and simmer for approximately
+              <strong>8 minutes</strong>, until tender. <br />- Add the
+              <strong>beans</strong> for the last
+              <strong>2 or 3 minutes</strong> of simmering. <br />- Drain well
+              and return to the hot pan.
+            </p>
+            <p class="line">
+              <strong>Step 2</strong> <br />- Meanwhile, heat
+              <strong>olive oil</strong> in a small pan over low heat. <br />-
+              Add the <strong>garlic</strong> and cook gently for a couple of
+              minutes, ensuring it doesn&apos;t color. <br />- Add the chopped
+              <strong>olives</strong> and cook for an additional minute. <br />-
+              Remove from heat.
+            </p>
+            <p class="line">
+              <strong>Step 3</strong> <br />- Pour the
+              <strong>oil, garlic, and olives</strong> into the pan with the
+              <strong>potatoes and beans</strong>.
+            </p>
+            <p class="line">
+              <strong>Step 4</strong> <br />- Add the <strong>basil</strong>, a
+              generous squeeze or two of <strong>lemon juice</strong>, and
+              season with <strong>salt</strong> and <strong>pepper</strong>.
+              <br />- Toss everything together and serve warm.<br />
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
+        <!-- Notes -->
 
+        <!-- Nutrition (in regular mode it goes below the notes) -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
         <!-- Used in two different places depending on the recipe layout -->
+      </div>
 
-    
+      <div class="clear"></div>
     </div>
-    
-    <div class="clear"></div>
 
-</div>
+    <!-- Photo gallery is only included when exporting. -->
+    <!-- PhotoSwipe gallery -->
 
-<!-- Photo gallery is only included when exporting. -->
-<!-- PhotoSwipe gallery -->
+    <link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css" />
+    <link
+      rel="stylesheet"
+      href="Resources/PhotoSwipe/default-skin/default-skin.css"
+    />
+    <script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
+    <script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
 
-<link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css">
-<link rel="stylesheet" href="Resources/PhotoSwipe/default-skin/default-skin.css">
-<script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
-<script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="pswp__bg"></div>
-    <div class="pswp__scroll-wrap">
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
         <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
         </div>
         <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close"></button>
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button
+              class="pswp__button pswp__button--close"
+              title="Close"
+            ></button>
+          </div>
+          <button
+            class="pswp__button pswp__button--arrow--left"
+            title="Previous"
+          ></button>
+          <button
+            class="pswp__button pswp__button--arrow--right"
+            title="Next"
+          ></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<script type="text/javascript">
-    var openPhotoSwipe = function(event) {
-        var pswp = document.querySelector('.pswp');
-        
+    <script type="text/javascript">
+      var openPhotoSwipe = function (event) {
+        var pswp = document.querySelector(".pswp");
+
         var element = event.target;
-        var src = element.getAttribute('src');
-        
+        var src = element.getAttribute("src");
+
         // build items array
         var items = [
-            {
-                msrc: 'Images/A5B2CAAA-B00A-4EA0-B055-450FF08A51C8/55C5D7EA-4AA7-4DB5-9580-72C9C2D4BFC3.jpg',
-                src: 'Images/A5B2CAAA-B00A-4EA0-B055-450FF08A51C8/55C5D7EA-4AA7-4DB5-9580-72C9C2D4BFC3.jpg',
-                w: 828,
-                h: 906,
-                title: '1'
-            },
-            {
-                msrc: 'Images/A5B2CAAA-B00A-4EA0-B055-450FF08A51C8/051DDA38-10A0-4E45-8745-896041A304EE.jpg',
-                src: 'Images/A5B2CAAA-B00A-4EA0-B055-450FF08A51C8/051DDA38-10A0-4E45-8745-896041A304EE.jpg',
-                w: 1536,
-                h: 2048,
-                title: '2'
-            },
+          {
+            msrc: "Images/A5B2CAAA-B00A-4EA0-B055-450FF08A51C8/55C5D7EA-4AA7-4DB5-9580-72C9C2D4BFC3.jpg",
+            src: "Images/A5B2CAAA-B00A-4EA0-B055-450FF08A51C8/55C5D7EA-4AA7-4DB5-9580-72C9C2D4BFC3.jpg",
+            w: 828.0,
+            h: 906.0,
+            title: "1",
+          },
+
+          {
+            msrc: "Images/A5B2CAAA-B00A-4EA0-B055-450FF08A51C8/051DDA38-10A0-4E45-8745-896041A304EE.jpg",
+            src: "Images/A5B2CAAA-B00A-4EA0-B055-450FF08A51C8/051DDA38-10A0-4E45-8745-896041A304EE.jpg",
+            w: 1536.0,
+            h: 2048.0,
+            title: "2",
+          },
         ];
-        
+
         var index = 0;
-        for (var i=0; i<items.length; i++) {
-            var item = items[i];
-            if (item.src == src) {
-                index = i;
-            }
+        for (var i = 0; i < items.length; i++) {
+          var item = items[i];
+          if (item.src == src) {
+            index = i;
+          }
         }
-                         
+
         var options = {
-            index: index,
-            history: false,
-            focus: true,
-            captionEl: true,
-            fullscreenEl: false,
-            zoomEl: false,
-            shareEl: false,
-            preloaderEl: false,
-            bgOpacity: 0.9,
-            showHideOpacity: true
+          index: index,
+          history: false,
+          focus: true,
+          captionEl: true,
+          fullscreenEl: false,
+          zoomEl: false,
+          shareEl: false,
+          preloaderEl: false,
+          bgOpacity: 0.9,
+          showHideOpacity: true,
         };
-                             
-        var gallery = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+
+        var gallery = new PhotoSwipe(
+          pswp,
+          PhotoSwipeUI_Default,
+          items,
+          options,
+        );
         gallery.init();
-    };
+      };
 
-    var elements = document.querySelectorAll('.photoswipe');
-    for (var i=0; i<elements.length; i++) {
+      var elements = document.querySelectorAll(".photoswipe");
+      for (var i = 0; i < elements.length; i++) {
         var element = elements[i];
-        element.addEventListener('click', openPhotoSwipe);
-    }
-</script>
-
-
-    </body>
+        element.addEventListener("click", openPhotoSwipe);
+      }
+    </script>
+  </body>
 </html>

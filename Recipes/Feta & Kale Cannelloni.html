@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://production-media.gousto.co.uk/cms/mood-image/822---Feta--Kale-Cannelloni-x200.jpg"
+          >
+            <img
+              src="Images/D032AFB4-9647-465E-B7D3-03371E2C6FA2/B59C296E-76C7-44A4-9F32-3B889A3791B9.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Feta &amp; Kale Cannelloni</h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p itemprop="recipeCategory" class="categories">Gousto</p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Total Time: </b><span itemprop="totalTime">45 min</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">2 or 4 servings</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.gousto.co.uk/cookbook/vegetarian-recipes/feta-kale-cannelloni"
+          >
+            <span itemprop="author">gousto.co.uk</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>40</strong>g Irish mature cheddar †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>100</strong>g Greek Feta Cheese Cypressa †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>10</strong>g fresh mint
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>6</strong> lasagne verdi sheets †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>20</strong>g fresh basil
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>200</strong>g kale
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>250</strong>g cherry tomatoes
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> shallot
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> garlic clove
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Instructions for 2 [for 3] [for 4] portion recipe
+            </p>
+            <p class="line">
+              1. Preheat the oven to 200°C/ 180°C (fan)/ 400°F/ Gas 6
+            </p>
+            <p class="line">Boil a kettle</p>
+            <p class="line">Peel and finely chop the shallot[s]</p>
+            <p class="line">Peel and finely chop (or grate) the garlic</p>
+            <p class="line">
+              Strip the basil leaves from the stalks, chop the stalks finely and
+              set the leaves aside for later
+            </p>
+            <p class="line">
+              2. Heat a large pot of boiled water over a high heat with a
+              drizzle of olive oil
+            </p>
+            <p class="line">
+              Once boiling, add the lasagne sheets one at a time with a drizzle
+              of olive oil in between them(this prevents them sticking together)
+            </p>
+            <p class="line">
+              Cook them for 5-7 min or until they&apos;ve softened but not fully
+              cooked and once drained, lay the lasagne sheets out separately, so
+              they don&apos;t overlap each other
+            </p>
+            <p class="line">
+              3. Meanwhile, strip the kale leaves from their tough inner stalks
+              and chop them finely, discarding the stalks
+            </p>
+            <p class="line">
+              Heat a pan (preferably non-stick) with a matching lid over a
+              medium heat with a drizzle of olive oil
+            </p>
+            <p class="line">
+              Once hot, add the shallot and cook for 3 min or until softened
+            </p>
+            <p class="line">Add the garlic and kale</p>
+            <p class="line">
+              Cover with a lid and cook for 5 min or until the kale has wilted
+            </p>
+            <p class="line">
+              4. Meanwhile, add 30g [60g] butter to a pot over a medium heat
+            </p>
+            <p class="line">
+              Once melted, add 30g [60g] flour and stir for 2-3 min until a
+              sandy coloured paste is formed - this is your roux
+            </p>
+            <p class="line">Stir 400ml [800ml] milk gradually into the roux</p>
+            <p class="line">
+              Whisk constantly for 4 min or until a smooth, thick sauce remains,
+              then remove from the heat, add the basil stalks and a pinch of
+              salt and pepper
+            </p>
+            <p class="line">5. Grate the cheddar and set aside</p>
+            <p class="line">Crumble the feta into the softened kale</p>
+            <p class="line">6. Lightly oil an oven-proof dish</p>
+            <p class="line">
+              Divide the kale and feta mixture between the lasagne sheets, then
+              roll the filled lasagne sheets up tightly like a cigar - this is
+              your canelloni
+            </p>
+            <p class="line">
+              Add the canelloni to your oven-proof dish with the seams facing
+              down, pour the sauce over and top with the grated cheddar
+            </p>
+            <p class="line">
+              Put the dish in the oven for 15-20 min or until golden brown
+            </p>
+            <p class="line">7. Meanwhile, chop the cherry tomatoes in half</p>
+            <p class="line">Strip the mint leaves from their stems</p>
+            <p class="line">Chop the mint and basil leaves together, roughly</p>
+            <p class="line">
+              Mix the chopped tomatoes and chopped herbs together with a splash
+              of olive oil and a pinch of salt and pepper - this is your side
+              salad
+            </p>
+            <p class="line">
+              Once cooked, allow the cannelloni to cool slightly before serving
+              as it will be extremely hot
+            </p>
+            <p class="line">Serve with the salad to the side</p>
+            <p class="line">Enjoy!</p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Typical values per 100g per serving<br />Energy 564 kJ 2016 kJ 133
+              kcal 478 kcal<br />Fat 6.1 g 21.8 g<br />of which saturates 3.6 g
+              12.8 g<br />Carbohydrate 13.3 g 47.6 g<br />of which sugars 2.3 g
+              8.2 g<br />Fibre 0.8 g 3.0 g<br />Protein 6.8 g 24.2 g<br />Salt
+              0.49 g 1.76 g
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

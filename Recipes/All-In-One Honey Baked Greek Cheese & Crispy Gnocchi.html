@@ -1,0 +1,296 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
+        <!-- Image -->
+
+        <div class="photobox">
+          <a
+            href="https://production-media.gousto.co.uk/cms/mood-image/4132_Pi5-Greek-Honey--Chilli-Baked-Feta--Gnocchi--8162-1643218322592-x200.jpg"
+          >
+            <img
+              src="Images/D83E515B-65E6-41DF-959A-A6DB7D1C4920/6853A8D9-4911-41BE-A08D-22682345B963.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">
+          All-In-One Honey Baked Greek Cheese &amp; Crispy Gnocchi
+        </h1>
+
+        <!-- Info -->
+
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+
+        <p itemprop="recipeCategory" class="categories">Gousto</p>
+
+        <p class="metadata">
+          <!-- Cook time, prep time, servings, difficulty -->
+
+          <b>Total Time: </b><span itemprop="totalTime">35 min</span>
+
+          <b>Servings: </b><span itemprop="recipeYield">2</span>
+
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://www.gousto.co.uk/cookbook/recipes/all-in-one-honey-baked-salad-cheese-crispy-gnocchi"
+          >
+            <span itemprop="author">gousto.co.uk</span>
+          </a>
+        </p>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="left-column">
+        <!-- Ingredients -->
+
+        <div class="ingredientsbox">
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> courgette
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>350</strong>g gnocchi †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>100</strong>g Greek salad cheese †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1/2</strong> tsp dried chilli flakes
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tsp dried oregano
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>15</strong>ml red wine vinegar †
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>25</strong>g honey
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>125</strong>g cherry tomatoes
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> gem lettuce
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> red onion
+            </p>
+          </div>
+        </div>
+
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
+
+      <div class="right-column">
+        <!-- Description -->
+
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">
+              Instructions for 2 [for 3] [for 4] portion recipe
+            </p>
+            <p class="line">1. Before you begin...</p>
+            <p class="line">
+              This recipe takes around 5-10 minto prep, so get your oven-proof
+              dish and all your ingredients ready, then wash your fruit and veg
+            </p>
+            <p class="line">Preheat the oven to 220°C/ 200°C (fan)/ gas 7</p>
+            <p class="line">Peel and cut your red onion[s] into wedges</p>
+            <p class="line">
+              Top, tail and chop your courgette[s] into quarters lengthways,
+              then chop into large bite-sized pieces
+            </p>
+            <p class="line">
+              3. Add a generous drizzle of olive oil to a large oven-proof dish
+              (or two!)
+            </p>
+            <p class="line">
+              Add the chopped courgette to one side of the dish[es] with the
+              onion wedges and cherry tomatoes
+            </p>
+            <p class="line">
+              Sprinkle over your chilli flakes (can&apos;t handle the heat? Go
+              easy!), with your dried oregano and half your red wine vinegar
+              (you&apos;ll use the rest later!) and give everything a good mix
+              up
+            </p>
+            <p class="line">
+              4. Top the mixed vegetables with your Greek cheese, then drizzle
+              half of your honey (save the rest for later!) over the top
+            </p>
+            <p class="line">
+              Add your gnocchi to the other side of the dish[es] with a drizzle
+              of olive oil and a pinch of salt and pepper
+            </p>
+            <p class="line">
+              5. Put the dish[es] in the oven for 20-25 min or until the Greek
+              cheese is slightly charred and the gnocchi is golden and crispy
+            </p>
+            <p class="line">
+              Combine the remaining red wine vinegar with the remaining honey
+              and a generous drizzle of olive oil in a small bowl – this is your
+              honey vinaigrette
+            </p>
+            <p class="line">
+              6. Use this time to clear up, set the table, have a cup of tea or
+              simply chill!
+            </p>
+            <p class="line">7. Boil half a kettle</p>
+            <p class="line">
+              Once the Greek cheese is slightly charred and the gnocchi is
+              golden, remove the dish[es] from the oven and add a small splash
+              of boiled water
+            </p>
+            <p class="line">
+              Give everything a good mix up until fully combined and saucy –
+              this is your honey baked Greek cheese &amp; crispy gnocchi
+            </p>
+            <p class="line">
+              Wash your gem lettuce, then pat it dry with kitchen paper and
+              roughly shred
+            </p>
+            <p class="line">
+              8. Serve the honey baked Greek cheese &amp; crispy gnocchi
+            </p>
+            <p class="line">
+              Drizzle the honey vinaigrette over the shredded lettuce and toss
+              it all together
+            </p>
+            <p class="line">Dig in!</p>
+          </div>
+        </div>
+
+        <!-- Notes -->
+
+        <!-- Nutrition (in regular mode it goes below the notes) -->
+
+        <!-- Used in two different places depending on the recipe layout -->
+
+        <div class="nutritionbox textbox">
+          <h3 class="subhead">Nutrition</h3>
+          <div itemprop="nutrition" class="nutrition text">
+            <p>
+              Typical values per 100g per serving<br />Energy 395 kJ 2052 kJ 93
+              kcal 486 kcal<br />Fat 2.2 g 11.5 g<br />of which saturates 1.6 g
+              8.4 g<br />Carbohydrate 14.7 g 76.1 g<br />of which sugars 3.2 g
+              16.7 g<br />Fibre 1.3 g 6.7 g<br />Protein 4.1 g 21.4 g<br />Salt
+              0.47 g 2.44 g
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>

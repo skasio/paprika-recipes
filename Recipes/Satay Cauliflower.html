@@ -1,179 +1,248 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <style type="text/css">
-            /* Shared styles */
-            body {
-                font-family: Helvetica, sans-serif;
-                font-size: 16px;
-                color: #34302e;
-                margin: 0.25in;
-            }
-            @page {
-                size: letter portrait;
-                margin: 0.25in;
-            }
-            .name {
-                font-size: 18px;
-                font-family: Helvetica, sans-serif;
-                font-weight: normal;
-                margin: 0 0 10px 0;
-            }
-            .categories {
-                color: #605D5D;
-                font-size: 14px;
-                font-family: Helvetica, sans-serif;
-                font-style: italic;
-            }
-            .rating {
-                color: #d10505;
-                font-size: 14px;
-            }
-            .metadata {
-                font-size: 14px;
-            }
-            .infobox p {
-                margin: 0;
-                line-height: 150%;
-            }
-            .subhead {
-                color: #d10505;
-                font-weight: bold;
-                font-size: 14px;
-                text-transform: uppercase;
-                margin: 10px 0;
-            }
-            
-            .ingredients p {
-                margin: 4px 0;
-            }
-            /* To prevent nutrition/directions from getting too close
-               to ingredients */
-            .ingredients {
-                padding-bottom: 10px;
-            }
-            .clear {
-                clear:both;
-            }
-            a {
-                color: #4990E2;
-                text-decoration: none;
-            }
-            /* Full page specific styles */
-            .text {
-                line-height: 130%;
-            }
-            .photobox {
-                float: left;
-                margin-right: 14px;
-                            }
-            .photo {
-                max-width: 140px;
-                max-height: 140px;
-                width: auto;
-                height: auto;
-            }
-            .inline-image {
-                max-width: 25%;
-                max-height: 25%;
-                width: auto;
-                height: auto;
-            }
-            .photoswipe {
-                border: 1px #dddddd solid;
-                cursor: pointer;
-            }
-            .pswp__caption__center {
-                text-align: center !important;
-            }
-            .recipe {
-                page-break-after: always;
-                            }
-            .recipe:first-child {
-                border-top: 0 none;
-                margin-top: 0;
-                padding-top: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Recipe -->
-<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
-    
-    <div class="infobox">
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      /* Shared styles */
+      body {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        color: #34302e;
+        margin: 0.25in;
+      }
+      .name {
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0 0 10px 0;
+      }
+      .categories {
+        color: #605d5d;
+        font-size: 14px;
+        font-family: Helvetica, sans-serif;
+        font-style: italic;
+      }
+      .rating {
+        color: #d10505;
+        font-size: 14px;
+      }
+      .metadata {
+        font-size: 14px;
+      }
+      .infobox p {
+        margin: 0;
+        line-height: 150%;
+      }
+      .subhead {
+        color: #d10505;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
 
+      .ingredients p {
+        margin: 4px 0;
+      }
+      /* To prevent nutrition/directions from getting too close
+               to ingredients */
+      .ingredients {
+        padding-bottom: 10px;
+      }
+      .clear {
+        clear: both;
+      }
+      a {
+        color: #4990e2;
+        text-decoration: none;
+      }
+      /* Full page specific styles */
+      .text {
+        line-height: 130%;
+      }
+      .photobox {
+        float: left;
+        margin-right: 14px;
+      }
+      .photo {
+        max-width: 140px;
+        max-height: 140px;
+        width: auto;
+        height: auto;
+      }
+
+      .inline-image {
+        max-width: 25%;
+        max-height: 25%;
+        width: auto;
+        height: auto;
+      }
+      .photoswipe {
+        border: 1px #dddddd solid;
+        cursor: pointer;
+      }
+      .pswp__caption__center {
+        text-align: center !important;
+      }
+      .recipe {
+        page-break-after: always;
+      }
+      .recipe:first-child {
+        border-top: 0 none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Recipe -->
+    <div class="recipe" itemscope itemtype="http://schema.org/Recipe">
+      <div class="infobox">
         <!-- Image -->
+
         <div class="photobox">
-            <a href="https://i2.wp.com/glasgowlocavore.org/wp-content/uploads/2021/05/satay-cauliflower.jpeg?resize=960%2C640&ssl=1">
-                <img src="Images/53D0F9D6-320F-4492-87D5-E1371066E7E2/77A3A217-D149-4AF7-8728-C26A10B47384.jpg" itemprop="image" class="photo photoswipe"/>
-            </a>
-                    </div>
+          <a
+            href="https://i2.wp.com/glasgowlocavore.org/wp-content/uploads/2021/05/satay-cauliflower.jpeg?resize=960%2C640&ssl=1"
+          >
+            <img
+              src="Images/53D0F9D6-320F-4492-87D5-E1371066E7E2/77A3A217-D149-4AF7-8728-C26A10B47384.jpg"
+              itemprop="image"
+              class="photo photoswipe"
+            />
+          </a>
+        </div>
 
         <!-- Name -->
         <h1 itemprop="name" class="name">Satay Cauliflower</h1>
-        
+
         <!-- Info -->
-        
+
         <!-- Rating, categories -->
         <p itemprop="aggregateRating" class="rating" value="0"></p>
-        
+
         <p class="metadata">
-        
-            <!-- Cook time, prep time, servings, difficulty -->
+          <!-- Cook time, prep time, servings, difficulty -->
 
-            <!-- Source -->
-                <b>Source: </b>
-                    <a itemprop="url" href="https://glasgowlocavore.org/2021/05/17/satay-cauliflower/">
-                        <span itemprop="author">glasgowlocavore.org</span>
-                    </a>
-                            
+          <!-- Source -->
+
+          <b>Source: </b>
+
+          <a
+            itemprop="url"
+            href="https://glasgowlocavore.org/2021/05/17/satay-cauliflower/"
+          >
+            <span itemprop="author">glasgowlocavore.org</span>
+          </a>
         </p>
-        
+
         <div class="clear"></div>
+      </div>
 
-    </div>
-    
-    <div class="left-column">
-
+      <div class="left-column">
         <!-- Ingredients -->
+
         <div class="ingredientsbox">
-            <h3 class="subhead">Ingredients</h3>
-            <div class="ingredients text">
-                <p class="line" itemprop="recipeIngredient"><strong>1</strong> large cauliflower</p><p class="line" itemprop="recipeIngredient"><strong>15</strong>g coconut oil (or vegetable oil)</p><p class="line" itemprop="recipeIngredient"><strong>3-4</strong> tbsp soy sauce</p><p class="line" itemprop="recipeIngredient"><strong>40</strong>g peanut butter (crunchy or smoooth)</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> spring onions</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tbsp grated ginger</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> large clove garlic (crushed)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> fresh chilli (or sriracha/hot sauce)</p>
-            </div>
+          <h3 class="subhead">Ingredients</h3>
+          <div class="ingredients text">
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> large cauliflower
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>15</strong>g coconut oil (or vegetable oil)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>3-4</strong> tbsp soy sauce
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>40</strong>g peanut butter (crunchy or smoooth)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>4</strong> spring onions
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> tbsp grated ginger
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> large clove garlic (crushed)
+            </p>
+            <p class="line" itemprop="recipeIngredient">
+              <strong>1</strong> fresh chilli (or sriracha/hot sauce)
+            </p>
+          </div>
         </div>
-        
+
         <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+      </div>
 
-    </div>
-    
-    <div class="right-column">
-    
-    <!-- Description -->
+      <div class="right-column">
+        <!-- Description -->
 
-    <!-- Directions -->
-    <div class="directionsbox">
-        <h3 class="subhead">Directions</h3>
-        <div itemprop="recipeInstructions" class="directions text">
-            <p class="line">Preheat the oven to 220 degrees</p><p class="line">Break down the cauliflower into florets &amp; spread in a roasting tin so they are not touching. This allows the air to circulate as they cook &amp; they will be crispy. Roast for 15 minutes.</p><p class="line">When using cauliflower you can eat every part of it so dont be afraid to roast the stalk as well. The leaves can be cooked like cabbage</p><p class="line">Check whether the cauliflower is cooked – this is something of a personal preference. I like mine to be crispy and brown and still with a bit of bite in the stalk. Cauliflowers vary in their texture though so there are no hard and fast rules about how long to roast them for.</p><p class="line">If it’s almost cooked sprinkle about a tablespoon of soy sauce over it &amp; back into the oven for another 5-10 minutes</p><p class="line">Meanwhile make the satay sauce. Finely slice the spring onions and add the white part to a small saucepan along with the coconut oil, ginger, garlic &amp; chilli.</p><p class="line">Fry this on a medium heat for a few minutes until the ingredients are softened and smell cooked. Add the peanut butter, 1 tablespoon of soy sauce and a splash of water. Stir and bring everything together and keep adding water until the mixture becomes a thick sauce – like the texture of</p><p class="line">Taste for seasoning and add more soy if needed. If the chilli is too hot for your taste add a little sugar (about 1tsp) to calm it down.</p><p class="line">Check that the cauliflower is cooked as you like it &amp; to serve just drizzle the satay over the roasted cauliflower and garnish with the green part of the spring onions.</p><p class="line">The satay sauce will keep in the fridge for a couple of weeks if you don’t use it all. It makes a great dipping sauce for raw veggies, veg or meat skewers or a stir fry sauce or base for a Massaman style curry</p>
+        <!-- Directions -->
+
+        <div class="directionsbox">
+          <h3 class="subhead">Directions</h3>
+          <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Preheat the oven to 220 degrees</p>
+            <p class="line">
+              Break down the cauliflower into florets &amp; spread in a roasting
+              tin so they are not touching. This allows the air to circulate as
+              they cook &amp; they will be crispy. Roast for 15 minutes.
+            </p>
+            <p class="line">
+              When using cauliflower you can eat every part of it so dont be
+              afraid to roast the stalk as well. The leaves can be cooked like
+              cabbage
+            </p>
+            <p class="line">
+              Check whether the cauliflower is cooked – this is something of a
+              personal preference. I like mine to be crispy and brown and still
+              with a bit of bite in the stalk. Cauliflowers vary in their
+              texture though so there are no hard and fast rules about how long
+              to roast them for.
+            </p>
+            <p class="line">
+              If it’s almost cooked sprinkle about a tablespoon of soy sauce
+              over it &amp; back into the oven for another 5-10 minutes
+            </p>
+            <p class="line">
+              Meanwhile make the satay sauce. Finely slice the spring onions and
+              add the white part to a small saucepan along with the coconut oil,
+              ginger, garlic &amp; chilli.
+            </p>
+            <p class="line">
+              Fry this on a medium heat for a few minutes until the ingredients
+              are softened and smell cooked. Add the peanut butter, 1 tablespoon
+              of soy sauce and a splash of water. Stir and bring everything
+              together and keep adding water until the mixture becomes a thick
+              sauce – like the texture of
+            </p>
+            <p class="line">
+              Taste for seasoning and add more soy if needed. If the chilli is
+              too hot for your taste add a little sugar (about 1tsp) to calm it
+              down.
+            </p>
+            <p class="line">
+              Check that the cauliflower is cooked as you like it &amp; to serve
+              just drizzle the satay over the roasted cauliflower and garnish
+              with the green part of the spring onions.
+            </p>
+            <p class="line">
+              The satay sauce will keep in the fridge for a couple of weeks if
+              you don’t use it all. It makes a great dipping sauce for raw
+              veggies, veg or meat skewers or a stir fry sauce or base for a
+              Massaman style curry
+            </p>
+          </div>
         </div>
-    </div>
 
-    <!-- Notes -->
+        <!-- Notes -->
 
+        <!-- Nutrition (in regular mode it goes below the notes) -->
 
-    <!-- Nutrition (in regular mode it goes below the notes) -->
         <!-- Used in two different places depending on the recipe layout -->
+      </div>
 
-    
+      <div class="clear"></div>
     </div>
-    
-    <div class="clear"></div>
-
-</div>
-
-
-
-    </body>
+  </body>
 </html>
