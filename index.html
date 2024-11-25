@@ -1,2175 +1,2229 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="Recipes/styles.css" />
-    <style type="text/css">
-      html, 
-      body {
-        font-size: var(--step-0);
-      }
-      h1 {
-        font-size: var(--step-3);
-        font-family: HelveticaNeue, sans-serif;
-        font-weight: normal;
-      }
-      ul {
-        padding-left: var(--space-l);
-      }
-      li {
-        margin:padding-left: var(--space-2xs) 0;
-        font-size: var(--step-0);
-      }
-      a {
-        color: #4990e2 !important;
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Recipes (397)</h1>
-    <ul>
-      <li>
-        <a href="Recipes/2-Minute Noodle Stir-fry.html"
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recipe Collection</title>
+        <style>
+            *,
+            *::after,
+            *::before {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: HelveticaNeue, -apple-system, BlinkMacSystemFont, sans-serif;
+                line-height: 1.5;
+                margin: 0;
+                padding: 2rem;
+                max-width: 1240px;
+                margin: 0 auto;
+                color: #34302e;
+                background-color: #ffffff;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+                font-weight: normal;
+                margin-bottom: 2rem;
+            }
+
+            .recipe-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                gap: 1rem;
+                padding: 0;
+                margin: 0;
+                list-style: none;
+            }
+
+            .recipe-card {
+                background: white;
+                border: 1px solid #e5e5e5;
+                border-radius: 4px;
+                transition: all 0.2s ease;
+            }
+
+            .recipe-card:hover {
+                background-color: #f8f8f8;
+                transform: translateY(-2px);
+                box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            }
+
+            .recipe-card a {
+                color: #4990e2;
+                text-decoration: none;
+                padding: 1rem;
+                display: block;
+                height: 100%;
+            }
+
+            @media (max-width: 768px) {
+                body {
+                    padding: 1rem;
+                }
+
+                .recipe-grid {
+                    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                    gap: 0.75rem;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .recipe-grid {
+                    grid-template-columns: 1fr;
+                }
+
+                .recipe-card {
+                    margin-bottom: 0.5rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Recipes (397)</h1>
+        <ul class="recipe-grid">
+            <li class="recipe-card">
+                <a href="Recipes/2-Minute Noodle Stir-fry.html"
           >2-Minute Noodle Stir-fry</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/5-Minute No-Cook Red Pizza Sauce.html"
+            <li class="recipe-card">
+                <a href="Recipes/5-Minute No-Cook Red Pizza Sauce.html"
           >5-Minute No-Cook Red Pizza Sauce</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/10-Min Ham Hock Ploughman's & Chutney Dressing.html"
+            <li class="recipe-card">
+                <a href="Recipes/10-Min Ham Hock Ploughman's & Chutney Dressing.html"
           >10-Min Ham Hock Ploughman&apos;s &amp; Chutney Dressing</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/15-Minute Mushroom Sauce without Cream.html"
+            <li class="recipe-card">
+                <a href="Recipes/15-Minute Mushroom Sauce without Cream.html"
           >15-Minute Mushroom Sauce without Cream</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/A Winter Feast.html">A Winter Feast</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/A Winter Feast.html">A Winter Feast</a>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/All-In-One Fable Pulled Mushroom & Gnocchi Cacio E Pepe.html"
           >All-In-One Fable Pulled Mushroom &amp; Gnocchi Cacio E Pepe</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/All-In-One Halloumi Souvlaki-Style Salad.html"
+            <li class="recipe-card">
+                <a href="Recipes/All-In-One Halloumi Souvlaki-Style Salad.html"
           >All-In-One Halloumi Souvlaki-Style Salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/All-In-One Honey Baked Greek Cheese & Crispy Gnocchi.html"
           >All-In-One Honey Baked Greek Cheese &amp; Crispy Gnocchi</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/All-In-One Mushroom Ragù Spaghetti with Caprese Salad.html"
           >All-In-One Mushroom Ragù Spaghetti with Caprese Salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Almond and Honey Pancakes with Blueberries.html"
+            <li class="recipe-card">
+                <a href="Recipes/Almond and Honey Pancakes with Blueberries.html"
           >Almond and Honey Pancakes with Blueberries</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Angela’s Bolognese Sauce.html"
+            <li class="recipe-card">
+                <a href="Recipes/Angela’s Bolognese Sauce.html"
           >Angela’s Bolognese Sauce</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Apple & Raspberry Breakfast Oat Slice.html"
+            <li class="recipe-card">
+                <a href="Recipes/Apple & Raspberry Breakfast Oat Slice.html"
           >Apple &amp; Raspberry Breakfast Oat Slice</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Apple Tart.html">Apple Tart</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Apple Tart.html">Apple Tart</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Arancini with Roasted Almonds.html"
+            <li class="recipe-card">
+                <a href="Recipes/Arancini with Roasted Almonds.html"
           >Arancini with Roasted Almonds</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Artichoke Linguine.html">Artichoke Linguine</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Artichoke Linguine.html">Artichoke Linguine</a>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Asparagus & Mushroom Risotto with Fresh Parsley & Lemon.html"
           >Asparagus &amp; Mushroom Risotto with Fresh Parsley &amp; Lemon</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Asparagus & New Potato Frittata.html"
+            <li class="recipe-card">
+                <a href="Recipes/Asparagus & New Potato Frittata.html"
           >Asparagus &amp; New Potato Frittata</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Asparagus Quiche & Soup.html"
+            <li class="recipe-card">
+                <a href="Recipes/Asparagus Quiche & Soup.html"
           >Asparagus Quiche &amp; Soup</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Baked Big Mushrooms With Dressed Puy Lentils.html"
+            <li class="recipe-card">
+                <a href="Recipes/Baked Big Mushrooms With Dressed Puy Lentils.html"
           >Baked Big Mushrooms With Dressed Puy Lentils</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Baked Polenta Chips with Pesto Dip.html"
+            <li class="recipe-card">
+                <a href="Recipes/Baked Polenta Chips with Pesto Dip.html"
           >Baked Polenta Chips with Pesto Dip</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Baked Potates With Bean Chilli.html"
+            <li class="recipe-card">
+                <a href="Recipes/Baked Potates With Bean Chilli.html"
           >Baked Potates With Bean Chilli</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Baked Potato With Bolognese.html"
+            <li class="recipe-card">
+                <a href="Recipes/Baked Potato With Bolognese.html"
           >Baked Potato With Bolognese</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Baked Pumpkin and Sage Risotto.html"
+            <li class="recipe-card">
+                <a href="Recipes/Baked Pumpkin and Sage Risotto.html"
           >Baked Pumpkin and Sage Risotto</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Banana & Cinnamon Pancakes.html"
+            <li class="recipe-card">
+                <a href="Recipes/Banana & Cinnamon Pancakes.html"
           >Banana &amp; Cinnamon Pancakes</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Barszcz.html">Barszcz</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Barszcz.html">Barszcz</a>
+            </li>
 
-      <li>
-        <a href="Recipes/BBQ.html">BBQ</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/BBQ.html">BBQ</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Bean Chilli Burritos.html">Bean Chilli Burritos</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Bean Chilli Burritos.html">Bean Chilli Burritos</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Bean Chilli Rice Bowl.html">Bean Chilli Rice Bowl</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Bean Chilli Rice Bowl.html">Bean Chilli Rice Bowl</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Bean Fritters With Mint Yoghurt.html"
+            <li class="recipe-card">
+                <a href="Recipes/Bean Fritters With Mint Yoghurt.html"
           >Bean Fritters With Mint Yoghurt</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Bean Mix.html">Bean Mix</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Bean Mix.html">Bean Mix</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Beet Zakwas.html">Beet Zakwas</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Beet Zakwas.html">Beet Zakwas</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Beets + Apples with Cloves Baby Food Puree.html"
+            <li class="recipe-card">
+                <a href="Recipes/Beets + Apples with Cloves Baby Food Puree.html"
           >Beets + Apples with Cloves Baby Food Puree</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Berry Cheesecake Smoothie.html"
+            <li class="recipe-card">
+                <a href="Recipes/Berry Cheesecake Smoothie.html"
           >Berry Cheesecake Smoothie</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Best Veggie Stir-Fry.html">Best Veggie Stir-Fry</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Best Veggie Stir-Fry.html">Best Veggie Stir-Fry</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Blackberry Crumble Smoothie.html"
+            <li class="recipe-card">
+                <a href="Recipes/Blackberry Crumble Smoothie.html"
           >Blackberry Crumble Smoothie</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Blueberry And Lemon Pancakes.html"
+            <li class="recipe-card">
+                <a href="Recipes/Blueberry And Lemon Pancakes.html"
           >Blueberry And Lemon Pancakes</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Blueberry French Toast.html">Blueberry French Toast</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Blueberry French Toast.html">Blueberry French Toast</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Bolognese Sauce.html">Bolognese Sauce</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Bolognese Sauce.html">Bolognese Sauce</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Breakfast Hash Pie.html">Breakfast Hash Pie</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Breakfast Hash Pie.html">Breakfast Hash Pie</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Breakfast Loaf with Banana, Sultanas and Honey.html"
+            <li class="recipe-card">
+                <a href="Recipes/Breakfast Loaf with Banana, Sultanas and Honey.html"
           >Breakfast Loaf with Banana, Sultanas and Honey</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Broccoli & Goats’ Cheese Fritatta.html"
+            <li class="recipe-card">
+                <a href="Recipes/Broccoli & Goats’ Cheese Fritatta.html"
           >Broccoli &amp; Goats’ Cheese Fritatta</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Broccoli and kale pasta.html"
+            <li class="recipe-card">
+                <a href="Recipes/Broccoli and kale pasta.html"
           >Broccoli and kale pasta</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Broccoli Pesto and Pangrattato with Spinach & Ricotta Ravioli.html"
           >Broccoli Pesto and Pangrattato with Spinach &amp; Ricotta Ravioli</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Broccoli Pesto Pasta (with Chickpeas).html"
+            <li class="recipe-card">
+                <a href="Recipes/Broccoli Pesto Pasta (with Chickpeas).html"
           >Broccoli Pesto Pasta (with Chickpeas)</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Brown Sugar Sponge.html">Brown Sugar Sponge</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Brown Sugar Sponge.html">Brown Sugar Sponge</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Butter Chicken with Coriander Rice.html"
+            <li class="recipe-card">
+                <a href="Recipes/Butter Chicken with Coriander Rice.html"
           >Butter Chicken with Coriander Rice</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Butter Chickpea Curry.html">Butter Chickpea Curry</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Butter Chickpea Curry.html">Butter Chickpea Curry</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Butter Chickpeas.html">Butter Chickpeas</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Butter Chickpeas.html">Butter Chickpeas</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Carrot Cake Smoothie.html">Carrot Cake Smoothie</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Carrot Cake Smoothie.html">Carrot Cake Smoothie</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Chachouka.html">Chachouka</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Chachouka.html">Chachouka</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Cheat’s Pizza.html">Cheat’s Pizza</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Cheat’s Pizza.html">Cheat’s Pizza</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Cheese & Potato Yoghurt Flatbread.html"
+            <li class="recipe-card">
+                <a href="Recipes/Cheese & Potato Yoghurt Flatbread.html"
           >Cheese &amp; Potato Yoghurt Flatbread</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Cheese & Vegemite Scrolls.html"
+            <li class="recipe-card">
+                <a href="Recipes/Cheese & Vegemite Scrolls.html"
           >Cheese &amp; Vegemite Scrolls</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Cheese And Potatoe Pierogi.html"
+            <li class="recipe-card">
+                <a href="Recipes/Cheese And Potatoe Pierogi.html"
           >Cheese And Potatoe Pierogi</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Cheese Vegemite Crackers with Edamame.html"
+            <li class="recipe-card">
+                <a href="Recipes/Cheese Vegemite Crackers with Edamame.html"
           >Cheese Vegemite Crackers with Edamame</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Cheese Vegemite Sandwich.html"
+            <li class="recipe-card">
+                <a href="Recipes/Cheese Vegemite Sandwich.html"
           >Cheese Vegemite Sandwich</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Cheesy Chicken Piccata with Spinach.html"
+            <li class="recipe-card">
+                <a href="Recipes/Cheesy Chicken Piccata with Spinach.html"
           >Cheesy Chicken Piccata with Spinach</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Chewy Mint Chocolate Granola Bars.html"
+            <li class="recipe-card">
+                <a href="Recipes/Chewy Mint Chocolate Granola Bars.html"
           >Chewy Mint Chocolate Granola Bars</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Chicken & New Potato Traybake.html"
+            <li class="recipe-card">
+                <a href="Recipes/Chicken & New Potato Traybake.html"
           >Chicken &amp; New Potato Traybake</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Chicken Cream Cheese Wrap.html"
+            <li class="recipe-card">
+                <a href="Recipes/Chicken Cream Cheese Wrap.html"
           >Chicken Cream Cheese Wrap</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Chicken Meatballs with Quinoa & Curried Cauliflower.html"
           >Chicken Meatballs with Quinoa &amp; Curried Cauliflower</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Chicken Pad Thai.html">Chicken Pad Thai</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Chicken Pad Thai.html">Chicken Pad Thai</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Chicken Ragu Bianco.html">Chicken Ragu Bianco</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Chicken Ragu Bianco.html">Chicken Ragu Bianco</a>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Chicken with Sun-Dried Tomato Sauce and Crispy Potatoes.html"
           >Chicken with Sun-Dried Tomato Sauce and Crispy Potatoes</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Chickpea Shawarma Salad, Sumac Pitta Chips.html"
+            <li class="recipe-card">
+                <a href="Recipes/Chickpea Shawarma Salad, Sumac Pitta Chips.html"
           >Chickpea Shawarma Salad, Sumac Pitta Chips</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Chickpea, Fregola & Fennel Soup.html"
+            <li class="recipe-card">
+                <a href="Recipes/Chickpea, Fregola & Fennel Soup.html"
           >Chickpea, Fregola &amp; Fennel Soup</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Chickpea, Spinach & Coconut Curry with Brown Rice.html"
+            <li class="recipe-card">
+                <a href="Recipes/Chickpea, Spinach & Coconut Curry with Brown Rice.html"
           >Chickpea, Spinach &amp; Coconut Curry with Brown Rice</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Chinese-Style Chicken Curry with Egg Fried Rice and Chips.html"
           >Chinese-Style Chicken Curry with Egg Fried Rice and Chips</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Chinese-Style Fable Mushroom & Broccoli Stir-Fry.html"
+            <li class="recipe-card">
+                <a href="Recipes/Chinese-Style Fable Mushroom & Broccoli Stir-Fry.html"
           >Chinese-Style Fable Mushroom &amp; Broccoli Stir-Fry</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Choc Chip and Oat Slice.html"
+            <li class="recipe-card">
+                <a href="Recipes/Choc Chip and Oat Slice.html"
           >Choc Chip and Oat Slice</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Choc Ripple Cake.html">Choc Ripple Cake</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Choc Ripple Cake.html">Choc Ripple Cake</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Chocolate Self-saucing Pudding.html"
+            <li class="recipe-card">
+                <a href="Recipes/Chocolate Self-saucing Pudding.html"
           >Chocolate Self-saucing Pudding</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Christmas Ice-cream.html">Christmas Ice-cream</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Christmas Ice-cream.html">Christmas Ice-cream</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Chunky Chickpea & Herb Dumpling Soup.html"
+            <li class="recipe-card">
+                <a href="Recipes/Chunky Chickpea & Herb Dumpling Soup.html"
           >Chunky Chickpea &amp; Herb Dumpling Soup</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Classic Crumpets.html">Classic Crumpets</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Classic Crumpets.html">Classic Crumpets</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Classic Lentil Tarka Daal (The Spice Tailor).html"
+            <li class="recipe-card">
+                <a href="Recipes/Classic Lentil Tarka Daal (The Spice Tailor).html"
           >Classic Lentil Tarka Daal (The Spice Tailor)</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Classic Tomato Spaghetti.html"
+            <li class="recipe-card">
+                <a href="Recipes/Classic Tomato Spaghetti.html"
           >Classic Tomato Spaghetti</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Classic Zucchini Slice.html">Classic Zucchini Slice</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Classic Zucchini Slice.html">Classic Zucchini Slice</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Coconut & Squash Dhansak.html"
+            <li class="recipe-card">
+                <a href="Recipes/Coconut & Squash Dhansak.html"
           >Coconut &amp; Squash Dhansak</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Coconut Bread.html">Coconut Bread</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Coconut Bread.html">Coconut Bread</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Courgette & Cheese Breakfast Muffins.html"
+            <li class="recipe-card">
+                <a href="Recipes/Courgette & Cheese Breakfast Muffins.html"
           >Courgette &amp; Cheese Breakfast Muffins</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Courgette and Cheese Breakfast Muffins.html"
+            <li class="recipe-card">
+                <a href="Recipes/Courgette and Cheese Breakfast Muffins.html"
           >Courgette and Cheese Breakfast Muffins</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Courgette and Rice Filo Pie.html"
+            <li class="recipe-card">
+                <a href="Recipes/Courgette and Rice Filo Pie.html"
           >Courgette and Rice Filo Pie</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Courgette, Corn & Cannelini Bean Stew.html"
+            <li class="recipe-card">
+                <a href="Recipes/Courgette, Corn & Cannelini Bean Stew.html"
           >Courgette, Corn &amp; Cannelini Bean Stew</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Cream Cheese Jam Sandwich.html"
+            <li class="recipe-card">
+                <a href="Recipes/Cream Cheese Jam Sandwich.html"
           >Cream Cheese Jam Sandwich</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Creamy Chicken Potato-Topped Pie.html"
+            <li class="recipe-card">
+                <a href="Recipes/Creamy Chicken Potato-Topped Pie.html"
           >Creamy Chicken Potato-Topped Pie</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Creamy Green Pea Soup.html">Creamy Green Pea Soup</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Creamy Green Pea Soup.html">Creamy Green Pea Soup</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Creamy Mushroom Pasta.html">Creamy Mushroom Pasta</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Creamy Mushroom Pasta.html">Creamy Mushroom Pasta</a>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Creamy One-Pot Pasta with Tuscan Kale, Almonds and Lemon.html"
           >Creamy One-Pot Pasta with Tuscan Kale, Almonds and Lemon</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Crêpes.html">Crêpes</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Crêpes.html">Crêpes</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Crispy Mushroom Dal with Coriander Chutney.html"
+            <li class="recipe-card">
+                <a href="Recipes/Crispy Mushroom Dal with Coriander Chutney.html"
           >Crispy Mushroom Dal with Coriander Chutney</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Crispy Potato, Polenta & Cheese Pancake.html"
+            <li class="recipe-card">
+                <a href="Recipes/Crispy Potato, Polenta & Cheese Pancake.html"
           >Crispy Potato, Polenta &amp; Cheese Pancake</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Crispy Sticky Tofu Bowls.html"
+            <li class="recipe-card">
+                <a href="Recipes/Crispy Sticky Tofu Bowls.html"
           >Crispy Sticky Tofu Bowls</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Cucumber Sandwiches.html">Cucumber Sandwiches</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Cucumber Sandwiches.html">Cucumber Sandwiches</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Curried Squash, Lentil & Coconut Soup.html"
+            <li class="recipe-card">
+                <a href="Recipes/Curried Squash, Lentil & Coconut Soup.html"
           >Curried Squash, Lentil &amp; Coconut Soup</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Dark Chocolate & Ginger Fudge.html"
+            <li class="recipe-card">
+                <a href="Recipes/Dark Chocolate & Ginger Fudge.html"
           >Dark Chocolate &amp; Ginger Fudge</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Dill Pickle Soup.html">Dill Pickle Soup</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Dill Pickle Soup.html">Dill Pickle Soup</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Dip with Crackers & Egg.html"
+            <li class="recipe-card">
+                <a href="Recipes/Dip with Crackers & Egg.html"
           >Dip with Crackers &amp; Egg</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Easy 3-Ingredient Chia Seed Strawberry Jam.html"
+            <li class="recipe-card">
+                <a href="Recipes/Easy 3-Ingredient Chia Seed Strawberry Jam.html"
           >Easy 3-Ingredient Chia Seed Strawberry Jam</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Easy Baked Chicken Nuggets.html"
+            <li class="recipe-card">
+                <a href="Recipes/Easy Baked Chicken Nuggets.html"
           >Easy Baked Chicken Nuggets</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Easy Fried Rice.html">Easy Fried Rice</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Easy Fried Rice.html">Easy Fried Rice</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Easy mushroom risotto with baked Greek Cheese.html"
+            <li class="recipe-card">
+                <a href="Recipes/Easy mushroom risotto with baked Greek Cheese.html"
           >Easy mushroom risotto with baked Greek Cheese</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Easy Rustic Gnocchi.html">Easy Rustic Gnocchi</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Easy Rustic Gnocchi.html">Easy Rustic Gnocchi</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Easy Spinach and Ricotta Pies.html"
+            <li class="recipe-card">
+                <a href="Recipes/Easy Spinach and Ricotta Pies.html"
           >Easy Spinach and Ricotta Pies</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Easy Veggie Noodles.html">Easy Veggie Noodles</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Easy Veggie Noodles.html">Easy Veggie Noodles</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Edamame and Fetta On Toast.html"
+            <li class="recipe-card">
+                <a href="Recipes/Edamame and Fetta On Toast.html"
           >Edamame and Fetta On Toast</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Egg and Lettuce Rolls.html">Egg and Lettuce Rolls</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Egg and Lettuce Rolls.html">Egg and Lettuce Rolls</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Egg Custard.html">Egg Custard</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Egg Custard.html">Egg Custard</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Egg Tartare.html">Egg Tartare</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Egg Tartare.html">Egg Tartare</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Eggs With Mayonnaise.html">Eggs With Mayonnaise</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Eggs With Mayonnaise.html">Eggs With Mayonnaise</a>
+            </li>
 
-      <li>
-        <a href="Recipes/English Garden Mocktail.html"
+            <li class="recipe-card">
+                <a href="Recipes/English Garden Mocktail.html"
           >English Garden Mocktail</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Falafel Burgers.html">Falafel Burgers</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Falafel Burgers.html">Falafel Burgers</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Falafels with Dip.html">Falafels with Dip</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Falafels with Dip.html">Falafels with Dip</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Feta & Kale Cannelloni.html"
+            <li class="recipe-card">
+                <a href="Recipes/Feta & Kale Cannelloni.html"
           >Feta &amp; Kale Cannelloni</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Fish-free salad niçoise.html"
+            <li class="recipe-card">
+                <a href="Recipes/Fish-free salad niçoise.html"
           >Fish-free salad niçoise</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Flatbread for Gözleme.html">Flatbread for Gözleme</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Flatbread for Gözleme.html">Flatbread for Gözleme</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Fluffy Meringue Frosting.html"
+            <li class="recipe-card">
+                <a href="Recipes/Fluffy Meringue Frosting.html"
           >Fluffy Meringue Frosting</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Food Delivery  Try Our Recipe Kits  Gousto.html"
+            <li class="recipe-card">
+                <a href="Recipes/Food Delivery  Try Our Recipe Kits  Gousto.html"
           >Food Delivery | Try Our Recipe Kits | Gousto</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Fool-Proof Corn Fritters.html"
+            <li class="recipe-card">
+                <a href="Recipes/Fool-Proof Corn Fritters.html"
           >Fool-Proof Corn Fritters</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/French Beans and Mangetout with Hazelnut and Orange.html"
           >French Beans and Mangetout with Hazelnut and Orange</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/French Toast with Spiced Plums.html"
+            <li class="recipe-card">
+                <a href="Recipes/French Toast with Spiced Plums.html"
           >French Toast with Spiced Plums</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Fudgy Chocolate Pudding Cake.html"
+            <li class="recipe-card">
+                <a href="Recipes/Fudgy Chocolate Pudding Cake.html"
           >Fudgy Chocolate Pudding Cake</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Garlic Bread.html">Garlic Bread</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Garlic Bread.html">Garlic Bread</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Gennaro’s Winter Barley And Cavolo Nero Soup.html"
+            <li class="recipe-card">
+                <a href="Recipes/Gennaro’s Winter Barley And Cavolo Nero Soup.html"
           >Gennaro’s Winter Barley And Cavolo Nero Soup</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Giant Berry Pancake.html">Giant Berry Pancake</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Giant Berry Pancake.html">Giant Berry Pancake</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Giant Cheese & Vegemite Scroll!.html"
+            <li class="recipe-card">
+                <a href="Recipes/Giant Cheese & Vegemite Scroll!.html"
           >Giant Cheese &amp; Vegemite Scroll!</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Gluten Free Lemon Curd Cookies.html"
+            <li class="recipe-card">
+                <a href="Recipes/Gluten Free Lemon Curd Cookies.html"
           >Gluten Free Lemon Curd Cookies</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Gnocchi & Halloumi Bake.html"
+            <li class="recipe-card">
+                <a href="Recipes/Gnocchi & Halloumi Bake.html"
           >Gnocchi &amp; Halloumi Bake</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Gnocchi Broccoli Tray Bake with Lemon and Cheese.html"
+            <li class="recipe-card">
+                <a href="Recipes/Gnocchi Broccoli Tray Bake with Lemon and Cheese.html"
           >Gnocchi Broccoli Tray Bake with Lemon and Cheese</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Gnocchi with Mushrooms & Blue Cheese.html"
+            <li class="recipe-card">
+                <a href="Recipes/Gnocchi with Mushrooms & Blue Cheese.html"
           >Gnocchi with Mushrooms &amp; Blue Cheese</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Goats' Cheese & Spinach Florentine Tart.html"
+            <li class="recipe-card">
+                <a href="Recipes/Goats' Cheese & Spinach Florentine Tart.html"
           >Goats&apos; Cheese &amp; Spinach Florentine Tart</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Goats' Cheese, Leek & Spinach Pasta Bake.html"
+            <li class="recipe-card">
+                <a href="Recipes/Goats' Cheese, Leek & Spinach Pasta Bake.html"
           >Goats&apos; Cheese, Leek &amp; Spinach Pasta Bake</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Golden-Syrup Dumplings with Ginger and Spice.html"
+            <li class="recipe-card">
+                <a href="Recipes/Golden-Syrup Dumplings with Ginger and Spice.html"
           >Golden-Syrup Dumplings with Ginger and Spice</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Grape, Walnut & Halloumi Salad.html"
+            <li class="recipe-card">
+                <a href="Recipes/Grape, Walnut & Halloumi Salad.html"
           >Grape, Walnut &amp; Halloumi Salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Grazing Platter.html">Grazing Platter</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Grazing Platter.html">Grazing Platter</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Great Glen Vegetarian Lasagne.html"
+            <li class="recipe-card">
+                <a href="Recipes/Great Glen Vegetarian Lasagne.html"
           >Great Glen Vegetarian Lasagne</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Greek Bean Stew with Feta & Baby Kale.html"
+            <li class="recipe-card">
+                <a href="Recipes/Greek Bean Stew with Feta & Baby Kale.html"
           >Greek Bean Stew with Feta &amp; Baby Kale</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Greek Salad with Gnocchi.html"
+            <li class="recipe-card">
+                <a href="Recipes/Greek Salad with Gnocchi.html"
           >Greek Salad with Gnocchi</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Green beans, new potatoes and olives with Eggs.html"
+            <li class="recipe-card">
+                <a href="Recipes/Green beans, new potatoes and olives with Eggs.html"
           >Green beans, new potatoes and olives with Eggs</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Green Dream Noodles.html">Green Dream Noodles</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Green Dream Noodles.html">Green Dream Noodles</a>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Green Goodness Bowl with Boiled Eggs and Sweet Potato.html"
           >Green Goodness Bowl with Boiled Eggs and Sweet Potato</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Green Pea, Millet & Mint Fritters.html"
+            <li class="recipe-card">
+                <a href="Recipes/Green Pea, Millet & Mint Fritters.html"
           >Green Pea, Millet &amp; Mint Fritters</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Halloumi & Cashew Curry with Brown Rice.html"
+            <li class="recipe-card">
+                <a href="Recipes/Halloumi & Cashew Curry with Brown Rice.html"
           >Halloumi &amp; Cashew Curry with Brown Rice</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Halloumi buddha bowl.html">Halloumi buddha bowl</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Halloumi buddha bowl.html">Halloumi buddha bowl</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Halloumi Burger with Chilli and Mint.html"
+            <li class="recipe-card">
+                <a href="Recipes/Halloumi Burger with Chilli and Mint.html"
           >Halloumi Burger with Chilli and Mint</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Halloumi Curry with Cashew Nut Sauce and Broccoli.html"
+            <li class="recipe-card">
+                <a href="Recipes/Halloumi Curry with Cashew Nut Sauce and Broccoli.html"
           >Halloumi Curry with Cashew Nut Sauce and Broccoli</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Halloumi Nuggets, Pea Shoots & Couscous.html"
+            <li class="recipe-card">
+                <a href="Recipes/Halloumi Nuggets, Pea Shoots & Couscous.html"
           >Halloumi Nuggets, Pea Shoots &amp; Couscous</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Halloumi, Chip & Tzatziki Pitta with Salad.html"
+            <li class="recipe-card">
+                <a href="Recipes/Halloumi, Chip & Tzatziki Pitta with Salad.html"
           >Halloumi, Chip &amp; Tzatziki Pitta with Salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Ham, Mushroom & Spinach Frittata.html"
+            <li class="recipe-card">
+                <a href="Recipes/Ham, Mushroom & Spinach Frittata.html"
           >Ham, Mushroom &amp; Spinach Frittata</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Herby Barbequed Chicken.html"
+            <li class="recipe-card">
+                <a href="Recipes/Herby Barbequed Chicken.html"
           >Herby Barbequed Chicken</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Herby polenta with asparagus and a poached egg.html"
+            <li class="recipe-card">
+                <a href="Recipes/Herby polenta with asparagus and a poached egg.html"
           >Herby polenta with asparagus and a poached egg</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Herby Spelt & Lentils.html"
+            <li class="recipe-card">
+                <a href="Recipes/Herby Spelt & Lentils.html"
           >Herby Spelt &amp; Lentils</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/High Protein Chocolate Chia Pudding.html"
+            <li class="recipe-card">
+                <a href="Recipes/High Protein Chocolate Chia Pudding.html"
           >High Protein Chocolate Chia Pudding</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Hoisin Tofu.html">Hoisin Tofu</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Hoisin Tofu.html">Hoisin Tofu</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Home-Style Chicken Curry.html"
+            <li class="recipe-card">
+                <a href="Recipes/Home-Style Chicken Curry.html"
           >Home-Style Chicken Curry</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Homemade Baked Beans.html">Homemade Baked Beans</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Homemade Baked Beans.html">Homemade Baked Beans</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Homemade Pizza.html">Homemade Pizza</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Homemade Pizza.html">Homemade Pizza</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Honey Cloud Pancakes.html">Honey Cloud Pancakes</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Honey Cloud Pancakes.html">Honey Cloud Pancakes</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Honey Joys.html">Honey Joys</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Honey Joys.html">Honey Joys</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Hot Cross Bun and Butter Pudding.html"
+            <li class="recipe-card">
+                <a href="Recipes/Hot Cross Bun and Butter Pudding.html"
           >Hot Cross Bun and Butter Pudding</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Huevos Rancheros.html">Huevos Rancheros</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Huevos Rancheros.html">Huevos Rancheros</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Japanese Pickled Cucumbers.html"
+            <li class="recipe-card">
+                <a href="Recipes/Japanese Pickled Cucumbers.html"
           >Japanese Pickled Cucumbers</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Kale + Spinach with Apple Quesadilla.html"
+            <li class="recipe-card">
+                <a href="Recipes/Kale + Spinach with Apple Quesadilla.html"
           >Kale + Spinach with Apple Quesadilla</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Kale And Mushroom Lasagne.html"
+            <li class="recipe-card">
+                <a href="Recipes/Kale And Mushroom Lasagne.html"
           >Kale And Mushroom Lasagne</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Kathy Tsaples' Greek Chickpea Soup.html"
+            <li class="recipe-card">
+                <a href="Recipes/Kathy Tsaples' Greek Chickpea Soup.html"
           >Kathy Tsaples&apos; Greek Chickpea Soup</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Kimchi & Peanut Butter Noodles.html"
+            <li class="recipe-card">
+                <a href="Recipes/Kimchi & Peanut Butter Noodles.html"
           >Kimchi &amp; Peanut Butter Noodles</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Lemon & Garlic Chicken Breast.html"
+            <li class="recipe-card">
+                <a href="Recipes/Lemon & Garlic Chicken Breast.html"
           >Lemon &amp; Garlic Chicken Breast</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Lemon Meltaway Cake.html">Lemon Meltaway Cake</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Lemon Meltaway Cake.html">Lemon Meltaway Cake</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Lemony Broccoli Salad.html">Lemony Broccoli Salad</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Lemony Broccoli Salad.html">Lemony Broccoli Salad</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Lemony Orzo Primavera with Toasted Pine Nuts.html"
+            <li class="recipe-card">
+                <a href="Recipes/Lemony Orzo Primavera with Toasted Pine Nuts.html"
           >Lemony Orzo Primavera with Toasted Pine Nuts</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Lentil & Parsley Salad with Halloumi & Mushrooms.html"
+            <li class="recipe-card">
+                <a href="Recipes/Lentil & Parsley Salad with Halloumi & Mushrooms.html"
           >Lentil &amp; Parsley Salad with Halloumi &amp; Mushrooms</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Lentil Bolognese.html">Lentil Bolognese</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Lentil Bolognese.html">Lentil Bolognese</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Lentil Cottage Pie.html">Lentil Cottage Pie</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Lentil Cottage Pie.html">Lentil Cottage Pie</a>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Lentil Enchiladas with Roasted Pepper & Cashew Crema.html"
           >Lentil Enchiladas with Roasted Pepper &amp; Cashew Crema</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Lentil Veggie Burgers.html">Lentil Veggie Burgers</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Lentil Veggie Burgers.html">Lentil Veggie Burgers</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Low Carb Choc Chip Pancakes with Strawberries.html"
+            <li class="recipe-card">
+                <a href="Recipes/Low Carb Choc Chip Pancakes with Strawberries.html"
           >Low Carb Choc Chip Pancakes with Strawberries</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Lunch Platter.html">Lunch Platter</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Lunch Platter.html">Lunch Platter</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Lunchtime Rooty Bircher.html"
+            <li class="recipe-card">
+                <a href="Recipes/Lunchtime Rooty Bircher.html"
           >Lunchtime Rooty Bircher</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Macaroni and Vegetable Frittatas.html"
+            <li class="recipe-card">
+                <a href="Recipes/Macaroni and Vegetable Frittatas.html"
           >Macaroni and Vegetable Frittatas</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Magic Bread Dough.html">Magic Bread Dough</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Magic Bread Dough.html">Magic Bread Dough</a>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Malaysian-Style Coconut Meat-Free Chicken with Pickled Cucumber.html"
           >Malaysian-Style Coconut Meat-Free Chicken with Pickled Cucumber</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Malteser Smoothie.html">Malteser Smoothie</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Malteser Smoothie.html">Malteser Smoothie</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Mango & Ginger Smoothie.html"
+            <li class="recipe-card">
+                <a href="Recipes/Mango & Ginger Smoothie.html"
           >Mango &amp; Ginger Smoothie</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Maple Roasted Carrots.html">Maple Roasted Carrots</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Maple Roasted Carrots.html">Maple Roasted Carrots</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Mars Bar Slice.html">Mars Bar Slice</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Mars Bar Slice.html">Mars Bar Slice</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Mashed Potatoes.html">Mashed Potatoes</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Mashed Potatoes.html">Mashed Potatoes</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Messy Meatball Buns.html">Messy Meatball Buns</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Messy Meatball Buns.html">Messy Meatball Buns</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Minestrone Soup.html">Minestrone Soup</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Minestrone Soup.html">Minestrone Soup</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Mini Chicken + Carrot Meatballs.html"
+            <li class="recipe-card">
+                <a href="Recipes/Mini Chicken + Carrot Meatballs.html"
           >Mini Chicken + Carrot Meatballs</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Miso Soba Noodle Soup with Crispy Tofu.html"
+            <li class="recipe-card">
+                <a href="Recipes/Miso Soba Noodle Soup with Crispy Tofu.html"
           >Miso Soba Noodle Soup with Crispy Tofu</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Miso Sweet Potato and Broccoli Bowl.html"
+            <li class="recipe-card">
+                <a href="Recipes/Miso Sweet Potato and Broccoli Bowl.html"
           >Miso Sweet Potato and Broccoli Bowl</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Mixed Lentil Salad With Yoghurt Dressing.html"
+            <li class="recipe-card">
+                <a href="Recipes/Mixed Lentil Salad With Yoghurt Dressing.html"
           >Mixed Lentil Salad With Yoghurt Dressing</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Msammen.html">Msammen</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Msammen.html">Msammen</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Muesli Bars with Honey and Seeds.html"
+            <li class="recipe-card">
+                <a href="Recipes/Muesli Bars with Honey and Seeds.html"
           >Muesli Bars with Honey and Seeds</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Mushroom And Potato Pie.html"
+            <li class="recipe-card">
+                <a href="Recipes/Mushroom And Potato Pie.html"
           >Mushroom And Potato Pie</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Mushroom and Spinach Spelteree.html"
+            <li class="recipe-card">
+                <a href="Recipes/Mushroom and Spinach Spelteree.html"
           >Mushroom and Spinach Spelteree</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Mushroom Biryani with Cucumber Raita.html"
+            <li class="recipe-card">
+                <a href="Recipes/Mushroom Biryani with Cucumber Raita.html"
           >Mushroom Biryani with Cucumber Raita</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Mushroom Cannelloni.html">Mushroom Cannelloni</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Mushroom Cannelloni.html">Mushroom Cannelloni</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Mushroom Chicken.html">Mushroom Chicken</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Mushroom Chicken.html">Mushroom Chicken</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Mushroom Halloumi Skewers.html"
+            <li class="recipe-card">
+                <a href="Recipes/Mushroom Halloumi Skewers.html"
           >Mushroom Halloumi Skewers</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Mushroom Moussaka.html">Mushroom Moussaka</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Mushroom Moussaka.html">Mushroom Moussaka</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Mushroom Stroganoff.html">Mushroom Stroganoff</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Mushroom Stroganoff.html">Mushroom Stroganoff</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Mushroom Toad-In-The-Hole.html"
+            <li class="recipe-card">
+                <a href="Recipes/Mushroom Toad-In-The-Hole.html"
           >Mushroom Toad-In-The-Hole</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Mushroom-Stuffed Potato Zrazy.html"
+            <li class="recipe-card">
+                <a href="Recipes/Mushroom-Stuffed Potato Zrazy.html"
           >Mushroom-Stuffed Potato Zrazy</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Mushroom, Barley Potato Soup (Krupnik).html"
+            <li class="recipe-card">
+                <a href="Recipes/Mushroom, Barley Potato Soup (Krupnik).html"
           >Mushroom, Barley Potato Soup (Krupnik)</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Mushroomy Woodland Pasta.html"
+            <li class="recipe-card">
+                <a href="Recipes/Mushroomy Woodland Pasta.html"
           >Mushroomy Woodland Pasta</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/My Nan's Lemon Drizzle Cake.html"
+            <li class="recipe-card">
+                <a href="Recipes/My Nan's Lemon Drizzle Cake.html"
           >My Nan&apos;s Lemon Drizzle Cake</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/My Veggie Pasties.html">My Veggie Pasties</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/My Veggie Pasties.html">My Veggie Pasties</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Nachos.html">Nachos</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Nachos.html">Nachos</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Nadiya’s French Apple Tart.html"
+            <li class="recipe-card">
+                <a href="Recipes/Nadiya’s French Apple Tart.html"
           >Nadiya’s French Apple Tart</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Nadiya’s Pea And Mint Risotto.html"
+            <li class="recipe-card">
+                <a href="Recipes/Nadiya’s Pea And Mint Risotto.html"
           >Nadiya’s Pea And Mint Risotto</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/No-Churn Cinnamon-Ginger Ice Cream.html"
+            <li class="recipe-card">
+                <a href="Recipes/No-Churn Cinnamon-Ginger Ice Cream.html"
           >No-Churn Cinnamon-Ginger Ice Cream</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Nut Butter Balls.html">Nut Butter Balls</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Nut Butter Balls.html">Nut Butter Balls</a>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Nutty Quinoa With Chicken, Roasted Carrots & Spinach.html"
           >Nutty Quinoa With Chicken, Roasted Carrots &amp; Spinach</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Nutty Quinoa with Sweet Potatoe and Brocolli.html"
+            <li class="recipe-card">
+                <a href="Recipes/Nutty Quinoa with Sweet Potatoe and Brocolli.html"
           >Nutty Quinoa with Sweet Potatoe and Brocolli</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Nutty Sweet Potato & Sugar Snap Curry.html"
+            <li class="recipe-card">
+                <a href="Recipes/Nutty Sweet Potato & Sugar Snap Curry.html"
           >Nutty Sweet Potato &amp; Sugar Snap Curry</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Olive Oil Pastry.html">Olive Oil Pastry</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Olive Oil Pastry.html">Olive Oil Pastry</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Omelette with Mushrooms.html"
+            <li class="recipe-card">
+                <a href="Recipes/Omelette with Mushrooms.html"
           >Omelette with Mushrooms</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/On-The-Go Granola Bars.html">On-The-Go Granola Bars</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/On-The-Go Granola Bars.html">On-The-Go Granola Bars</a>
+            </li>
 
-      <li>
-        <a href="Recipes/ONE-PAN ORECCHIETTE PUTTANESCA.html"
+            <li class="recipe-card">
+                <a href="Recipes/ONE-PAN ORECCHIETTE PUTTANESCA.html"
           >ONE-PAN ORECCHIETTE PUTTANESCA</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/One-Pot Slow-Braised Mushroom Rogan Josh.html"
+            <li class="recipe-card">
+                <a href="Recipes/One-Pot Slow-Braised Mushroom Rogan Josh.html"
           >One-Pot Slow-Braised Mushroom Rogan Josh</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/One-Pot Slow-Braised Mushroom Rogan Josh copy.html"
+            <li class="recipe-card">
+                <a href="Recipes/One-Pot Slow-Braised Mushroom Rogan Josh copy.html"
           >One-Pot Slow-Braised Mushroom Rogan Josh copy</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Onion Gravy.html">Onion Gravy</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Onion Gravy.html">Onion Gravy</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Orange, Avocado and Cucumber Salad.html"
+            <li class="recipe-card">
+                <a href="Recipes/Orange, Avocado and Cucumber Salad.html"
           >Orange, Avocado and Cucumber Salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Oven-baked Chips.html">Oven-baked Chips</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Oven-baked Chips.html">Oven-baked Chips</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Oven-Baked Mushroom Risotto.html"
+            <li class="recipe-card">
+                <a href="Recipes/Oven-Baked Mushroom Risotto.html"
           >Oven-Baked Mushroom Risotto</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Palestian Chopped Salad.html"
+            <li class="recipe-card">
+                <a href="Recipes/Palestian Chopped Salad.html"
           >Palestian Chopped Salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Parmesan Brussels Sprouts.html"
+            <li class="recipe-card">
+                <a href="Recipes/Parmesan Brussels Sprouts.html"
           >Parmesan Brussels Sprouts</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Pasta E Ceci (Pasta and Chickpea Soup).html"
+            <li class="recipe-card">
+                <a href="Recipes/Pasta E Ceci (Pasta and Chickpea Soup).html"
           >Pasta E Ceci (Pasta and Chickpea Soup)</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Pasta E Fagioli.html">Pasta E Fagioli</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Pasta E Fagioli.html">Pasta E Fagioli</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Pasta Pie.html">Pasta Pie</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Pasta Pie.html">Pasta Pie</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Pasta with Sweetcorn, Ricotta and Basil.html"
+            <li class="recipe-card">
+                <a href="Recipes/Pasta with Sweetcorn, Ricotta and Basil.html"
           >Pasta with Sweetcorn, Ricotta and Basil</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Pavlova.html">Pavlova</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Pavlova.html">Pavlova</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Pea Pasta (Macaroni Peas).html"
+            <li class="recipe-card">
+                <a href="Recipes/Pea Pasta (Macaroni Peas).html"
           >Pea Pasta (Macaroni Peas)</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Pea speltotto with lemon and hazelnuts.html"
+            <li class="recipe-card">
+                <a href="Recipes/Pea speltotto with lemon and hazelnuts.html"
           >Pea speltotto with lemon and hazelnuts</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Pea, Spring Onion and Goat's Cheese Omelette.html"
+            <li class="recipe-card">
+                <a href="Recipes/Pea, Spring Onion and Goat's Cheese Omelette.html"
           >Pea, Spring Onion and Goat&apos;s Cheese Omelette</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Pea, Spring Onion and Goat's Cheese Omelette 2.html"
+            <li class="recipe-card">
+                <a href="Recipes/Pea, Spring Onion and Goat's Cheese Omelette 2.html"
           >Pea, Spring Onion and Goat&apos;s Cheese Omelette</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Peanut Butter Cookies.html">Peanut Butter Cookies</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Peanut Butter Cookies.html">Peanut Butter Cookies</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Peanut Butter Honey Sandwich.html"
+            <li class="recipe-card">
+                <a href="Recipes/Peanut Butter Honey Sandwich.html"
           >Peanut Butter Honey Sandwich</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Peanut Butter Wraps.html">Peanut Butter Wraps</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Peanut Butter Wraps.html">Peanut Butter Wraps</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Peanut Tofu Buddha Bowl.html"
+            <li class="recipe-card">
+                <a href="Recipes/Peanut Tofu Buddha Bowl.html"
           >Peanut Tofu Buddha Bowl</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Pear Tart Tatin.html">Pear Tart Tatin</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Pear Tart Tatin.html">Pear Tart Tatin</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Pesto.html">Pesto</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Pesto.html">Pesto</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Pesto Pasta Salad.html">Pesto Pasta Salad</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Pesto Pasta Salad.html">Pesto Pasta Salad</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Pickled Red Onions.html">Pickled Red Onions</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Pickled Red Onions.html">Pickled Red Onions</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Pierogi Dough.html">Pierogi Dough</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Pierogi Dough.html">Pierogi Dough</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Pita Bread.html">Pita Bread</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Pita Bread.html">Pita Bread</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Pita Pizzas.html">Pita Pizzas</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Pita Pizzas.html">Pita Pizzas</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Pizza (Store-bought Bases).html"
+            <li class="recipe-card">
+                <a href="Recipes/Pizza (Store-bought Bases).html"
           >Pizza (Store-bought Bases)</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Pizza Dough.html">Pizza Dough</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Pizza Dough.html">Pizza Dough</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Pizza Scrolls.html">Pizza Scrolls</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Pizza Scrolls.html">Pizza Scrolls</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Plant-Based Burger with Chips.html"
+            <li class="recipe-card">
+                <a href="Recipes/Plant-Based Burger with Chips.html"
           >Plant-Based Burger with Chips</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Poached Chicken.html">Poached Chicken</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Poached Chicken.html">Poached Chicken</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Polenta with Sicilian Tomato Sauce.html"
+            <li class="recipe-card">
+                <a href="Recipes/Polenta with Sicilian Tomato Sauce.html"
           >Polenta with Sicilian Tomato Sauce</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Polish Brekkie.html">Polish Brekkie</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Polish Brekkie.html">Polish Brekkie</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Polish Doughnuts – Pączki.html"
+            <li class="recipe-card">
+                <a href="Recipes/Polish Doughnuts – Pączki.html"
           >Polish Doughnuts – Pączki</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Polish Salad.html">Polish Salad</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Polish Salad.html">Polish Salad</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Polish Sorrel Soup with Boiled Egg.html"
+            <li class="recipe-card">
+                <a href="Recipes/Polish Sorrel Soup with Boiled Egg.html"
           >Polish Sorrel Soup with Boiled Egg</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Popcorn Chicken Salad.html">Popcorn Chicken Salad</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Popcorn Chicken Salad.html">Popcorn Chicken Salad</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Portobello Paprikash with Spaetzle.html"
+            <li class="recipe-card">
+                <a href="Recipes/Portobello Paprikash with Spaetzle.html"
           >Portobello Paprikash with Spaetzle</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Potato-Topped Broccoli, Cauliflower & Cheddar Pie.html"
+            <li class="recipe-card">
+                <a href="Recipes/Potato-Topped Broccoli, Cauliflower & Cheddar Pie.html"
           >Potato-Topped Broccoli, Cauliflower &amp; Cheddar Pie</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Potato, leek and chickpea traybake with quick romesco.html"
           >Potato, leek and chickpea traybake with quick romesco</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Pumpkin Pie Pancakes.html">Pumpkin Pie Pancakes</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Pumpkin Pie Pancakes.html">Pumpkin Pie Pancakes</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Put The Lentil in The Coconut.html"
+            <li class="recipe-card">
+                <a href="Recipes/Put The Lentil in The Coconut.html"
           >Put The Lentil in The Coconut</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Puy Lentil And Spinach Soup.html"
+            <li class="recipe-card">
+                <a href="Recipes/Puy Lentil And Spinach Soup.html"
           >Puy Lentil And Spinach Soup</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Puy Lentil Salad with Soy Beans, Sugar Snap Peas & Broccoli + Poached Eggs.html"
           >Puy Lentil Salad with Soy Beans, Sugar Snap Peas &amp; Broccoli +
           Poached Eggs</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Puy Lentils with Smoked Tofu.html"
+            <li class="recipe-card">
+                <a href="Recipes/Puy Lentils with Smoked Tofu.html"
           >Puy Lentils with Smoked Tofu</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Quick Chickpea Lemon Stew.html"
+            <li class="recipe-card">
+                <a href="Recipes/Quick Chickpea Lemon Stew.html"
           >Quick Chickpea Lemon Stew</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Quick Pumpkin and Ricotta Pancakes with Green Beans.html"
           >Quick Pumpkin and Ricotta Pancakes with Green Beans</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Quince Pancakes.html">Quince Pancakes</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Quince Pancakes.html">Quince Pancakes</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Quorn Garlic and Mushroom Escalopes.html"
+            <li class="recipe-card">
+                <a href="Recipes/Quorn Garlic and Mushroom Escalopes.html"
           >Quorn Garlic and Mushroom Escalopes</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Radish, Apple, and Red Cabbage Slaw.html"
+            <li class="recipe-card">
+                <a href="Recipes/Radish, Apple, and Red Cabbage Slaw.html"
           >Radish, Apple, and Red Cabbage Slaw</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Raid The Larder Bean And Spelt Broth.html"
+            <li class="recipe-card">
+                <a href="Recipes/Raid The Larder Bean And Spelt Broth.html"
           >Raid The Larder Bean And Spelt Broth</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Raspberry Ricotta Pikelets.html"
+            <li class="recipe-card">
+                <a href="Recipes/Raspberry Ricotta Pikelets.html"
           >Raspberry Ricotta Pikelets</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Red Lentil, Chickpea & Chilli Soup.html"
+            <li class="recipe-card">
+                <a href="Recipes/Red Lentil, Chickpea & Chilli Soup.html"
           >Red Lentil, Chickpea &amp; Chilli Soup</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Red Onion & Beetroot Tarte Tatin.html"
+            <li class="recipe-card">
+                <a href="Recipes/Red Onion & Beetroot Tarte Tatin.html"
           >Red Onion &amp; Beetroot Tarte Tatin</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Rhubarb & stem ginger fool.html"
+            <li class="recipe-card">
+                <a href="Recipes/Rhubarb & stem ginger fool.html"
           >Rhubarb &amp; stem ginger fool</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Rhubarb & Strawberry Pavlova.html"
+            <li class="recipe-card">
+                <a href="Recipes/Rhubarb & Strawberry Pavlova.html"
           >Rhubarb &amp; Strawberry Pavlova</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Rhubarb Ice Cream Sandwiches.html"
+            <li class="recipe-card">
+                <a href="Recipes/Rhubarb Ice Cream Sandwiches.html"
           >Rhubarb Ice Cream Sandwiches</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Rice & Bean Chilli Bowl.html"
+            <li class="recipe-card">
+                <a href="Recipes/Rice & Bean Chilli Bowl.html"
           >Rice &amp; Bean Chilli Bowl</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Rice with Egg and Edamame.html"
+            <li class="recipe-card">
+                <a href="Recipes/Rice with Egg and Edamame.html"
           >Rice with Egg and Edamame</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Ricotta Dumplings with Tomato and Caper Sauce.html"
+            <li class="recipe-card">
+                <a href="Recipes/Ricotta Dumplings with Tomato and Caper Sauce.html"
           >Ricotta Dumplings with Tomato and Caper Sauce</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Ricotta Fritters.html">Ricotta Fritters</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Ricotta Fritters.html">Ricotta Fritters</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Roast Carrots And Sprouts.html"
+            <li class="recipe-card">
+                <a href="Recipes/Roast Carrots And Sprouts.html"
           >Roast Carrots And Sprouts</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Roast Cauliflower, Almond And Barley With Parsley And Chilli.html"
           >Roast Cauliflower, Almond And Barley With Parsley And Chilli</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Roast Pumpkin, Baked Lentil & Spiced Nut salad.html"
+            <li class="recipe-card">
+                <a href="Recipes/Roast Pumpkin, Baked Lentil & Spiced Nut salad.html"
           >Roast Pumpkin, Baked Lentil &amp; Spiced Nut salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Roasted Brassicas with Puy Lentils & Halloumi.html"
+            <li class="recipe-card">
+                <a href="Recipes/Roasted Brassicas with Puy Lentils & Halloumi.html"
           >Roasted Brassicas with Puy Lentils &amp; Halloumi</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Roasted Cauliflower Soup.html"
+            <li class="recipe-card">
+                <a href="Recipes/Roasted Cauliflower Soup.html"
           >Roasted Cauliflower Soup</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Roasted Maple-Spiced Almond Butter.html"
+            <li class="recipe-card">
+                <a href="Recipes/Roasted Maple-Spiced Almond Butter.html"
           >Roasted Maple-Spiced Almond Butter</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Roasted Pumpkin, Lentil & Almond Salad.html"
+            <li class="recipe-card">
+                <a href="Recipes/Roasted Pumpkin, Lentil & Almond Salad.html"
           >Roasted Pumpkin, Lentil &amp; Almond Salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Roasted Thyme Tomato And Ricotta Bruschetta.html"
+            <li class="recipe-card">
+                <a href="Recipes/Roasted Thyme Tomato And Ricotta Bruschetta.html"
           >Roasted Thyme Tomato And Ricotta Bruschetta</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Roasted Tofu Bowl.html">Roasted Tofu Bowl</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Roasted Tofu Bowl.html">Roasted Tofu Bowl</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Roasted Veggies.html">Roasted Veggies</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Roasted Veggies.html">Roasted Veggies</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Rocket and Parmesan Salad.html"
+            <li class="recipe-card">
+                <a href="Recipes/Rocket and Parmesan Salad.html"
           >Rocket and Parmesan Salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Sago Pudding.html">Sago Pudding</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Sago Pudding.html">Sago Pudding</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Sałatka.html">Sałatka</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Sałatka.html">Sałatka</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Satay Cauliflower.html">Satay Cauliflower</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Satay Cauliflower.html">Satay Cauliflower</a>
+            </li>
 
-      <li>
-        <a href="Recipes/School Lunchbox Anzac Biscuits.html"
+            <li class="recipe-card">
+                <a href="Recipes/School Lunchbox Anzac Biscuits.html"
           >School Lunchbox Anzac Biscuits</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Scrambled Egg & Baked Beans.html"
+            <li class="recipe-card">
+                <a href="Recipes/Scrambled Egg & Baked Beans.html"
           >Scrambled Egg &amp; Baked Beans</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Scrambled Egg Wraps.html">Scrambled Egg Wraps</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Scrambled Egg Wraps.html">Scrambled Egg Wraps</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Scrambled Eggs, Baked Beans & Mushrooms.html"
+            <li class="recipe-card">
+                <a href="Recipes/Scrambled Eggs, Baked Beans & Mushrooms.html"
           >Scrambled Eggs, Baked Beans &amp; Mushrooms</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Sesame Puffed Rice Bars.html"
+            <li class="recipe-card">
+                <a href="Recipes/Sesame Puffed Rice Bars.html"
           >Sesame Puffed Rice Bars</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Silverbeet And Potato Torte.html"
+            <li class="recipe-card">
+                <a href="Recipes/Silverbeet And Potato Torte.html"
           >Silverbeet And Potato Torte</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Simple Cheesy Bean & Chipotle Melts.html"
+            <li class="recipe-card">
+                <a href="Recipes/Simple Cheesy Bean & Chipotle Melts.html"
           >Simple Cheesy Bean &amp; Chipotle Melts</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Simple Chocolate & Hazelnut Granola.html"
+            <li class="recipe-card">
+                <a href="Recipes/Simple Chocolate & Hazelnut Granola.html"
           >Simple Chocolate &amp; Hazelnut Granola</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Simple Coleslaw.html">Simple Coleslaw</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Simple Coleslaw.html">Simple Coleslaw</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Simple Halloumi Stew.html">Simple Halloumi Stew</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Simple Halloumi Stew.html">Simple Halloumi Stew</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Simple Jam Sandwich.html">Simple Jam Sandwich</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Simple Jam Sandwich.html">Simple Jam Sandwich</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Simple Orzo Minestrone.html">Simple Orzo Minestrone</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Simple Orzo Minestrone.html">Simple Orzo Minestrone</a>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Smoky Chimichurri Mushroom Steaks with Crushed Potatoes.html"
           >Smoky Chimichurri Mushroom Steaks with Crushed Potatoes</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Smoky Meat-Free Mince Enchiladas with Tomato Salsa.html"
           >Smoky Meat-Free Mince Enchiladas with Tomato Salsa</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Smoky Tomato Soup with Cheesy Spring Onion Dumplings.html"
           >Smoky Tomato Soup with Cheesy Spring Onion Dumplings</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Sorrel & New Potato Frittata.html"
+            <li class="recipe-card">
+                <a href="Recipes/Sorrel & New Potato Frittata.html"
           >Sorrel &amp; New Potato Frittata</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Sorrel Soup With Eggs.html">Sorrel Soup With Eggs</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Sorrel Soup With Eggs.html">Sorrel Soup With Eggs</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Soupe au pistou.html">Soupe au pistou</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Soupe au pistou.html">Soupe au pistou</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Spaghetti with Pea, Almond & Mint Pesto.html"
+            <li class="recipe-card">
+                <a href="Recipes/Spaghetti with Pea, Almond & Mint Pesto.html"
           >Spaghetti with Pea, Almond &amp; Mint Pesto</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spanakopita.html">Spanakopita</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Spanakopita.html">Spanakopita</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Speedy Quiche Traybake (with Broccoli).html"
+            <li class="recipe-card">
+                <a href="Recipes/Speedy Quiche Traybake (with Broccoli).html"
           >Speedy Quiche Traybake (with Broccoli)</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spiced Spinach and Potatoes with Poached Eggs.html"
+            <li class="recipe-card">
+                <a href="Recipes/Spiced Spinach and Potatoes with Poached Eggs.html"
           >Spiced Spinach and Potatoes with Poached Eggs</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spicy Cajun Chicken Quinoa.html"
+            <li class="recipe-card">
+                <a href="Recipes/Spicy Cajun Chicken Quinoa.html"
           >Spicy Cajun Chicken Quinoa</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spicy Feta Dip, Hummus & Crunchy Veggies.html"
+            <li class="recipe-card">
+                <a href="Recipes/Spicy Feta Dip, Hummus & Crunchy Veggies.html"
           >Spicy Feta Dip, Hummus &amp; Crunchy Veggies</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spicy Veggie Noodles with Scrambled Tofu.html"
+            <li class="recipe-card">
+                <a href="Recipes/Spicy Veggie Noodles with Scrambled Tofu.html"
           >Spicy Veggie Noodles with Scrambled Tofu</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spinach & Cheese Savoury Lunchbox Muffins.html"
+            <li class="recipe-card">
+                <a href="Recipes/Spinach & Cheese Savoury Lunchbox Muffins.html"
           >Spinach &amp; Cheese Savoury Lunchbox Muffins</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spinach & Feta Filo Pie.html"
+            <li class="recipe-card">
+                <a href="Recipes/Spinach & Feta Filo Pie.html"
           >Spinach &amp; Feta Filo Pie</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Spinach & Feta Tart with Crispy Potatoes and Rocket Salad.html"
           >Spinach &amp; Feta Tart with Crispy Potatoes and Rocket Salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spinach & Quinoa Patties in a Bowl.html"
+            <li class="recipe-card">
+                <a href="Recipes/Spinach & Quinoa Patties in a Bowl.html"
           >Spinach &amp; Quinoa Patties in a Bowl</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spinach And Artichoke Pizza Spread.html"
+            <li class="recipe-card">
+                <a href="Recipes/Spinach And Artichoke Pizza Spread.html"
           >Spinach And Artichoke Pizza Spread</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spinach And Feta Flatbreads (Gözleme).html"
+            <li class="recipe-card">
+                <a href="Recipes/Spinach And Feta Flatbreads (Gözleme).html"
           >Spinach And Feta Flatbreads (Gözleme)</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spinach and Mushroom Lasagne.html"
+            <li class="recipe-card">
+                <a href="Recipes/Spinach and Mushroom Lasagne.html"
           >Spinach and Mushroom Lasagne</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spinach Ricotta Balls In Tomato Sauce.html"
+            <li class="recipe-card">
+                <a href="Recipes/Spinach Ricotta Balls In Tomato Sauce.html"
           >Spinach Ricotta Balls In Tomato Sauce</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spinach, Courgette & Leek Tart.html"
+            <li class="recipe-card">
+                <a href="Recipes/Spinach, Courgette & Leek Tart.html"
           >Spinach, Courgette &amp; Leek Tart</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spinach, Penne And Cheese Spoufflé.html"
+            <li class="recipe-card">
+                <a href="Recipes/Spinach, Penne And Cheese Spoufflé.html"
           >Spinach, Penne And Cheese Spoufflé</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Spudzanella + Eggs.html">Spudzanella + Eggs</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Spudzanella + Eggs.html">Spudzanella + Eggs</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Squash, Pea & Feta Frittatinis.html"
+            <li class="recipe-card">
+                <a href="Recipes/Squash, Pea & Feta Frittatinis.html"
           >Squash, Pea &amp; Feta Frittatinis</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Stewed Rhubarb and Vanilla Yoghurt.html"
+            <li class="recipe-card">
+                <a href="Recipes/Stewed Rhubarb and Vanilla Yoghurt.html"
           >Stewed Rhubarb and Vanilla Yoghurt</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Sticky Sesame Tofu with Asparagus Noodles.html"
+            <li class="recipe-card">
+                <a href="Recipes/Sticky Sesame Tofu with Asparagus Noodles.html"
           >Sticky Sesame Tofu with Asparagus Noodles</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Stir Fry with NoodlesRice and Tofu.html"
+            <li class="recipe-card">
+                <a href="Recipes/Stir Fry with NoodlesRice and Tofu.html"
           >Stir Fry with Noodles/Rice and Tofu</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Store-Bought Pies With Peas.html"
+            <li class="recipe-card">
+                <a href="Recipes/Store-Bought Pies With Peas.html"
           >Store-Bought Pies With Peas</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Strawberry Crumpets.html">Strawberry Crumpets</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Strawberry Crumpets.html">Strawberry Crumpets</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Strawberry Oatmeal Bars.html"
+            <li class="recipe-card">
+                <a href="Recipes/Strawberry Oatmeal Bars.html"
           >Strawberry Oatmeal Bars</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Summer Slice.html">Summer Slice</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Summer Slice.html">Summer Slice</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Sweet Couscous & Lentil Salad.html"
+            <li class="recipe-card">
+                <a href="Recipes/Sweet Couscous & Lentil Salad.html"
           >Sweet Couscous &amp; Lentil Salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Sweet Potato Broccoli & Barley Salad.html"
+            <li class="recipe-card">
+                <a href="Recipes/Sweet Potato Broccoli & Barley Salad.html"
           >Sweet Potato Broccoli &amp; Barley Salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Sweet Potato Fries.html">Sweet Potato Fries</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Sweet Potato Fries.html">Sweet Potato Fries</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Sweet Potato Gnocchi with Creamed Spinach.html"
+            <li class="recipe-card">
+                <a href="Recipes/Sweet Potato Gnocchi with Creamed Spinach.html"
           >Sweet Potato Gnocchi with Creamed Spinach</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Sweet Potato, Ginger And Coconut Stew.html"
+            <li class="recipe-card">
+                <a href="Recipes/Sweet Potato, Ginger And Coconut Stew.html"
           >Sweet Potato, Ginger And Coconut Stew</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Sweet Tahini Scrolls.html">Sweet Tahini Scrolls</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Sweet Tahini Scrolls.html">Sweet Tahini Scrolls</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Sweetcorn & Courgette Fritters with Poached Eggs.html"
+            <li class="recipe-card">
+                <a href="Recipes/Sweetcorn & Courgette Fritters with Poached Eggs.html"
           >Sweetcorn &amp; Courgette Fritters with Poached Eggs</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Tacos.html">Tacos</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Tacos.html">Tacos</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Tahini Puy Lentil Salad.html"
+            <li class="recipe-card">
+                <a href="Recipes/Tahini Puy Lentil Salad.html"
           >Tahini Puy Lentil Salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Tahini Yogurt Sauce.html">Tahini Yogurt Sauce</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Tahini Yogurt Sauce.html">Tahini Yogurt Sauce</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Texas-Style Tofu with Slaw and BBQ Sauce.html"
+            <li class="recipe-card">
+                <a href="Recipes/Texas-Style Tofu with Slaw and BBQ Sauce.html"
           >Texas-Style Tofu with Slaw and BBQ Sauce</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/The Creamiest and Greenest One-Pot Pasta.html"
+            <li class="recipe-card">
+                <a href="Recipes/The Creamiest and Greenest One-Pot Pasta.html"
           >The Creamiest and Greenest One-Pot Pasta</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/The Ultimate Bare-Cupboard Pasta.html"
+            <li class="recipe-card">
+                <a href="Recipes/The Ultimate Bare-Cupboard Pasta.html"
           >The Ultimate Bare-Cupboard Pasta</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/This Chicken Pot Pie Is the Perfect Meal for a Cosy Evening In.html"
           >This Chicken Pot Pie Is the Perfect Meal for a Cosy Evening In</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Toast With Eggs, Avocado, Mushy-Peas.html"
+            <li class="recipe-card">
+                <a href="Recipes/Toast With Eggs, Avocado, Mushy-Peas.html"
           >Toast With Eggs, Avocado, Mushy-Peas</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Toasties.html">Toasties</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Toasties.html">Toasties</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Tofu Katsu Curry.html">Tofu Katsu Curry</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Tofu Katsu Curry.html">Tofu Katsu Curry</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Tofu Noodle Ramen.html">Tofu Noodle Ramen</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Tofu Noodle Ramen.html">Tofu Noodle Ramen</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Tofu nuggets with slaw.html">Tofu nuggets with slaw</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Tofu nuggets with slaw.html">Tofu nuggets with slaw</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Tofu Satay Skewers with Pickled Cucumber.html"
+            <li class="recipe-card">
+                <a href="Recipes/Tofu Satay Skewers with Pickled Cucumber.html"
           >Tofu Satay Skewers with Pickled Cucumber</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Tofu Schnitzel with Pickled Potato Salad and Green Beans.html"
           >Tofu Schnitzel with Pickled Potato Salad and Green Beans</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Tofu with Skewers & Jam Sandwich.html"
+            <li class="recipe-card">
+                <a href="Recipes/Tofu with Skewers & Jam Sandwich.html"
           >Tofu with Skewers &amp; Jam Sandwich</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Tomato Dhal.html">Tomato Dhal</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Tomato Dhal.html">Tomato Dhal</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Tomato Soup.html">Tomato Soup</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Tomato Soup.html">Tomato Soup</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Triple Green Pasta Primavera.html"
+            <li class="recipe-card">
+                <a href="Recipes/Triple Green Pasta Primavera.html"
           >Triple Green Pasta Primavera</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Turkey Cranberry Cream Cheese Sandwich.html"
+            <li class="recipe-card">
+                <a href="Recipes/Turkey Cranberry Cream Cheese Sandwich.html"
           >Turkey Cranberry Cream Cheese Sandwich</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Turkey Cranberry Cream Cheese Wrap.html"
+            <li class="recipe-card">
+                <a href="Recipes/Turkey Cranberry Cream Cheese Wrap.html"
           >Turkey Cranberry Cream Cheese Wrap</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Twisted Zucchini Slice.html">Twisted Zucchini Slice</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Twisted Zucchini Slice.html">Twisted Zucchini Slice</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Vanilla & Berry Chia Pudding.html"
+            <li class="recipe-card">
+                <a href="Recipes/Vanilla & Berry Chia Pudding.html"
           >Vanilla &amp; Berry Chia Pudding</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Veg-Packed Bolognese.html">Veg-Packed Bolognese</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Veg-Packed Bolognese.html">Veg-Packed Bolognese</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Vegan Chickpea Satay Curry.html"
+            <li class="recipe-card">
+                <a href="Recipes/Vegan Chickpea Satay Curry.html"
           >Vegan Chickpea Satay Curry</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Vegan Tuna.html">Vegan Tuna</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Vegan Tuna.html">Vegan Tuna</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Vegemite On Crackers.html">Vegemite On Crackers</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Vegemite On Crackers.html">Vegemite On Crackers</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Vegetable Savoury Muffins.html"
+            <li class="recipe-card">
+                <a href="Recipes/Vegetable Savoury Muffins.html"
           >Vegetable Savoury Muffins</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Vegetarian Chow Mein.html">Vegetarian Chow Mein</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Vegetarian Chow Mein.html">Vegetarian Chow Mein</a>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Vegetarian Chow Mein with Broccoli, Carrot and Mushroom.html"
           >Vegetarian Chow Mein with Broccoli, Carrot and Mushroom</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Vegetarian Cottage Pie.html">Vegetarian Cottage Pie</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Vegetarian Cottage Pie.html">Vegetarian Cottage Pie</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Vegetarian Mushroom Paprikash with Spaetzle.html"
+            <li class="recipe-card">
+                <a href="Recipes/Vegetarian Mushroom Paprikash with Spaetzle.html"
           >Vegetarian Mushroom Paprikash with Spaetzle</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a
+            <li class="recipe-card">
+                <a
           href="Recipes/Vegetarian Tray Bake with Salt and Vinegar Potatoes, Haloumi and Greens.html"
           >Vegetarian Tray Bake with Salt and Vinegar Potatoes, Haloumi and
           Greens</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Veggie Bolognese.html">Veggie Bolognese</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Veggie Bolognese.html">Veggie Bolognese</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Veggie Bolognese Baked Potatoes.html"
+            <li class="recipe-card">
+                <a href="Recipes/Veggie Bolognese Baked Potatoes.html"
           >Veggie Bolognese Baked Potatoes</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Veggie Fry-up.html">Veggie Fry-up</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Veggie Fry-up.html">Veggie Fry-up</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Veggie Gyoza with Edamame & Egg.html"
+            <li class="recipe-card">
+                <a href="Recipes/Veggie Gyoza with Edamame & Egg.html"
           >Veggie Gyoza with Edamame &amp; Egg</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Veggie Rice Bowl with Peanut Butter.html"
+            <li class="recipe-card">
+                <a href="Recipes/Veggie Rice Bowl with Peanut Butter.html"
           >Veggie Rice Bowl with Peanut Butter</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Veggie Shepherd's Pie with Sweet Potato Mash.html"
+            <li class="recipe-card">
+                <a href="Recipes/Veggie Shepherd's Pie with Sweet Potato Mash.html"
           >Veggie Shepherd&apos;s Pie with Sweet Potato Mash</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Vietnamese-Style Fable Mushroom Rice Bowl.html"
+            <li class="recipe-card">
+                <a href="Recipes/Vietnamese-Style Fable Mushroom Rice Bowl.html"
           >Vietnamese-Style Fable Mushroom Rice Bowl</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Warm Hummus With Toasted Bread And Pine Nuts.html"
+            <li class="recipe-card">
+                <a href="Recipes/Warm Hummus With Toasted Bread And Pine Nuts.html"
           >Warm Hummus With Toasted Bread And Pine Nuts</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Warm Roasted Squash and Puy Lentil Salad.html"
+            <li class="recipe-card">
+                <a href="Recipes/Warm Roasted Squash and Puy Lentil Salad.html"
           >Warm Roasted Squash and Puy Lentil Salad</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Wedges Nuggets Fillets & Slaw.html"
+            <li class="recipe-card">
+                <a href="Recipes/Wedges Nuggets Fillets & Slaw.html"
           >Wedges Nuggets Fillets &amp; Slaw</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/White Chocolate Strawberry Bites.html"
+            <li class="recipe-card">
+                <a href="Recipes/White Chocolate Strawberry Bites.html"
           >White Chocolate Strawberry Bites</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Winter Vegetable Stir-Fry with Crispy Tofu.html"
+            <li class="recipe-card">
+                <a href="Recipes/Winter Vegetable Stir-Fry with Crispy Tofu.html"
           >Winter Vegetable Stir-Fry with Crispy Tofu</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Yoghurt Flatbread.html">Yoghurt Flatbread</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Yoghurt Flatbread.html">Yoghurt Flatbread</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Yummy, Easy Fried Rice.html">Yummy, Easy Fried Rice</a>
-      </li>
+            <li class="recipe-card">
+                <a href="Recipes/Yummy, Easy Fried Rice.html">Yummy, Easy Fried Rice</a>
+            </li>
 
-      <li>
-        <a href="Recipes/Zucchini Pea and Ricotta Slice.html"
+            <li class="recipe-card">
+                <a href="Recipes/Zucchini Pea and Ricotta Slice.html"
           >Zucchini Pea and Ricotta Slice</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Zucchini Ricotta Cannelloni.html"
+            <li class="recipe-card">
+                <a href="Recipes/Zucchini Ricotta Cannelloni.html"
           >Zucchini Ricotta Cannelloni</a
         >
-      </li>
+            </li>
 
-      <li>
-        <a href="Recipes/Zucchini, Tomato and Spinach Muffins.html"
+            <li class="recipe-card">
+                <a href="Recipes/Zucchini, Tomato and Spinach Muffins.html"
           >Zucchini, Tomato and Spinach Muffins</a
         >
-      </li>
-    </ul>
-  </body>
+            </li>
+        </ul>
+    </body>
 </html>
